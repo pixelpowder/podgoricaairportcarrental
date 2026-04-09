@@ -1,0 +1,553 @@
+{
+  "nav": {
+    "book": "Réserver",
+    "destinations": "Destinations",
+    "about": "À Propos"
+  },
+  "common": {
+    "home": "Accueil",
+    "searchCars": "Rechercher",
+    "callUs": "Appelez-nous",
+    "bookNow": "Réserver",
+    "perDay": "par jour",
+    "emailUs": "Nous contacter"
+  },
+  "hero": {
+    "headline": "Location de Voiture à Budva",
+    "badges": {
+      "freeCancellation": "Annulation Gratuite",
+      "fullInsurance": "Assurance Tous Risques Incluse",
+      "airportPickup": "Prise en Charge Aéroport en 10 Min",
+      "trustpilot": "4.8/5 sur Trustpilot"
+    },
+    "search": "Rechercher",
+    "pickupLocation": "Lieu de prise en charge",
+    "searchLocation": "Rechercher un lieu…",
+    "pickupDate": "Date de prise en charge",
+    "pickupTime": "Heure",
+    "dropoffDate": "Date de restitution",
+    "dropoffTime": "Heure"
+  },
+  "trust": {
+    "noHiddenFees": "Aucun Frais Caché",
+    "noHiddenFeesDesc": "Le prix affiché est tout compris",
+    "fullInsurance": "Assurance Tous Risques",
+    "fullInsuranceDesc": "Option zéro franchise disponible",
+    "fastPickup": "Prise en Charge en 10 Min",
+    "fastPickupDesc": "Nous vous accueillons aux arrivées"
+  },
+  "stats": {
+    "years": "Années d'Expérience",
+    "rentals": "Locations Réussies",
+    "rating": "Note des Clients",
+    "locations": "Points de Prise en Charge"
+  },
+  "howItWorks": {
+    "label": "Comment Ça Marche",
+    "title": "Sur la Route en 3 Étapes",
+    "subtitle": "Réservation simple. Confirmation instantanée. Aucune file d'attente à l'aéroport.",
+    "step1Title": "Choisissez Votre Lieu",
+    "step1Desc": "Sélectionnez parmi les aéroports, Kotor, Budva, Perast et d'autres points de prise en charge à travers le Monténégro et au-delà.",
+    "step2Title": "Choisissez Votre Voiture",
+    "step2Desc": "Parcourez notre flotte, des citadines économiques aux SUV premium. Filtrez par taille, transmission ou budget.",
+    "step3Title": "Conduisez au Monténégro",
+    "step3Desc": "Nous vous accueillons aux arrivées. Votre voiture est prête. Explorez la côte, les montagnes et les villes historiques."
+  },
+  "fleet": {
+    "label": "Notre Flotte",
+    "title": "Choisissez Votre Véhicule",
+    "subtitle": "Consultez la disponibilité et les prix en temps réel — réservez directement."
+  },
+  "brands": {
+    "label": "Marques de confiance dans notre flotte"
+  },
+  "destinations": {
+    "label": "Destinations Phares",
+    "title": "Explorez depuis Budva",
+    "subtitle": "De Sveti Stefan à la baie de Kotor — chaque destination est un monde différent."
+  },
+  "features": {
+    "label": "Pourquoi Nous Choisir",
+    "title": "Conçu pour les Voyageurs de Budva",
+    "subtitle": "Tout ce dont vous avez besoin pour une location sans stress sur la Riviera de Budva."
+  },
+  "reviews": {
+    "label": "Avis",
+    "title": "Plébiscité par les Voyageurs",
+    "subtitle": "Des expériences authentiques de vrais clients à Budva et sur la riviera."
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Questions Fréquentes",
+    "subtitle": "Tout ce que vous devez savoir avant de réserver."
+  },
+  "cta": {
+    "title": "Prêt à Explorer la Riviera ?",
+    "subtitle": "Réservez en quelques minutes. Récupérez à Tivat ou à Budva. Parcourez toute la côte à votre rythme.",
+    "browseFleet": "Parcourir la Flotte"
+  },
+  "sidebar": {
+    "bookTitle": "Réservez Votre Voiture",
+    "bookText": "Recherchez la disponibilité et les prix pour Budva et la riviera.",
+    "helpTitle": "Besoin d'Aide ?",
+    "helpText": "Notre équipe est disponible via WhatsApp, Viber ou téléphone.",
+    "popularDest": "Destinations Populaires"
+  },
+  "book": {
+    "title": "Trouvez Votre Voiture",
+    "seoTitle": "Réserver une Voiture",
+    "seoDesc": "Recherchez et réservez des voitures à Budva, Monténégro. Disponibilité en temps réel, confirmation instantanée, annulation gratuite."
+  },
+  "footer": {
+    "brandDesc": "Location de voiture à Budva, Monténégro. Prise en charge à Tivat, assurance complète et aucun frais caché. Explorez la Riviera de Budva.",
+    "quickLinks": "Liens Rapides",
+    "guides": "Guides",
+    "locations": "Nos Agences",
+    "carHireBooking": "Réservation de Location",
+    "ourFleet": "Notre Flotte",
+    "destinations": "Destinations",
+    "aboutUs": "À Propos",
+    "faqLink": "FAQ",
+    "montenegroGuide": "Guide de Voyage Monténégro",
+    "borderGuide": "Guide Passage des Frontières",
+    "searchCars": "Rechercher",
+    "privacyPolicy": "Politique de Confidentialité",
+    "terms": "Conditions Générales",
+    "cookiePolicy": "Politique de Cookies"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Mauvais Virage",
+    "text": "On dirait que vous avez fait un détour. Cette route ne mène nulle part — mais les meilleurs itinéraires de la Riviera de Budva sont à un clic.",
+    "backHome": "Retour à l'Accueil",
+    "searchCars": "Rechercher"
+  },
+  "home": {
+    "seoDesc": "Location de voiture à Budva dès 13 €/jour. Prise en charge à Tivat (22 km), vieille ville de Budva, Bečići et 28+ points. Annulation gratuite, assurance complète."
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "Nous aidons les voyageurs à explorer la Riviera de Budva et le Monténégro.",
+    "seoDesc": "À propos de Podgorica Airport Car Rental. Nous aidons les voyageurs à explorer Budva et la Riviera monténégrine avec des voitures fiables."
+  },
+  "kotor": {
+    "title": "Location de Voiture à Kotor",
+    "subtitle": "Explorez le joyau UNESCO du Monténégro à votre rythme.",
+    "seoDesc": "Louez une voiture à Kotor, Monténégro. Explorez la vieille ville UNESCO, la baie de Kotor et Perast avec une location abordable et livraison gratuite à l'aéroport."
+  },
+  "tivat-airport": {
+    "title": "Location de Voiture Aéroport Tivat",
+    "subtitle": "Récupérez votre voiture aux arrivées.",
+    "seoDesc": "Récupérez votre voiture de location à l'aéroport de Tivat (TIV). Nous vous attendons aux arrivées avec votre véhicule. Rejoignez Kotor, Budva ou Porto Montenegro en quelques minutes."
+  },
+  "budva": {
+    "title": "Location de Voiture à Budva",
+    "subtitle": "La riviera du Monténégro — plages, vie nocturne et charme de la vieille ville.",
+    "seoDesc": "Louez une voiture à Budva, Monténégro. Rejoignez la plage de Mogren, Sveti Stefan et la meilleure vie nocturne de la riviera. Assurance complète, sans frais cachés."
+  },
+  "perast": {
+    "title": "Location de Voiture à Perast",
+    "subtitle": "Un joyau baroque sur la baie de Kotor.",
+    "seoDesc": "Louez une voiture et visitez Perast, un joyau baroque sur la baie de Kotor. Découvrez l'île Notre-Dame du Rocher et de superbes palais en bord de mer à votre rythme."
+  },
+  "podgorica": {
+    "title": "Location de Voiture à Podgorica",
+    "subtitle": "La capitale du Monténégro — culture, rivières et charme moderne.",
+    "seoDesc": "Location de voiture à Podgorica, capitale du Monténégro. Explorez le lac Skadar, le monastère d'Ostrog et Durmitor en voiture. Prise en charge à l'aéroport disponible."
+  },
+  "podgorica-airport": {
+    "title": "Location de Voiture Aéroport Podgorica",
+    "subtitle": "La principale porte internationale du Monténégro.",
+    "seoDesc": "Récupérez votre voiture à l'aéroport de Podgorica (TGD). Nous livrons votre véhicule aux arrivées. Rejoignez la côte, le lac Skadar ou le parc national de Durmitor."
+  },
+  "dubrovnik-airport": {
+    "title": "Location de Voiture Aéroport Dubrovnik",
+    "subtitle": "Envolez-vous vers la Croatie, conduisez vers le Monténégro.",
+    "seoDesc": "Louez une voiture à l'aéroport de Dubrovnik et rejoignez le Monténégro. Passage de frontière en moins d'une heure. Assurance complète et carte verte incluses."
+  },
+  "tivat": {
+    "title": "Location de Voiture à Tivat",
+    "subtitle": "La ville marina du Monténégro sur la baie de Kotor.",
+    "seoDesc": "Louez une voiture à Tivat, siège de la marina Porto Montenegro. Explorez les plages alentour, Kotor et la baie de Kotor avec une location abordable."
+  },
+  "montenegro": {
+    "title": "Location de Voiture et Guide du Monténégro",
+    "subtitle": "Tout ce que vous devez savoir sur la conduite au Monténégro.",
+    "seoDesc": "Guide complet de la conduite au Monténégro. Code de la route, limitations de vitesse, prix du carburant et les plus beaux itinéraires de la côte aux montagnes."
+  },
+  "border-crossing": {
+    "title": "Guide Passage des Frontières Balkans",
+    "subtitle": "Tout sur le passage des frontières avec votre voiture de location.",
+    "seoDesc": "Guide pour traverser les frontières depuis le Monténégro en voiture de location. Assurance carte verte, documents requis et conseils pour la Croatie, la Bosnie, l'Albanie et la Serbie."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "subtitle": "Comment nous traitons vos informations.",
+    "seoDesc": "Politique de confidentialité de Podgorica Airport Car Rental. Comment nous collectons, utilisons et protégeons vos données personnelles lors de la recherche de voitures de location."
+  },
+  "terms": {
+    "title": "Conditions Générales",
+    "subtitle": "Conditions d'utilisation de notre site web.",
+    "seoDesc": "Conditions générales d'utilisation de Podgorica Airport Car Rental. Découvrez notre processus de réservation, partenaire de location, tarifs et responsabilité."
+  },
+  "cookie-policy": {
+    "title": "Politique de Cookies",
+    "subtitle": "Comment nous utilisons les cookies sur ce site.",
+    "seoDesc": "Politique de cookies de Podgorica Airport Car Rental. Découvrez quels cookies nous utilisons, comment le widget de réservation stocke vos préférences et comment les gérer."
+  },
+  "featureCards": {
+    "airportPickup": {
+      "title": "Prise en charge Aéroport Tivat",
+      "desc": "L'aéroport de Tivat se trouve à 22 km au nord de Budva. Votre agent vous attend à l'arrivée — une route côtière et vous êtes garé sur la riviera."
+    },
+    "fullInsurance": {
+      "title": "Assurance tous risques",
+      "desc": "Protection collision et vol incluses en standard. Optez pour la franchise zéro pour une tranquillité totale sur les ruelles côtières étroites et les parkings de plage."
+    },
+    "support": {
+      "title": "Assistance 24h/24",
+      "desc": "Phares oubliés au parking de la plage de Jaz ? Clés enfermées à Mogren ? Appelez-nous à toute heure — nous connaissons chaque parking de cette riviera."
+    },
+    "noHiddenFees": {
+      "title": "Aucun frais caché",
+      "desc": "Un prix à la réservation. Le même prix au retrait. TVA, kilométrage et politique carburant sont inclus — rien d'ajouté au comptoir."
+    },
+    "freeCancellation": {
+      "title": "Annulation gratuite",
+      "desc": "La météo estivale sur la riviera change vite et les dates de festival se déplacent. Annulez gratuitement jusqu'à 24 heures avant le retrait et récupérez chaque centime."
+    },
+    "crossBorder": {
+      "title": "Passages frontaliers inclus",
+      "desc": "Dubrovnik est à 2h30 au nord via Debeli Brijeg. La frontière albanaise est plus proche de Budva que de tout autre point de la riviera. Carte verte préparée à la réservation."
+    }
+  },
+  "testimonials": {
+    "0": {
+      "text": "Nous avons roulé de Jaz Beach à Sveti Stefan dès le premier matin — les panoramas étaient incroyables. Pause déjeuner à Bečići, puis le point de vue de Sveti Stefan avant le coucher du soleil. La voiture nous a permis d'éviter les bus et d'aller à notre rythme. On renouvelle sans hésiter."
+    },
+    "1": {
+      "text": "À trois pour cinq nuits — Top Hill un soir, Trocadero le suivant, puis une virée à Petrovac pour un après-midi plus tranquille. Plus de taxis à attendre à 2h du matin. L'agent à Tivat était efficace et la voiture impeccable. Exactement ce qu'il nous fallait."
+    },
+    "2": {
+      "text": "Nous préférons les routes tranquilles et les oliveraies aux clubs de plage. La voiture nous a emmenés vers Petrovac, dans les vieux chemins de village au-dessus de Budva, le long de la côte à notre propre rythme. La vieille ville le soir était magnifique. Une location très bien organisée du début à la fin."
+    }
+  },
+  "faqItems": {
+    "0": {
+      "q": "Quels documents dois-je fournir ?",
+      "a": "Vous aurez besoin d'un permis de conduire valide avec des données en caractères latins, de votre passeport et d'une carte de crédit physique au nom du conducteur principal. Si votre permis est délivré dans un pays à écriture non latine, munissez-vous également d'un permis de conduire international. Les photocopies et les permis uniquement numériques ne sont pas acceptés au retrait."
+    },
+    "1": {
+      "q": "Puis-je conduire en Croatie ou en Albanie ?",
+      "a": "Oui. Les déplacements transfrontaliers sont autorisés vers la Croatie, la Bosnie, l'Albanie, le Kosovo et la Serbie. L'excursion d'une journée à Dubrovnik via Debeli Brijeg est l'une des plus populaires depuis Budva — environ 2h30 dans chaque sens. Indiquez les pays à la réservation et la carte verte est préparée pour vous."
+    },
+    "2": {
+      "q": "Y a-t-il un âge minimum ?",
+      "a": "L'âge minimum et les exigences d'expérience de conduite varient selon la catégorie de véhicule et sont clairement indiqués dans les détails de chaque voiture lors de la recherche. Les conducteurs plus jeunes peuvent voir un petit supplément journalier selon le modèle."
+    },
+    "3": {
+      "q": "Qu'est-ce qui est réellement inclus dans le prix ?",
+      "a": "La responsabilité civile et la CDW sont standards sur la plupart des véhicules. La TVA, un kit de dépannage et une politique carburant transparente sont également inclus. Les conditions de kilométrage varient par véhicule — vérifiez la fiche du véhicule. La franchise zéro et les extras comme les sièges enfant peuvent être ajoutés à la réservation."
+    },
+    "4": {
+      "q": "Comment se passe le retrait à l'aéroport de Tivat ?",
+      "a": "Votre agent vous attend dans le hall des arrivées de l'aéroport de Tivat. Les 22 km de route côtière jusqu'à Budva prennent environ 25 minutes selon la circulation estivale. Pas de navette, pas d'attente — la voiture est garée juste devant le terminal."
+    },
+    "5": {
+      "q": "Puis-je restituer la voiture ailleurs ?",
+      "a": "Les locations aller simple sont disponibles dans 28 villes et communes du Monténégro. Retrait à Tivat, restitution à Budva, ou vice versa — il suffit de sélectionner des lieux différents lors de la réservation."
+    },
+    "6": {
+      "q": "Quelle est la politique d'annulation ?",
+      "a": "Véhicules standards : annulation gratuite jusqu'à 7 jours avant le retrait. Voitures de luxe et cabriolets : annulation gratuite jusqu'à 30 jours à l'avance. Des frais de traitement de 6 % s'appliquent à toutes les annulations, quelle que soit la date."
+    },
+    "7": {
+      "q": "Dois-je verser un dépôt de garantie ?",
+      "a": "Cela dépend du véhicule. Les dépôts sont généralement compris entre 100 € et 500 € pour la plupart des locations sur la riviera. Certains véhicules n'en exigent aucun. Lorsqu'il s'applique, il est prélevé sur la carte de crédit physique du conducteur principal et restitué à la fin de la location sans dommage."
+    },
+    "8": {
+      "q": "Que se passe-t-il si je dépasse le kilométrage autorisé ?",
+      "a": "Les véhicules avec un plafond kilométrique facturent chaque kilomètre supplémentaire. Le tarif exact est affiché dans les détails du véhicule avant confirmation — aucune mauvaise surprise."
+    },
+    "9": {
+      "q": "Le prix affiché est-il le prix final ?",
+      "a": "Oui. Toutes les taxes et frais standards sont inclus dans le prix de réservation. Aucun supplément carburant, taxe aéroport ou frais de comptoir n'est ajouté au moment du retrait."
+    },
+    "10": {
+      "q": "Combien dois-je payer pour confirmer la réservation ?",
+      "a": "Un acompte d'environ 15 % à 20 % du total sécurise la réservation. Le solde est réglé directement avec l'agent de location au retrait du véhicule à Budva ou à Tivat."
+    },
+    "11": {
+      "q": "Puis-je louer sans carte de crédit ?",
+      "a": "Certains véhicules de la flotte peuvent être loués avec une carte de débit ou sans carte du tout. Ils sont signalés dans les résultats de recherche pour vous permettre de filtrer en conséquence."
+    }
+  },
+  "destCards": {
+    "tivat-airport": {
+      "name": "Aéroport de Tivat",
+      "tag": "22 km",
+      "desc": "Notre hub principal. Nous vous accueillons aux arrivées."
+    },
+    "kotor": {
+      "name": "Kotor",
+      "tag": "Site UNESCO",
+      "desc": "Cité médiévale fortifiée sur l'Adriatique."
+    },
+    "podgorica-airport": {
+      "name": "Aéroport de Podgorica",
+      "tag": "Hub de la capitale",
+      "desc": "Le principal aéroport international du Montenegro."
+    },
+    "perast": {
+      "name": "Perast",
+      "tag": "Joyau caché",
+      "desc": "Village baroque sur la baie de Kotor."
+    },
+    "budva": {
+      "name": "Budva",
+      "tag": "Base",
+      "desc": "Vieille ville, plages et coeur de la riviera."
+    },
+    "dubrovnik-airport": {
+      "name": "Aéroport de Dubrovnik",
+      "tag": "Transfrontalier",
+      "desc": "Arrivez à Dubrovnik, conduisez jusqu'à Budva."
+    },
+    "tivat": {
+      "name": "Tivat",
+      "tag": "Ville portuaire",
+      "desc": "Porto Montenegro et la magnifique Boka Bay."
+    },
+    "podgorica": {
+      "name": "Podgorica",
+      "tag": "Capitale",
+      "desc": "La capitale moderne du Montenegro — culture et commerce."
+    }
+  },
+  "aboutBody": {
+    "h1": "Podgorica Airport Car Rental",
+    "p1": "Podgorica Airport Car Rental met en relation les voyageurs avec des voitures de location fiables à Budva et sur la Riviera monténégrine. Notre mission : faciliter la découverte de cette magnifique côte adriatique.",
+    "h2": "Pourquoi Budva ?",
+    "p2": "Budva est la première destination touristique du Monténégro, accueillant plus de 800 000 visiteurs par an. Sa vieille ville de 2 500 ans, ses plages de classe mondiale et la proximité de Sveti Stefan en font la base idéale.",
+    "h3": "Ce que nous offrons",
+    "p3": "Nous proposons la location de voitures sur la Riviera de Budva et dans tout le Monténégro, avec prise en charge à Tivat (22 km), Podgorica (65 km) et autres points.",
+    "promiseTitle": "Notre engagement",
+    "promise1": "Assurance tous risques avec option zéro franchise",
+    "promise2": "Accueil personnalisé à l'aéroport — nous amenons la voiture directement aux arrivées",
+    "promise3": "Aucun frais caché — le prix affiché est le prix final",
+    "promise4": "Voyages transfrontaliers autorisés vers la Croatie, la Bosnie, l'Albanie, la Serbie et le Kosovo",
+    "promise5": "Annulation gratuite sur la plupart des réservations",
+    "promise6": "Assistance routière 24h/24 et 7j/7 pendant toute la durée de votre voyage",
+    "h4": "Connaissance locale",
+    "p4": "Basés sur la Riviera de Budva, nous connaissons les routes et les trésors cachés. De Tivat à la vieille ville de Budva, vers Sveti Stefan au sud ou Kotor et Perast au nord.",
+    "h5": "Contactez-nous",
+    "p5": "Une question sur la location à Budva ? Contactez-nous par WhatsApp, Viber ou téléphone. Recherchez et réservez en quelques minutes."
+  },
+  "kotorBody": {
+    "h1": "Kotor — Site du patrimoine mondial de l'UNESCO",
+    "p1": "Kotor est l'une des villes côtières les plus magnifiques du Monténégro, offrant de superbes plages, le charme historique de sa vieille ville et des remparts médiévaux abritant des galeries d'art, des cafés et d'excellents restaurants. En tant que site du patrimoine mondial de l'UNESCO, les monuments de la ville sont concentrés dans la vieille ville admirablement préservée.",
+    "p2": "Louer une voiture à Kotor vous donne la liberté d'explorer les attractions locales ainsi que les villes et espaces naturels voisins du Monténégro à votre propre rythme. La disponibilité du stationnement varie selon la saison, le tourisme estival créant une pénurie dans le centre — mais il existe des parkings plus grands sur les routes d'accès.",
+    "landmarksTitle": "Monuments",
+    "stJohnTitle": "Forteresse Saint-Jean",
+    "stJohnText": "Une structure imposante qui protégeait historiquement la ville des attaques de pirates. Parmi ses éléments remarquables figurent la tour Contarini et l'église Notre-Dame de la Santé, qui offre des vues époustouflantes sur la vieille ville et la baie de Kotor.",
+    "cathedralTitle": "Cathédrale Saint-Tryphon",
+    "cathedralText": "Construite en 809 après J.-C. et reconstruite en 1124, cette cathédrale renferme une remarquable architecture et un art byzantins reflétant la riche histoire de la région.",
+    "dayTripsTitle": "Excursions d'une journée depuis Kotor",
+    "perastTrip": "Située dans la ville voisine de Perast, cette église se dresse sur une île artificielle dans la baie de Kotor. Les pêcheurs y déposent des rochers chaque année depuis 1452, agrandissant progressivement l'île. L'accès en ferry coûte environ 1 euro ; les bateaux privés coûtent environ 5 euros. Le trajet en voiture depuis Kotor prend moins de 30 minutes via la E65/E80 Nord.",
+    "cetinjeTrip": "Construit en 1701, le monastère abrite la main de Jean-Baptiste. Il présente une décoration ornée et de l'art orthodoxe. Le trajet en voiture depuis Kotor prend environ une heure à travers des routes de montagne pittoresques.",
+    "royalCourtText": "Le palais royal du Monténégro datant de 1871, exposant des œuvres d'art, des objets et des photographies de l'histoire royale du pays. Situé à côté du monastère dans l'ancienne capitale royale."
+  },
+  "budvaBody": {
+    "h1": "Budva — Le cœur de la Riviera monténégrine",
+    "p1": "Budva est la destination balnéaire la plus populaire du Monténégro, attirant des visiteurs de toute l'Europe grâce à son littoral magnifique, sa vie nocturne animée et sa vieille ville médiévale admirablement préservée. Avec une voiture de location, toute la Riviera de Budva et au-delà s'offre à vous.",
+    "p2": "La ville se situe à environ 20 minutes au sud de l'aéroport de Tivat, ce qui en fait l'une des destinations côtières les plus faciles d'accès après l'atterrissage. Budva combine 2 500 ans d'histoire avec une atmosphère de vacances résolument moderne — remparts antiques le jour, bars de plage animés la nuit.",
+    "beachesTitle": "Plages",
+    "beachesIntro": "La Riviera de Budva s'étend sur 21 kilomètres, offrant certaines des plus belles plages de la côte adriatique :",
+    "mogren": "Deux plages de galets reliées par un tunnel creusé dans les falaises, à quelques minutes seulement de la vieille ville",
+    "jaz": "Une grande plage de sable appréciée des habitants comme des visiteurs, accueillant des festivals de musique en été",
+    "svetiStefan": "L'emblématique îlot-hôtel visible depuis la route côtière, avec une plage publique d'un côté",
+    "becici": "Une longue étendue de sable fin qui a été autrefois élue plus belle plage d'Europe",
+    "oldTownTitle": "Vieille ville",
+    "oldTownText": "La vieille ville de Budva (Stari Grad) est une citadelle fortifiée compacte située sur une petite presqu'île. À l'intérieur des remparts, vous découvrirez des ruelles pavées étroites, une architecture de l'époque vénitienne, de petites églises remontant au VIIe siècle, ainsi qu'un mélange animé de restaurants, galeries et boutiques. La forteresse Citadela à la pointe sud offre des vues panoramiques sur la côte et les îles voisines.",
+    "dayTripsTitle": "Excursions d'une journée depuis Budva",
+    "svetiStefanTrip": "À seulement 6 km au sud, ce pittoresque village insulaire fortifié est aujourd'hui un hôtel de luxe, mais les vues depuis la route en surplomb sont spectaculaires et gratuites. La plage côté continent est ouverte à tous.",
+    "kotorTrip": "Un trajet de 30 minutes vers le nord à travers un impressionnant tunnel de montagne vous amène à la baie de Kotor et à sa vieille ville classée au patrimoine mondial de l'UNESCO.",
+    "lovcenTrip": "Dirigez-vous vers l'intérieur des terres pour découvrir les paysages de montagne et le mausolée de Njegos, perché à 1 657 mètres d'altitude avec une vue sur quatre pays par temps clair. La route sinueuse depuis la côte est une expérience en soi.",
+    "gettingAroundTitle": "Se déplacer",
+    "gettingAroundText": "Bien que la vieille ville de Budva se découvre idéalement à pied, une voiture de location est indispensable pour atteindre les meilleures plages, les villages voisins et les attractions de l'intérieur des terres. Des parkings sont disponibles près des remparts de la vieille ville et dans plusieurs parkings publics le long de la route principale. En plein été, arriver tôt permet de s'assurer les meilleures places."
+  },
+  "perastBody": {
+    "h1": "Perast — Joyau caché de la baie",
+    "p1": "Le petit village de Perast se trouve à seulement quelques minutes en voiture — moins de 20 minutes — de Kotor. Les touristes qui louent une voiture pour leur tour du Monténégro voudront certainement emprunter l'autoroute E65/E80 pour passer du temps dans ce charmant village de pêcheurs.",
+    "p2": "Bien qu'il ne compte qu'environ 850 habitants, la longue et riche histoire de Perast dépasse largement sa petite taille. De 1420 à 1797, la ville appartenait à la République de Venise et était réputée pour ses maîtres constructeurs navals et ses marins. Perast possède de nombreux vestiges magnifiques du passé et d'excellents exemples d'architecture baroque.",
+    "islandsTitle": "Les îles",
+    "stGeorgeTitle": "Île Saint-Georges",
+    "stGeorgeText": "Une île naturelle située juste au large dans la baie de Kotor, abritant le monastère bénédictin de Saint-Georges, construit au XIIe siècle. De petits bateaux depuis le port emmènent les visiteurs pour quelques euros.",
+    "ladyOfRocksTitle": "Notre-Dame du Rocher",
+    "ladyOfRocksText": "Une île artificielle abritant l'église du même nom. L'île a été créée par les marins de la ville qui ont jeté des rochers et coulé de vieux bateaux et navires au fil des siècles. Chaque année, cette tradition se perpétue, et le 22 juillet, les touristes peuvent observer les habitants remplir leurs bateaux de rochers pour contribuer à la préservation de l'île.",
+    "historicTitle": "Sites historiques",
+    "historicText": "La ville compte de nombreux palais, cathédrales et plusieurs tours de guet qui protégeaient autrefois la cité. Pour ceux qui souhaitent découvrir l'histoire de Perast en détail, le musée de Perast contient de nombreux objets, archives, peintures, sculptures et documents municipaux. Le musée est installé dans l'ancien Palata Buiovich, que beaucoup considèrent comme le plus beau bâtiment de la côte monténégrine.",
+    "monasteryTitle": "Monastère de Banja",
+    "monasteryText": "Situé juste au nord de Perast sur la route de Risan, le monastère de Banja abrite de nombreuses pièces religieuses anciennes provenant des dynasties russes, grecques et de Boka. Pour atteindre le monastère, continuez vers le nord sur la E65/E80 sur quelques kilomètres seulement."
+  },
+  "tivatBody": {
+    "h1": "Tivat — Ville de la marina",
+    "p1": "Tivat est l'une des villes les plus récentes du littoral monténégrin, fondée il y a un peu plus d'un siècle. La ville abrite l'un des deux seuls aéroports publics du Monténégro — l'aéroport de Tivat — ce qui en fait un point de départ incroyablement pratique pour les visiteurs arrivant par avion.",
+    "p2": "Cette station balnéaire compte environ 13 000 habitants. Les visiteurs peuvent profiter des promenades en bord de mer, dîner dans des bistrots face à l'eau et explorer les boutiques nichées dans d'étroites ruelles. En haute saison, la ville allie tranquillité et activité touristique vibrante.",
+    "beachesTitle": "Plages",
+    "beachesText": "Tivat possède 17 plages réparties sur 3 kilomètres de littoral, reconnues parmi les plus belles de la Méditerranée. Les plages incontournables comprennent :",
+    "beach1": "Plavi Horizanti (Horizons Bleus) : sable blanc, eaux cristallines, idéale pour la baignade et le bronzage",
+    "beach2": "Przno sur l'île Sveti Marko : un ancien complexe hôtelier abandonné offrant isolement et eaux préservées, parfait pour les sports nautiques",
+    "portoTitle": "Porto Montenegro",
+    "portoText": "Le joyau de Tivat est Porto Montenegro, une marina de yachts de luxe et un village en bord de mer qui a transformé la ville en l'une des destinations les plus élégantes de l'Adriatique. Le complexe de la marina comprend des boutiques, des restaurants, un club de piscine et des événements réguliers tout au long de la saison estivale.",
+    "culturalTitle": "Attractions culturelles",
+    "monasteryTitle": "Monastère de l'Archange Saint-Michel",
+    "monasteryText": "Ruines du Xe siècle situées sur la presqu'île de Prevlaka, avec des travaux archéologiques en cours révélant l'histoire ancienne du site.",
+    "churchTitle": "Église de Sveti Antun Padovanski",
+    "churchText": "Construite en 1734, cette église renferme des peintures et objets religieux, avec de belles vues sur la baie.",
+    "museumText": "À seulement 10 minutes en voiture à Kotor, le musée maritime expose le riche patrimoine maritime du Monténégro et ses centres d'apprentissage historique."
+  },
+  "tivatAirportBody": {
+    "h1": "Location de voiture à l'aéroport de Tivat (TIV)",
+    "p1": "La petite ville de Tivat possède le seul autre aéroport commercial du Monténégro en dehors de Podgorica. L'installation a fait l'objet d'une modernisation récente, avec un nouveau terminal pour les départs internationaux et les arrivées domestiques. Le code de l'aéroport est TIV, situé à seulement 4 km du centre-ville.",
+    "p2": "Comme Podgorica, l'aéroport de Tivat dispose de davantage de vols pendant la haute saison estivale mais maintient des vols quotidiens vers Belgrade toute l'année. Les vols charters sont particulièrement nombreux pendant les mois d'été. En raison du terrain unique entourant l'aéroport, celui-ci est bien connu comme étant l'un des aéroports les plus difficiles pour l'atterrissage.",
+    "distancesTitle": "Distances depuis l'aéroport de Tivat",
+    "dist1": "Kotor : environ 10 minutes",
+    "dist2": "Budva : environ 20 minutes",
+    "dist3": "Podgorica : 80 km",
+    "dist4": "Bar : 58 km",
+    "facilitiesTitle": "Équipements de l'aéroport",
+    "facilitiesText": "L'aéroport propose des cafés, des téléphones publics, des boutiques de souvenirs et un magasin hors taxes. Des services de bus desservent Herceg Novi et Budva, et un service de taxi est également disponible devant le terminal.",
+    "whyTitle": "Pourquoi louer à l'aéroport de Tivat ?",
+    "whyText": "L'aéroport de Tivat est l'aéroport le plus proche des destinations côtières les plus populaires du Monténégro. Quelques minutes seulement après l'atterrissage, vous pouvez rouler le long de la baie de Kotor en direction de la ville fortifiée médiévale, ou vous diriger vers le sud en direction des plages de Budva. Récupérer votre voiture à Tivat signifie pas de transferts, pas d'attente de bus — juste un trajet direct du terminal à la route.",
+    "meetText": "Nous vous accueillons dans le hall des arrivées avec votre nom sur un panneau. Votre voiture est garée juste devant. Temps total entre l'atterrissage et la prise de la route : environ 10 minutes."
+  },
+  "podgoricaBody": {
+    "h1": "Podgorica — La capitale",
+    "p1": "La plupart des touristes arrivant par avion au Monténégro commenceront leur voyage à l'aéroport de Podgorica (TGD), situé à 9 km du centre-ville. En tant que capitale et plus grande ville du Monténégro, Podgorica compte environ 170 000 habitants et se situe de manière unique sur les rives de six rivières : la Moraca, la Ribnica, la Zeta, la Sitnica, la Mareza et la Cijevna.",
+    "p2": "L'architecture de la ville reflète des influences historiques diverses. La domination ottomane a laissé son empreinte, tandis que des structures médiévales côtoient des bâtiments fonctionnalistes de l'ère communiste et des tours de verre contemporaines. Le pont du Millénaire est devenu un symbole de l'esthétique moderne de la ville.",
+    "p3": "Podgorica est la capitale culturelle du pays. Les touristes qui se précipitent vers les stations balnéaires ou les montagnes sans prendre le temps de s'y arrêter manqueront certainement une facette importante du Monténégro.",
+    "seeTitle": "À voir",
+    "seeText": "Parmi les points forts du shopping figurent les tissus italiens, les galeries d'art, ainsi que les vins et eaux-de-vie locaux. Les attractions notables comprennent la Sat-Kula (la tour de l'horloge) datant de l'époque ottomane et Duklja, un site archéologique remontant à environ deux mille ans.",
+    "dayTripsTitle": "Excursions d'une journée depuis Podgorica",
+    "skadarTitle": "Lac Skadar",
+    "skadarText": "Potentiellement le plus beau lac d'Europe, situé à la frontière entre le Monténégro et l'Albanie en tant que parc national. Abritant des millions de pélicans, c'est le plus grand lac des Balkans et une visite incontournable pour les amoureux de la nature.",
+    "danilovgradTitle": "Danilovgrad",
+    "danilovgradText": "Une ville fluviale pittoresque à environ trente minutes à l'ouest de Podgorica, proposant des plages au bord de la rivière, des promenades en bateau, des galeries et le monastère de Zdrebaonik à proximité.",
+    "zabljak": "Une ville alpine dans la région montagneuse du Durmitor, perchée à 1 500 mètres d'altitude et à 170 kilomètres de Podgorica. Une destination toute l'année offrant le ski en hiver et la randonnée, le rafting et le VTT en été."
+  },
+  "podgoricaAirportBody": {
+    "h1": "Location de voiture à l'aéroport de Podgorica (TGD)",
+    "p1": "Bien que de nombreux visiteurs choisissent encore de voler vers l'aéroport de Dubrovnik dans la Croatie voisine, chaque année davantage de vols sont ouverts vers les propres aéroports du Monténégro. L'aéroport de Podgorica fait office de plus grand aéroport public du Monténégro et de plaque tournante pour les compagnies aériennes nationales.",
+    "p2": "Un nouveau terminal a ouvert en mai 2006, tandis que l'ancien terminal fait désormais office de musée documentant l'histoire de l'aviation au Monténégro. Le code aéroport TGD est une référence historique à l'ancien nom de la ville, Titograd.",
+    "distancesTitle": "Localisation et distances",
+    "distIntro": "L'aéroport est situé à 12 kilomètres au sud du centre-ville de Podgorica.",
+    "dist1": "Centre de Podgorica : 12 km (taxi environ 10 euros)",
+    "dist2": "Budva : environ 40 minutes",
+    "dist3": "Kolasin : 80 km",
+    "dist4": "Zabljak : 170 km",
+    "flightsTitle": "Vols et compagnies aériennes",
+    "flightsText": "L'aéroport gère des vols internationaux et domestiques. Un service quotidien relie Belgrade, avec des vols réguliers vers Paris, Rome, Francfort, Vienne, Budapest, Ljubljana et Moscou. Les routes saisonnières comprennent Prague et des services supplémentaires vers Moscou.",
+    "facilitiesTitle": "Équipements de l'aéroport",
+    "facilitiesText": "Le terminal dispose de huit portes d'embarquement, deux portes d'arrivée, 5 500 mètres carrés de surface au sol et 25 000 mètres carrés de parking. Les commodités comprennent des cafés, un magasin hors taxes et divers services.",
+    "awardText": "Bien que de petite taille, l'aéroport de Podgorica est une installation primée, ayant remporté le prix ACI Europe du meilleur aéroport de moins d'un million de passagers.",
+    "rentalTitle": "Récupérer votre voiture de location",
+    "rentalText": "Nous vous accueillons dans le hall des arrivées et amenons la voiture jusqu'à vous. Pas de files d'attente, pas de navettes vers des parkings extérieurs. Quelques minutes après avoir passé la douane, vous serez sur la route en direction de votre destination."
+  },
+  "dubrovnikAirportBody": {
+    "h1": "Louer une voiture à l'aéroport de Dubrovnik (DBV)",
+    "p1": "De nombreux touristes qui visitent le Monténégro choisissent de voler vers l'aéroport de Dubrovnik et de louer une voiture pour se rendre au Monténégro. L'aéroport se trouve à seulement deux heures de route des stations balnéaires de Budva, Perast et Kotor, et bénéficie de meilleures connexions avec de nombreuses compagnies aériennes qui ne proposent pas encore de service direct vers le Monténégro.",
+    "p2": "Comme cet itinéraire est très courant, le passage de la frontière n'est pas une tâche difficile — à condition que les visiteurs aient tous leurs contrats de location et documents de voyage en ordre.",
+    "p3": "Louer une voiture pour un voyage au Monténégro est une excellente idée. Cela permet aux visiteurs de découvrir cette partie du monde selon leurs propres conditions, à leur propre rythme. La circulation entre les pays de cette région est fréquente, de sorte que les passages de frontière se déroulent généralement sans difficulté.",
+    "borderTitle": "Conseils pour le passage de la frontière",
+    "borderText": "Pendant la saison touristique, le Monténégro est envahi de visiteurs et de longues attentes pour traverser la frontière ne sont pas rares. Traverser tôt le matin ou tard le soir est un moyen d'éviter la foule. Assurez-vous que votre société de location vous a fourni une Carte Verte pour l'assurance transfrontalière.",
+    "facilitiesTitle": "Équipements de l'aéroport",
+    "facilitiesText1": "L'aéroport de Dubrovnik dispose d'un terminal moderne situé à moins d'une demi-heure de route de la ville de Dubrovnik sur la E65. L'aéroport dispose d'un parking limité, avec des automates acceptant les paiements en espèces et par carte bancaire. Le parking étant limité — surtout en haute saison — les visiteurs devraient réserver leurs places à l'avance si possible. Une réduction est disponible pour les réservations anticipées.",
+    "facilitiesText2": "À l'intérieur de l'aéroport, on trouve un bureau de change, une banque et un bureau de poste. De petits restaurants, des cafés, une boutique hors taxes et un kiosque à journaux sont également disponibles.",
+    "gettingTitle": "Se rendre au Monténégro",
+    "gettingText1": "Les transports en commun sont disponibles à l'aéroport sous la forme de taxis situés devant le terminal, ainsi que des services de bus et de navettes. Pour les voyageurs se rendant dans la ville de Dubrovnik, assurez-vous de prendre les bus qui vont jusqu'au centre-ville plutôt que ceux qui s'arrêtent à Cavtat, pour vous éviter une correspondance.",
+    "gettingText2": "Le trajet de l'aéroport de Dubrovnik à la côte monténégrine vous emmène le long de l'une des plus belles routes côtières d'Europe. En moins de deux heures, vous passerez la frontière et arriverez à la baie de Kotor — l'une des approches les plus spectaculaires de toute destination en Méditerranée."
+  },
+  "montenegroBody": {
+    "h1": "Explorer le Monténégro en voiture",
+    "p1": "Le Monténégro s'impose comme l'une des destinations européennes les plus enrichissantes pour l'exploration en voiture. Des routes de montagne spectaculaires aux paisibles villages de l'intérieur, en passant par les routes côtières sinueuses le long de l'Adriatique, le pays offre des paysages variés sur des distances étonnamment courtes. Louer une voiture permet d'accéder à des lieux bien au-delà de la portée des transports en commun.",
+    "p2": "Bien que compact par sa taille, le Monténégro nécessite des temps de conduite plus longs que ce que les cartes suggèrent. Les virages en lacet des montagnes, les routes côtières étroites et les itinéraires panoramiques encouragent les arrêts fréquents. Les voyageurs gagnent la liberté de vivre à la fois le trajet et la destination — naviguant entre des baies aux allures de fjords, des villes historiques et des belvédères d'altitude à leur propre rythme.",
+    "startTitle": "Par où commencer",
+    "startText": "De nombreux visiteurs récupèrent leur voiture de location dans l'un des aéroports du Monténégro ou à l'aéroport de Dubrovnik en Croatie, selon la disponibilité des vols. L'aéroport de Tivat est le plus proche de la côte — à seulement 10 minutes de Kotor et 20 minutes de Budva. L'aéroport de Podgorica dessert la capitale et l'intérieur du pays. L'aéroport de Dubrovnik reste populaire car il dispose souvent de davantage de vols internationaux.",
+    "timesTitle": "Temps de conduite",
+    "timesText1": "Les temps de conduite réels dépassent régulièrement ce qu'indiquent les cartes. Les virages en lacet des montagnes, les routes côtières découpées, les obstacles ruraux (y compris le bétail) et la neige hivernale en montagne contribuent tous à allonger les trajets. L'expérience panoramique des côtes et de la campagne justifie amplement le temps de voyage supplémentaire.",
+    "timesText2": "Les trajets entre les villes côtières varient généralement de trente minutes à une heure. Le trajet de Herceg-Novi à Podgorica via la E65/E80 prend environ deux heures.",
+    "rulesTitle": "Règles de conduite et sécurité",
+    "rulesIntro": "Les contrôles de la police de la route sont fréquents mais ne posent aucun problème si vous disposez des documents appropriés. Vous aurez besoin de :",
+    "rule1": "Un permis de conduire valide (le permis international est accepté)",
+    "rule2": "Le contrat de location ou la preuve de propriété du véhicule",
+    "rule3": "Les documents d'assurance",
+    "rule4": "Une « Carte Verte » pour les passages de frontière (environ 15 euros pour 15 jours)",
+    "keyRulesTitle": "Règles essentielles",
+    "keyRule1": "Le port de la ceinture de sécurité est obligatoire pour tous les passagers",
+    "keyRule2": "L'utilisation du téléphone portable au volant est interdite",
+    "keyRule3": "Toute consommation d'alcool au volant est illégale — tolérance zéro",
+    "keyRule4": "Les limitations de vitesse sont strictement appliquées",
+    "conditionsTitle": "État des routes",
+    "conditionsText": "Les routes en ville sont en état correct. Les routes de montagne peuvent être plus difficiles, avec un minimum de glissières de sécurité par endroits. Certains conducteurs adoptent une conduite agressive, la prudence est donc de mise dans tout le pays — en particulier sur les cols de montagne et les portions côtières étroites.",
+    "routesTitle": "Principaux itinéraires",
+    "e65Title": "E65/E80",
+    "e65Text": "La principale route côtière relie Herceg-Novi à Podgorica, en passant par Kotor, Perast, Tivat et Budva. C'est l'itinéraire de conduite le plus populaire et il offre des vues imprenables sur la baie de Kotor.",
+    "e762Title": "E762",
+    "e762Text": "Traverse le pays de la côte à l'intérieur des terres, menant dans l'est de la Croatie. Cet itinéraire vous emmène à travers le cœur montagneux du Monténégro.",
+    "borderTitle": "Passages de frontière",
+    "borderText": "Les voyages transfrontaliers sont simples avec les bons documents. Les postes de contrôle peuvent connaître de fortes congestions en haute saison, avec des files de voitures longues d'un kilomètre aux passages les plus fréquentés. Les meilleurs moments pour traverser sont les matinées en semaine ou tard le soir.",
+    "nationTitle": "Une jeune nation",
+    "nationText": "Le Monténégro a acquis son indépendance en juin 2006, ce qui en fait l'une des plus jeunes nations du monde. Le développement du tourisme continue de croître, offrant une aventure plus exotique et légèrement plus sauvage par rapport aux pays voisins. Le paysage combine des montagnes verdoyantes traversées par des fjords remplis des eaux bleu profond de l'Adriatique, une variété de plages et les mystères des vieilles villes anciennes."
+  },
+  "borderCrossingBody": {
+    "h1": "Puis-je emmener ma voiture de location au-delà des frontières ?",
+    "p1": "Oui. Les voyages transfrontaliers sont autorisés du Monténégro vers la Croatie, la Bosnie-Herzégovine, l'Albanie, le Kosovo et la Serbie. Il vous suffit d'informer votre société de location lors de la réservation afin qu'elle puisse préparer les documents nécessaires.",
+    "greenCardTitle": "Qu'est-ce qu'une Carte Verte ?",
+    "greenCardText": "Une Carte Verte est un certificat international d'assurance automobile qui prouve que votre véhicule est assuré dans le pays où vous entrez. Elle est obligatoire à chaque passage de frontière dans les Balkans.",
+    "greenCard1": "Coût : environ 15 euros pour 15 jours",
+    "greenCard2": "Où l'obtenir : votre société de location s'en charge — confirmez simplement lors de la réservation",
+    "greenCard3": "Pays couverts : Croatie, Bosnie, Albanie, Kosovo, Serbie",
+    "greenCardWarn": "Sans Carte Verte, les gardes-frontières ne vous laisseront pas passer. Vérifiez toujours que la carte couvre tous les pays de votre itinéraire prévu avant de partir.",
+    "docsTitle": "Documents nécessaires à la frontière",
+    "doc1": "Passeport valide ou carte d'identité de l'UE",
+    "doc2": "Permis de conduire (le permis international est accepté)",
+    "doc3": "Contrat de location (l'original, pas une photocopie)",
+    "doc4": "Certificat d'assurance Carte Verte",
+    "doc5": "Certificat d'immatriculation du véhicule (fourni avec la voiture)",
+    "crossingsTitle": "Passages de frontière depuis le Monténégro",
+    "croatiaTitle": "Monténégro → Croatie",
+    "croatiaText": "Le passage frontalier le plus populaire pour les touristes. Le principal point de contrôle se trouve à Debeli Brijeg sur la route côtière (E65) entre Herceg Novi et Dubrovnik. Ce passage est extrêmement fréquenté en été — prévoyez des files d'attente de 1 à 2 heures en haute saison (juillet-août).",
+    "croatiaTip": "Meilleurs moments pour traverser : tôt le matin (avant 8h) ou tard le soir (après 20h). Les matinées en semaine sont nettement plus calmes que les week-ends.",
+    "croatiaFerry": "Il existe également le raccourci par le ferry Kamenari-Lepetane à travers la baie de Kotor, qui évite de contourner toute la baie — économisant environ 45 minutes.",
+    "albaniaTitle": "Monténégro → Albanie",
+    "albaniaText": "Deux passages principaux : Sukobin/Muriqan (côtier, près d'Ulcinj) et Hani i Hotit (intérieur, près du lac Skadar). Le passage côtier est plus adapté aux voyageurs et présente généralement des temps d'attente plus courts.",
+    "albaniaNote": "Remarque : les routes albanaises diffèrent considérablement de celles du Monténégro. Conduisez prudemment, surtout sur les routes rurales.",
+    "bosniaTitle": "Monténégro → Bosnie-Herzégovine",
+    "bosniaText": "Le principal passage se trouve à Šćepan Polje (près de Foča) si vous allez vers le nord, ou via Vilusi depuis Nikšić. Les passages sont généralement calmes avec des temps d'attente minimaux en dehors de l'été.",
+    "serbiaTitle": "Monténégro → Serbie",
+    "serbiaText": "Traversez à Dobrakovo (sur la E65 au nord de Bijelo Polje). Ce passage se connecte directement au réseau autoroutier serbe vers Belgrade.",
+    "kosovoTitle": "Monténégro → Kosovo",
+    "kosovoText": "Le passage à Kula (près de Rožaje) relie Peja/Peć au Kosovo. Vérifiez auprès de votre société de location que le Kosovo est inclus dans votre Carte Verte — certaines polices l'excluent.",
+    "tipsTitle": "Conseils pour des passages de frontière sans encombre",
+    "tip1": "Ayez tous vos documents prêts avant d'arriver au poste de contrôle — ne les cherchez pas au guichet",
+    "tip2": "Coupez votre moteur en attendant dans les files (les gardes-frontières l'apprécient)",
+    "tip3": "Les week-ends d'été sont les pires — prévoyez de traverser en semaine si possible",
+    "tip4": "Le passage côtier croate (Debeli Brijeg) est le plus fréquenté ; les passages intérieurs sont plus calmes",
+    "tip5": "Gardez un peu d'argent liquide en euros — utile pour les péages et petits achats de l'autre côté",
+    "tip6": "Itinérance des données mobiles : vérifiez que votre forfait couvre le pays dans lequel vous entrez",
+    "lawsTitle": "Règles de conduite qui changent aux frontières",
+    "lawsIntro": "Chaque pays a des règles de circulation légèrement différentes. Différences principales à noter :",
+    "law1": "Croatie : les phares doivent être allumés en permanence. Des péages s'appliquent sur les autoroutes (espèces ou carte)",
+    "law2": "Albanie : les limitations de vitesse sont plus basses sur les routes rurales. La qualité des routes varie considérablement",
+    "law3": "Bosnie : pneus hiver obligatoires de novembre à avril. Emportez une trousse de premiers secours et un triangle de signalisation",
+    "law4": "Serbie : tolérance zéro pour tous les conducteurs. Les péages autoroutiers sont perçus aux barrières \u2014 prenez un ticket à l'entrée et réglez à la sortie",
+    "law5": "Kosovo : conduisez à droite. Le permis de conduire international est recommandé",
+    "popularTitle": "Itinéraires transfrontaliers populaires",
+    "route1": "Tivat → Dubrovnik : 2 heures via la côtière E65. Paysages magnifiques, un seul passage de frontière",
+    "route2": "Kotor → Mostar (Bosnie) : 3-4 heures via Trebinje. Visitez le célèbre pont",
+    "route3": "Budva → Shkodër (Albanie) : 2h30 via le passage côtier d'Ulcinj",
+    "route4": "Podgorica → Belgrade (Serbie) : 5-6 heures via la E65 nord",
+    "ctaText": "Besoin d'une voiture avec les documents transfrontaliers prêts ? Consultez notre flotte — sélectionnez simplement vos pays de destination lors de la réservation et nous nous occupons de la Carte Verte."
+  }
+}
