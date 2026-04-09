@@ -119,13 +119,13 @@ const locationSelectStyles = {
     padding: '0',
     fontSize: '15px',
     fontWeight: '500',
-    color: 'rgb(61,20,16)',
+    color: '#1e2a4a',
   }),
   singleValue: (base) => ({
     ...base,
     fontSize: '15px',
     fontWeight: '500',
-    color: 'rgb(61,20,16)',
+    color: '#1e2a4a',
     margin: '0',
   }),
   placeholder: (base) => ({
@@ -138,7 +138,7 @@ const locationSelectStyles = {
   dropdownIndicator: (base) => ({
     ...base,
     padding: '0',
-    color: 'rgb(232,93,74)',
+    color: '#ff5f00',
   }),
   menu: (base) => ({
     ...base,
@@ -161,8 +161,8 @@ const locationSelectStyles = {
     ...base,
     fontSize: '14px',
     fontWeight: state.isSelected ? '600' : '400',
-    color: state.isSelected ? 'rgb(232,93,74)' : 'rgb(61,20,16)',
-    background: state.isSelected ? 'rgba(232,93,74,0.08)' : state.isFocused ? 'rgba(232,93,74,0.05)' : 'transparent',
+    color: state.isSelected ? '#ff5f00' : '#1e2a4a',
+    background: state.isSelected ? 'rgba(255,95,0,0.08)' : state.isFocused ? 'rgba(255,95,0,0.05)' : 'transparent',
     borderRadius: '6px',
     cursor: 'pointer',
     padding: '10px 12px',
@@ -488,9 +488,6 @@ function Features() {
             { icon: 'map-pin', key: 'airportPickup' },
             { icon: 'shield-check', key: 'fullInsurance' },
             { icon: 'clock', key: 'support' },
-            { icon: 'ban', key: 'noHiddenFees' },
-            { icon: 'refresh-cw', key: 'freeCancellation' },
-            { icon: 'globe', key: 'crossBorder' },
           ].map((f, i) => {
             const Icon = FEATURE_ICONS[f.icon] || ShieldCheck;
             return (
