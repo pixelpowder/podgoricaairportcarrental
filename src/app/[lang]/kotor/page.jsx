@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'kotor.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'kotor.seoDesc'),
-    alternates: buildAlternates('kotor'),
+    alternates: buildAlternates('kotor', lang),
   };
 }
 

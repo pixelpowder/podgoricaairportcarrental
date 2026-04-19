@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'blogOldtown.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'blogOldtown.description'),
-    alternates: buildAlternates('blog/budva-old-town-walking'),
+    alternates: buildAlternates('blog/budva-old-town-walking', lang),
   };
 }
 

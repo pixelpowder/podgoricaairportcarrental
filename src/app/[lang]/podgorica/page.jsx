@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'podgorica.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'podgorica.seoDesc'),
-    alternates: buildAlternates('podgorica'),
+    alternates: buildAlternates('podgorica', lang),
   };
 }
 

@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t(lang, 'blogPetrovac.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'blogPetrovac.description'),
-    alternates: buildAlternates('blog/petrovac-to-buljarica'),
+    alternates: buildAlternates('blog/petrovac-to-buljarica', lang),
   };
 }
 

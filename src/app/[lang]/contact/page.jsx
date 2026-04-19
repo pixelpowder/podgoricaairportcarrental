@@ -6,7 +6,7 @@ export async function generateMetadata({ params }) {
   return {
     title: 'Contact Us | Podgorica Airport Car Rental',
     description: 'Get in touch with Podgorica Airport Car Rental.',
-    alternates: buildAlternates('contact'),
+    alternates: buildAlternates('contact', lang),
   };
 }
 
