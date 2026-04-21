@@ -2,10 +2,13 @@ import { t, buildAlternates } from '../../metadata';
 import BudvaOldTownWalking from '@/src/components/pages/blog/BudvaOldTownWalking';
 
 export async function generateMetadata() {
+  const title = t('en', 'blogOldtown.title') + ' | Podgorica Airport Car Rental';
+  const description = t('en', 'blogOldtown.description');
   return {
-    title: t('en', 'blogOldtown.title') + ' | Podgorica Airport Car Rental',
-    description: t('en', 'blogOldtown.description'),
+    title: title,
+    description: description,
     alternates: buildAlternates('blog/budva-old-town-walking'),
+    openGraph: { title, description, type: 'website' },
   };
 }
 
