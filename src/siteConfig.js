@@ -4,7 +4,7 @@ const siteConfig = {
   domain: "podgoricaairportcarrental.com",
   phone: "",
   email: "info@podgoricaairportcarrental.com",
-  address: "Podgorica Airport (TGD), Montenegro",
+  address: "Tabacina BB, Kotor, 85330",
 
   hero: {
     headline: "Podgorica Airport Car Rental \u2014 TGD",
