@@ -4,7 +4,7 @@ import CookiePolicy from '@/src/components/pages/CookiePolicy';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'cookie-policy.title') + ' | Podgorica Airport Car Rental',
+    title: t(lang, 'cookie-policy.title') + ' | Kotor Car Rental',
     description: t(lang, 'cookie-policy.seoDesc'),
     alternates: buildAlternates('cookie-policy', lang),
   };

@@ -4,7 +4,7 @@ import Kotor from '@/src/components/pages/Kotor';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'kotor.title') + ' | Podgorica Airport Car Rental',
+    title: t(lang, 'kotor.title') + ' | Kotor Car Rental',
     description: t(lang, 'kotor.seoDesc'),
     alternates: buildAlternates('kotor', lang),
   };

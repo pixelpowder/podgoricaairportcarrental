@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import PodgoricaAirport from '@/src/components/pages/PodgoricaAirport';
 
 export async function generateMetadata() {
-  const title = t('en', 'podgorica-airport.title') + ' | Podgorica Airport Car Rental';
+  const title = t('en', 'podgorica-airport.title') + ' | Kotor Car Rental';
   const description = t('en', 'podgorica-airport.seoDesc');
   return {
     title: title,

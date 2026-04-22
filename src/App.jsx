@@ -9,7 +9,6 @@ import Nav from './Nav';
 import Footer from './Footer';
 import useGlobalReveal from './useReveal';
 import {
-  Car,
   MapPin,
   ChevronRight,
   ChevronDown,
@@ -19,19 +18,19 @@ import {
   RefreshCw,
   Globe,
   Ban,
-  Users,
-  Fuel,
-  Settings,
-  Briefcase,
   CheckCircle,
   ArrowRight,
-  Phone,
   Mail,
-  Calendar,
   Search,
-  Menu,
-  X,
   MessageCircle,
+  Car,
+  Truck,
+  Zap,
+  Crown,
+  Users,
+  Fuel,
+  Briefcase,
+  Settings,
 } from 'lucide-react';
 import config from './siteConfig';
 import './App.css';
@@ -55,7 +54,6 @@ const LOCATIONS = [
   'Dobre Vode', 'Djenovici', 'Krasici', 'Radovici', 'Buljarica',
 ];
 
-// LocalRent city IDs — used to configure the booking widget per location
 const CITY_ID_MAP = {
   'Tivat':             17,
   'Podgorica':         15,
@@ -89,18 +87,11 @@ const CITY_ID_MAP = {
   'Buljarica':     548986,
 };
 
-const NAV_LINKS = [
-  { label: 'Fleet', href: '#fleet' },
-  { label: 'Destinations', href: '#destinations' },
-  { label: 'About', href: '#features' },
-  { label: 'Help', href: '#faq' },
-];
-
 /* ─── LOCATION AUTOCOMPLETE ────────────────────────────── */
 const LOCATION_OPTIONS = LOCATIONS.map(l => ({ value: l, label: l }));
 
 const locationSelectStyles = {
-  control: (base, state) => ({
+  control: (base) => ({
     ...base,
     border: 'none',
     boxShadow: 'none',
@@ -109,60 +100,21 @@ const locationSelectStyles = {
     height: 'auto',
     cursor: 'pointer',
   }),
-  valueContainer: (base) => ({
-    ...base,
-    padding: '0',
-  }),
-  input: (base) => ({
-    ...base,
-    margin: '0',
-    padding: '0',
-    fontSize: '15px',
-    fontWeight: '500',
-    color: '#1e2a4a',
-  }),
-  singleValue: (base) => ({
-    ...base,
-    fontSize: '15px',
-    fontWeight: '500',
-    color: '#1e2a4a',
-    margin: '0',
-  }),
-  placeholder: (base) => ({
-    ...base,
-    fontSize: '15px',
-    color: '#9ca3af',
-    margin: '0',
-  }),
+  valueContainer: (base) => ({ ...base, padding: '0' }),
+  input: (base) => ({ ...base, margin: '0', padding: '0', fontSize: '15px', fontWeight: '500', color: '#1A1A1A' }),
+  singleValue: (base) => ({ ...base, fontSize: '15px', fontWeight: '500', color: '#1A1A1A', margin: '0' }),
+  placeholder: (base) => ({ ...base, fontSize: '15px', color: '#888888', margin: '0' }),
   indicatorSeparator: () => ({ display: 'none' }),
-  dropdownIndicator: (base) => ({
-    ...base,
-    padding: '0',
-    color: '#ff5f00',
-  }),
-  menu: (base) => ({
-    ...base,
-    zIndex: 9999,
-    borderRadius: '10px',
-    boxShadow: '0 8px 32px rgba(0,0,0,0.18)',
-    marginTop: '6px',
-    overflow: 'hidden',
-  }),
-  menuPortal: (base) => ({
-    ...base,
-    zIndex: 9999,
-  }),
-  menuList: (base) => ({
-    ...base,
-    padding: '4px',
-    maxHeight: '260px',
-  }),
+  dropdownIndicator: (base) => ({ ...base, padding: '0', color: '#E31937' }),
+  menu: (base) => ({ ...base, zIndex: 9999, borderRadius: '10px', boxShadow: '0 8px 32px rgba(0,0,0,0.18)', marginTop: '6px', overflow: 'hidden' }),
+  menuPortal: (base) => ({ ...base, zIndex: 9999 }),
+  menuList: (base) => ({ ...base, padding: '4px', maxHeight: '260px' }),
   option: (base, state) => ({
     ...base,
     fontSize: '14px',
     fontWeight: state.isSelected ? '600' : '400',
-    color: state.isSelected ? '#ff5f00' : '#1e2a4a',
-    background: state.isSelected ? 'rgba(255,95,0,0.08)' : state.isFocused ? 'rgba(255,95,0,0.05)' : 'transparent',
+    color: state.isSelected ? '#E31937' : '#1A1A1A',
+    background: state.isSelected ? 'rgba(227,25,55,0.08)' : state.isFocused ? 'rgba(227,25,55,0.04)' : 'transparent',
     borderRadius: '6px',
     cursor: 'pointer',
     padding: '10px 12px',
@@ -195,11 +147,13 @@ function LocationField({ value, onChange }) {
   );
 }
 
-/* ─── HERO ─────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   SECTION 1: HERO — headline + badges + image + search
+   ═══════════════════════════════════════════════════════════ */
 function Hero() {
   const { t, localePath } = useTranslation();
   const router = useRouter();
-  const [pickup, setPickup] = useState('Podgorica');
+  const [pickup, setPickup] = useState('Tivat');
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [pickupTime, setPickupTime] = useState('10:00');
@@ -207,25 +161,15 @@ function Hero() {
 
   const fmt = (d) => {
     if (!d) return '';
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, '0');
-    const day = String(d.getDate()).padStart(2, '0');
-    return `${y}-${m}-${day}`;
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
   };
 
-  const handleDateChange = (dates) => {
-    const [start, end] = dates;
-    setStartDate(start);
-    setEndDate(end);
-  };
+  const handleDateChange = (dates) => { const [s, e] = dates; setStartDate(s); setEndDate(e); };
 
   const handleSearch = () => {
     const params = new URLSearchParams({
-      location: pickup,
-      pickup_date: fmt(startDate),
-      pickup_time: pickupTime,
-      dropoff_date: fmt(endDate),
-      dropoff_time: dropoffTime,
+      location: pickup, pickup_date: fmt(startDate), pickup_time: pickupTime,
+      dropoff_date: fmt(endDate), dropoff_time: dropoffTime,
     });
     const cityId = CITY_ID_MAP[pickup];
     if (cityId) params.set('city_id', cityId);
@@ -234,337 +178,88 @@ function Hero() {
 
   return (
     <section className="hero">
-      <div className="hero__content">
-        <div className="hero-fade-in">
-          <div className="hero__form-wrapper">
-          <h1 className="hero__headline">{t('hero.headline')}</h1>
-          <div className="hero__badges">
-            <span className="hero__badge"><CheckCircle size={14} /> {t('hero.badges.freeCancellation')}</span>
-            <span className="hero__badge"><ShieldCheck size={14} /> {t('hero.badges.fullInsurance')}</span>
-            <span className="hero__badge"><Clock size={14} /> {t('hero.badges.airportPickup')}</span>
-            <span className="hero__badge hero__badge--accent"><Star size={14} fill="currentColor" /> {t('hero.badges.trustpilot')}</span>
-          </div>
+      {/* White section: headline + badges */}
+      <div className="hero__top">
+        <h1 className="hero__headline"><span className="hero__headline-main">{t('hero.headlineMain')}</span> <span className="hero__headline-sub">{t('hero.headlineSub')}</span></h1>
+        <div className="hero__badges">
+          <span className="hero__badge"><CheckCircle size={16} /> {t('hero.badges.freeCancellation')}</span>
+          <span className="hero__badge"><ShieldCheck size={16} /> {t('hero.badges.fullInsurance')}</span>
+          <span className="hero__badge"><Clock size={16} /> {t('hero.badges.airportPickup')}</span>
+        </div>
+      </div>
 
-          <div className="booking-card">
-            <div className="booking-card__fields">
-              <LocationField value={pickup} onChange={setPickup} />
-              <div className="booking-field booking-field--dates">
-                <label>{t('hero.pickupDate')} — {t('hero.dropoffDate')}</label>
-                <DatePicker
-                  selectsRange
-                  startDate={startDate}
-                  endDate={endDate}
-                  onChange={handleDateChange}
-                  minDate={new Date()}
-                  monthsShown={window.innerWidth < 768 ? 1 : 2}
-                  dateFormat="dd MMM yyyy"
-                  placeholderText={t('hero.selectDates') || 'Select dates'}
-                  className="booking-field__input"
-                  calendarClassName="booking-calendar"
-                  popperPlacement="bottom-start"
-                  popperClassName="booking-datepicker-popper"
-                  popperModifiers={[{name:'flip',enabled:false},{name:'preventOverflow',enabled:false}]}
-                  onFocus={e => { if (window.innerWidth < 768) e.target.blur(); }}
-                  onCalendarOpen={() => { if (window.innerWidth < 768) setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); }}
-                />
-              </div>
-              <div className="booking-field booking-field--time">
-                <label htmlFor="f-pickup-time">{t('hero.pickupTime')}</label>
-                <select id="f-pickup-time" className="booking-field__input" value={pickupTime} onChange={e => setPickupTime(e.target.value)}>
-                  {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
-                </select>
-              </div>
-              <div className="booking-field booking-field--time">
-                <label htmlFor="f-dropoff-time">{t('hero.dropoffTime')}</label>
-                <select id="f-dropoff-time" className="booking-field__input" value={dropoffTime} onChange={e => setDropoffTime(e.target.value)}>
-                  {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
-                </select>
-              </div>
-              <button className="booking-card__search" onClick={handleSearch}>
-                {t('hero.search')}
-              </button>
+      {/* Image section with overlaid search form */}
+      <div className="hero__image-section">
+        <div className="booking-card">
+          <div className="booking-card__fields">
+            <LocationField value={pickup} onChange={setPickup} />
+            <div className="booking-field booking-field--dates">
+              <label>{t('hero.pickupDate')} — {t('hero.dropoffDate')}</label>
+              <DatePicker
+                selectsRange startDate={startDate} endDate={endDate}
+                onChange={handleDateChange} minDate={new Date()}
+                monthsShown={window.innerWidth < 768 ? 1 : 2}
+                dateFormat="dd MMM yyyy"
+                placeholderText={t('hero.selectDates') || 'Select dates'}
+                className="booking-field__input"
+                calendarClassName="booking-calendar"
+                popperPlacement="bottom-start"
+                popperClassName="booking-datepicker-popper"
+                popperModifiers={[{name:'flip',enabled:false},{name:'preventOverflow',enabled:false}]}
+                onFocus={e => { if (window.innerWidth < 768) e.target.blur(); }}
+                onCalendarOpen={() => { if (window.innerWidth < 768) setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50); }}
+              />
             </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── TRUST STRIP ──────────────────────────────────────── */
-function TrustStrip() {
-  const { t } = useTranslation();
-  const items = [
-    { icon: <CheckCircle size={18} />, strong: t('trust.noHiddenFees'), text: t('trust.noHiddenFeesDesc') },
-    { icon: <ShieldCheck size={18} />, strong: t('trust.fullInsurance'), text: t('trust.fullInsuranceDesc') },
-    { icon: <Clock size={18} />, strong: t('trust.fastPickup'), text: t('trust.fastPickupDesc') },
-  ];
-
-  return (
-    <div className="trust-strip">
-      <div className="trust-strip__inner">
-        {items.map(item => (
-          <div key={item.strong} className="trust-item">
-            <div className="trust-item__icon">{item.icon}</div>
-            <div className="trust-item__text">
-              <strong>{item.strong}</strong>
-              <span>{item.text}</span>
+            <div className="booking-field booking-field--time">
+              <label htmlFor="f-pickup-time">{t('hero.pickupTime')}</label>
+              <select id="f-pickup-time" className="booking-field__input" value={pickupTime} onChange={e => setPickupTime(e.target.value)}>
+                {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
+              </select>
             </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-/* ─── STAT COUNTERS ────────────────────────────────────── */
-/* ─── DRIVE GUIDE (TGD AIRPORT) ───────────────────────── */
-function BeachGuide() {
-  return (
-    <section className="section" id="beaches">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">Drive Guide</span>
-          <h2 className="section-title">Where to Drive from TGD</h2>
-          <p className="section-subtitle">Podgorica Airport sits at the centre of Montenegro. Four destinations within a couple of hours of the terminal — any direction you point the car.</p>
-        </div>
-        <div className="beach-grid">
-          {[
-            { title: 'Budva Riviera', desc: 'The main coastal resort strip. South via the Sozina tunnel — the fastest route from the airport to the Adriatic.', distance: '90 km', time: '1 hr 10 min', image: '/img/blog-tgd-to-budva-drive.webp' },
-            { title: 'Kotor Bay', desc: 'UNESCO walled town on a mountain-ringed fjord. Longer drive but the scenic payoff at the bay mouth is the single best arrival view in the country.', distance: '100 km', time: '1 hr 40 min', image: '/img/blog-tgd-to-kotor-drive.webp' },
-            { title: 'Durmitor / \u017Dabljak', desc: 'High mountains north via the Mora\u010Da Canyon — Black Lake, Tara Bridge, winter skiing. The big landscape trip from the airport.', distance: '170 km', time: '3 hr', image: '/img/blog-tgd-to-zabljak-durmitor-drive.webp' },
-            { title: 'Ostrog Monastery', desc: 'Cliff-built pilgrimage monastery one hour north. Easy half-day from a midday TGD arrival.', distance: '50 km', time: '1 hr', image: '/img/blog-tgd-to-ostrog-monastery-drive.webp' },
-          ].map((beach) => (
-            <div key={beach.title} className="beach-card reveal-item">
-              {beach.image && <img src={beach.image} alt={beach.title} className="beach-card__image" loading="lazy" />}
-              <div className="beach-card__body">
-                <h3 className="beach-card__title">{beach.title}</h3>
-                <p className="beach-card__desc">{beach.desc}</p>
-                <div className="beach-card__meta">
-                  <span><MapPin size={14} /> {beach.distance}</span>
-                  <span><Clock size={14} /> {beach.time}</span>
-                </div>
-              </div>
+            <div className="booking-field booking-field--time">
+              <label htmlFor="f-dropoff-time">{t('hero.dropoffTime')}</label>
+              <select id="f-dropoff-time" className="booking-field__input" value={dropoffTime} onChange={e => setDropoffTime(e.target.value)}>
+                {['00:00','01:00','02:00','03:00','04:00','05:00','06:00','07:00','08:00','09:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00','23:00'].map(t => <option key={t} value={t}>{t}</option>)}
+              </select>
             </div>
-          ))}
+            <button className="booking-card__search" onClick={handleSearch}>
+              <Search size={20} />
+            </button>
+          </div>
         </div>
       </div>
+      <div className="hero__spacer" />
     </section>
   );
 }
 
-/* ─── BRAND LOGOS ──────────────────────────────────────── */
-const CAR_BRANDS = [
-  { name: 'Toyota',     logo: '/img/logo-toyota.png' },
-  { name: 'Fiat',       logo: '/img/logo-fiat.png' },
-  { name: 'Volkswagen', logo: '/img/logo-volkswagen.png' },
-  { name: 'Peugeot',    logo: '/img/logo-peugeot.png' },
-  { name: 'Renault',    logo: '/img/logo-renault.png' },
-  { name: 'Hyundai',    logo: '/img/logo-hyundai.png' },
-  { name: 'Citroën',    logo: '/img/logo-citroen.png' },
-  { name: 'Suzuki',     logo: '/img/logo-suzuki.png' },
-  { name: 'Ford',       logo: '/img/logo-ford.png' },
-  { name: 'Dacia',      logo: '/img/logo-dacia.png' },
-];
-
-function BrandLogos() {
-  const { t } = useTranslation();
-  return (
-    <section className="brands-section">
-      <div className="container">
-        <p className="brands-label">{t("brands.label")}</p>
-        <div className="brands-row">
-          {CAR_BRANDS.map((brand) => (
-            <img key={brand.name} className="brand-logo" src={brand.logo} alt={brand.name} loading="lazy" />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── DESTINATIONS ──────────────────────────────────────── */
-function Destinations() {
-  const { t, localePath } = useTranslation();
-  return (
-    <section className="section section--gray" id="destinations">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t("destinations.label")}</span>
-          <h2 className="section-title">{t('destinations.title')}</h2>
-          <p className="section-subtitle">{t('destinations.subtitle')}</p>
-        </div>
-        <div className="destinations-grid">
-          {config.destinations.map((dest, i) => (
-            <a
-              key={dest.slug}
-              href={localePath(`/${dest.slug}`)}
-              className="dest-card reveal-item"
-            >
-              <div className="dest-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
-              <div className="dest-card__overlay">
-                {dest.tag && <span className="dest-card__tag">{t(`destCards.${dest.slug}.tag`) || dest.tag}</span>}
-                <h3 className="dest-card__name">{(() => { const k = `destCards.${dest.slug}.name`; const v = t(k); return v && v !== k ? v : dest.name; })()}</h3>
-                <p className="dest-card__desc">{t(`destCards.${dest.slug}.desc`) || dest.desc}</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── FLEET ─────────────────────────────────────────────── */
-function Fleet() {
-  const { t, localePath } = useTranslation();
-  const [iframeHeight, setIframeHeight] = useState(800);
-  const [iframeSrc, setIframeSrc] = useState(null);
-  const fleetRef = useRef(null);
-
-  // Defer iframe load until section is visible + page is idle
-  useEffect(() => {
-    function onMessage(e) {
-      if (e.data && e.data.type === 'iframeHeight') setIframeHeight(Math.min(e.data.height, 1400));
-    }
-    window.addEventListener('message', onMessage);
-
-    const obs = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        const load = () => setIframeSrc('/widget.html?city_id=5&hide_search=1&v=12');
-        if ('requestIdleCallback' in window) {
-          requestIdleCallback(load, { timeout: 1500 });
-        } else {
-          setTimeout(load, 100);
-        }
-        obs.disconnect();
-      }
-    }, { rootMargin: '200px' });
-
-    if (fleetRef.current) obs.observe(fleetRef.current);
-    return () => { obs.disconnect(); window.removeEventListener('message', onMessage); };
-  }, []);
-
-  return (
-    <section className="section" id="fleet" ref={fleetRef}>
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t('fleet.label')}</span>
-          <h2 className="section-title">{t('fleet.title')}</h2>
-          <p className="section-subtitle">{t('fleet.subtitle')}</p>
-        </div>
-
-        <a href={localePath('/book')} className="fleet-widget-wrap">
-          {iframeSrc && <iframe
-            src={iframeSrc}
-            title="Browse fleet"
-            frameBorder="0"
-            scrolling="no"
-            style={{ width: '100%', height: iframeHeight, border: 'none', display: 'block', pointerEvents: 'none', marginTop: '80px' }}
-          />}
-          <div className="fleet-widget-fade" />
-          <div className="fleet-widget-overlay" />
-        </a>
-      </div>
-    </section>
-  );
-}
-
-/* ─── FEATURES ─────────────────────────────────────────── */
-function Features() {
-  const { t } = useTranslation();
-  return (
-    <section className="section" id="features">
-      <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t("features.label")}</span>
-          <h2 className="section-title">{t("features.title")}</h2>
-          <p className="section-subtitle">{t("features.subtitle")}</p>
-        </div>
-
-        <div className="features-grid">
-          {[
-            { icon: 'map-pin', key: 'airportPickup' },
-            { icon: 'shield-check', key: 'fullInsurance' },
-            { icon: 'clock', key: 'support' },
-          ].map((f, i) => {
-            const Icon = FEATURE_ICONS[f.icon] || ShieldCheck;
-            return (
-              <div key={f.key} className="feature-card reveal-item">
-                <div className="feature-card__icon">
-                  <Icon size={20} />
-                </div>
-                <h3 className="feature-card__title">{t(`featureCards.${f.key}.title`)}</h3>
-                <p className="feature-card__desc">{t(`featureCards.${f.key}.desc`)}</p>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ─── TRUSTPILOT BANNER ────────────────────────────────── */
-function TrustpilotBanner() {
-  const ref = useRef(null);
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    if (window.Trustpilot && ref.current) {
-      window.Trustpilot.loadFromElement(ref.current, true);
-    }
-    // Check if the widget rendered visible content
-    const timer = setTimeout(() => {
-      const iframe = ref.current?.querySelector('iframe');
-      if (iframe && iframe.offsetHeight > 10) setVisible(true);
-    }, 3000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  return (
-    <div className="trustpilot-banner" style={{ display: visible ? 'block' : 'none' }}>
-      <div className="container">
-        <div
-          ref={ref}
-          className="trustpilot-widget"
-          data-locale="en-US"
-          data-template-id="56278e9abfbbba0bdcd568bc"
-          data-businessunit-id="69cfbd3879267ca5424dbeb8"
-          data-style-height="52px"
-          data-style-width="100%"
-          data-token="048c09ab-d890-4af6-91a4-0c5532f846df"
-        >
-          <a href="https://www.trustpilot.com/review/podgoricaairportcarrental.com" target="_blank" rel="noopener">Trustpilot</a>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-/* ─── REVIEWS ──────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   SECTION 2: REVIEWS — horizontal scrolling carousel
+   ═══════════════════════════════════════════════════════════ */
 function Reviews() {
   const { t } = useTranslation();
   return (
-    <section className="section section--gray" id="reviews">
+    <section className="section" id="reviews">
       <div className="container">
-        <div className="section-header">
-          <span className="section-label">{t("reviews.label")}</span>
-          <h2 className="section-title">{t("reviews.title")}</h2>
-          <p className="section-subtitle">{t("reviews.subtitle")}</p>
+        <div className="reviews__header">
+          <div className="reviews__title-row">
+            <h2 className="reviews__title">{t('reviews.title')}</h2>
+            <span className="reviews__stars">
+              {Array.from({ length: 5 }).map((_, i) => <Star key={i} size={16} fill="#f59e0b" color="#f59e0b" />)}
+            </span>
+          </div>
+          <span className="reviews__score">{t('reviews.subtitle')}</span>
         </div>
-
-        <div className="reviews-grid">
+        <div className="reviews-scroll">
           {config.testimonials.map((rev, i) => (
-            <div key={rev.name} className="review-card reveal-item">
+            <div key={rev.name} className="review-card">
               <div className="review-card__stars">
                 {Array.from({ length: rev.rating }).map((_, j) => (
-                  <Star key={j} size={14} fill="currentColor" />
+                  <Star key={j} size={14} fill="#f59e0b" color="#f59e0b" />
                 ))}
               </div>
               <p className="review-card__text">{t(`testimonials.${i}.text`)}</p>
-              <div className="review-card__author">
+              <div className="review-card__footer">
                 <div className="review-card__avatar">
                   {rev.avatar ? <img src={rev.avatar} alt={rev.name} /> : rev.name.charAt(0)}
                 </div>
@@ -576,33 +271,231 @@ function Reviews() {
             </div>
           ))}
         </div>
+        <div className="review-dots">
+          <span className="review-dot review-dot--active" />
+          <span className="review-dot" />
+          <span className="review-dot" />
+        </div>
       </div>
     </section>
   );
 }
 
-/* ─── LOCATIONS ────────────────────────────────────────── */
-function Locations() {
+/* ═══════════════════════════════════════════════════════════
+   SECTION 3: BROWSE BY CATEGORY — horizontal pill scroll
+   ═══════════════════════════════════════════════════════════ */
+const CATEGORIES = [
+  { label: 'Economy', image: '/img/pexels-1035108.jpg' },
+  { label: 'Mid-Size', image: '/img/pexels-116675.jpg' },
+  { label: 'Premium', image: '/img/pexels-120049.jpg' },
+  { label: 'SUV', image: '/img/pexels-1638459.jpg' },
+  { label: 'City', image: '/img/pexels-1007410.jpg' },
+];
+
+function BrowseByCategory() {
+  const { t, localePath } = useTranslation();
   return (
-    <section className="section" id="locations">
+    <section className="section section--alt" id="categories">
+      <div className="container">
+        <h2 className="section-title" style={{ marginBottom: 24 }}>{t('fleet.browseByCategory')}</h2>
+        <div className="category-scroll">
+          {CATEGORIES.map(cat => (
+            <a key={cat.label} href={localePath('/book')} className="category-card">
+              <img src={cat.image} alt={cat.label} className="category-card__img" />
+              <span className="category-card__label">{cat.label}</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 4: BROWSE CARS CTA — search prompt
+   ═══════════════════════════════════════════════════════════ */
+function BrowseCarsCTA() {
+  const { t, localePath } = useTranslation();
+  return (
+    <section className="showcase-cta">
+      <div className="container">
+        <div className="showcase-cta__inner">
+          <div className="showcase-cta__text">
+            <h2 className="showcase-cta__title">{t('fleet.title')}</h2>
+            <p className="showcase-cta__subtitle">{t('fleet.subtitle')}</p>
+          </div>
+          <a href={localePath('/book')} className="showcase-cta__btn">
+            {t('hero.search')} <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 5: FLEET — LocalRent iframe (kept as-is)
+   ═══════════════════════════════════════════════════════════ */
+function Fleet() {
+  const { t, localePath } = useTranslation();
+  const [iframeHeight, setIframeHeight] = useState(3500);
+
+  useEffect(() => {
+    if (window.innerWidth > 768) setIframeHeight(2480);
+  }, []);
+  const [iframeSrc, setIframeSrc] = useState(null);
+  const fleetRef = useRef(null);
+
+  useEffect(() => {
+    function onMessage(e) {
+      // Ignore widget height messages — use fixed height instead
+      // if (e.data && e.data.type === 'iframeHeight') setIframeHeight(e.data.height);
+    }
+    window.addEventListener('message', onMessage);
+    const obs = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setIframeSrc('/widget.html?city_id=9&hide_search=1&v=12');
+        obs.disconnect();
+      }
+    }, { rootMargin: '600px' });
+    if (fleetRef.current) obs.observe(fleetRef.current);
+    return () => { obs.disconnect(); window.removeEventListener('message', onMessage); };
+  }, []);
+
+  return (
+    <section className="section" id="fleet" ref={fleetRef}>
       <div className="container">
         <div className="section-header">
-          <span className="section-label">Pickup Points</span>
-          <h2 className="section-title">Where Can You Collect?</h2>
-          <p className="section-subtitle">Multiple locations across Montenegro for maximum convenience.</p>
+          <span className="section-label">{t('fleet.ourFleet')}</span>
+          <h2 className="section-title">{t('fleet.title')}</h2>
+          <p className="section-subtitle">{t('fleet.subtitle')}</p>
+        </div>
+        <a href={localePath('/book')} className="fleet-widget-wrap">
+          {iframeSrc && <iframe
+            src={iframeSrc} title="Browse fleet" frameBorder="0" scrolling="no"
+            style={{ width: '100%', height: iframeHeight, border: 'none', display: 'block', pointerEvents: 'none' }}
+          />}
+          <div className="fleet-widget-fade" />
+          <div className="fleet-widget-overlay" />
+        </a>
+        <div className="fleet-book-wrap">
+          <a href={localePath('/book')} className="fleet-book-btn">
+            {t('common.searchCars')} <ArrowRight size={16} />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   FLEET SHOWCASE — per-car guide links (internal SEO, /cars routes)
+   ═══════════════════════════════════════════════════════════ */
+const FLEET_TABS = [
+  { key: 'all',     fallback: 'All' },
+  { key: 'economy', fallback: 'Economy' },
+  { key: 'midsize', fallback: 'Mid-Size' },
+  { key: 'suv',     fallback: 'SUV' },
+];
+
+// Homepage curates 6 of 7 — leave off citroen-c3 (very close in brief to Clio).
+const HOMEPAGE_FLEET_SLUGS = [
+  'renault-megane', 'peugeot-308', 'vw-golf',
+  'kia-stonic', 'renault-clio', 'fiat-500',
+];
+
+function FleetShowcase() {
+  const { t, localePath } = useTranslation();
+  const [activeTab, setActiveTab] = useState('all');
+  const tf = (key, fb) => {
+    const v = t(key);
+    return v && v !== key ? v : fb;
+  };
+  const homepageCars = config.cars.filter(c => HOMEPAGE_FLEET_SLUGS.includes(c.slug));
+  const filtered = activeTab === 'all'
+    ? homepageCars
+    : homepageCars.filter(c => c.typeGroup === activeTab);
+
+  return (
+    <section className="section fleet-showcase" id="fleet-info">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{tf('fleetShowcase.label', 'Know your car')}</span>
+          <h2 className="section-title">{tf('fleetShowcase.title', 'Guides to every car in our Kotor fleet')}</h2>
+          <p className="section-subtitle">{tf('fleetShowcase.subtitle', 'Specs, fuel range, boot size and which car earns its keep on the bay road, the Lovćen serpentine and the Smokovac motorway.')}</p>
         </div>
 
-        <div className="locations-grid">
-          {config.locations.map((loc, i) => (
-            <div key={loc.name} className="location-card reveal-item">
-              <div className="location-card__icon">
-                <MapPin size={18} />
+        <div className="fleet-showcase__tabs" role="tablist">
+          {FLEET_TABS.map(tab => (
+            <button
+              key={tab.key}
+              role="tab"
+              aria-selected={activeTab === tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`fleet-showcase__tab${activeTab === tab.key ? ' fleet-showcase__tab--active' : ''}`}
+            >
+              {tf(`fleetShowcase.tabs.${tab.key}`, tab.fallback)}
+            </button>
+          ))}
+        </div>
+
+        <div className="fleet-showcase__strip">
+          {filtered.map((car) => {
+            const tk = (sub, fb) => {
+              const val = t(`cars.${car.slug}.${sub}`);
+              return val && val !== `cars.${car.slug}.${sub}` ? val : fb;
+            };
+            const name = tk('name', car.name);
+            const category = tk('category', car.category);
+            return (
+              <a
+                key={car.slug}
+                href={localePath(`/cars/${car.slug}`)}
+                className="fleet-showcase__chip"
+                title={tk('tagline', car.tagline)}
+              >
+                <div className="fleet-showcase__chip-img" style={{ backgroundImage: `url(${car.image})` }} />
+                <div className="fleet-showcase__chip-body">
+                  <div className="fleet-showcase__chip-cat">{category}</div>
+                  <div className="fleet-showcase__chip-name">{name}</div>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+
+        <div className="fleet-showcase__all">
+          <a href={localePath('/cars')} className="fleet-showcase__all-link">
+            {tf('fleetShowcase.viewAll', 'See all fleet guides')} <ArrowRight size={14} />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 6: USP STRIP — horizontal feature icons
+   ═══════════════════════════════════════════════════════════ */
+function USPStrip() {
+  const { t } = useTranslation();
+  const items = [
+    { icon: MapPin, key: 'airportPickup' },
+    { icon: ShieldCheck, key: 'fullInsurance' },
+    { icon: Clock, key: 'support' },
+    { icon: Ban, key: 'noHiddenFees' },
+  ];
+  return (
+    <section className="usp-strip" id="features">
+      <div className="container">
+        <div className="usp-scroll">
+          {items.map((item) => (
+            <div key={item.key} className="usp-item">
+              <div className="usp-item__icon"><item.icon size={20} /></div>
+              <div className="usp-item__text">
+                <strong>{t(`featureCards.${item.key}.title`)}</strong>
+                <span>{t(`featureCards.${item.key}.desc`)}</span>
               </div>
-              <div className="location-card__info">
-                <div className="location-card__name">{loc.name}</div>
-                {loc.tag ? <span className="location-card__tag">{loc.tag}</span> : null}
-              </div>
-              <ChevronRight size={16} className="location-card__arrow" />
             </div>
           ))}
         </div>
@@ -611,20 +504,335 @@ function Locations() {
   );
 }
 
-/* ─── FAQ ──────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   SECTION 7: DESTINATIONS — tabbed image cards (Cities / Airports)
+   ═══════════════════════════════════════════════════════════ */
+function Destinations() {
+  const { t, localePath } = useTranslation();
+  const [tab, setTab] = useState('cities');
+
+  const cities = config.destinations.filter(d => !d.slug.includes('airport'));
+  const airports = config.destinations.filter(d => d.slug.includes('airport'));
+
+  return (
+    <section className="section" id="destinations">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t("destinations.label")}</span>
+          <h2 className="section-title">{t('destinations.title')}</h2>
+        </div>
+        <div className="dest-tabs">
+          <button className={`dest-tab${tab === 'cities' ? ' dest-tab--active' : ''}`} onClick={() => setTab('cities')}>{t('fleet.tabCities')}</button>
+          <button className={`dest-tab${tab === 'airports' ? ' dest-tab--active' : ''}`} onClick={() => setTab('airports')}>{t('fleet.tabAirports')}</button>
+          <button className={`dest-tab${tab === 'drives' ? ' dest-tab--active' : ''}`} onClick={() => setTab('drives')}>{t('fleet.tabScenic')}</button>
+        </div>
+
+        {tab !== 'drives' ? (
+          <div className="dest-card-scroll">
+            {(tab === 'cities' ? cities : airports).map(dest => (
+              <a key={dest.slug} href={localePath(`/${dest.slug}`)} className="dest-image-card">
+                <div className="dest-image-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
+                <div className="dest-image-card__name">{t(`destCards.${dest.slug}.name`) || dest.name}</div>
+              </a>
+            ))}
+          </div>
+        ) : (
+          <div className="routes-grid">
+            {ROUTE_IMAGES.map((route, i) => (
+              <a key={i} href={localePath(route.href)} className="route-card">
+                <div className="route-card__img" style={{ backgroundImage: `url(${route.image})` }}>
+                  <div className="route-card__badge">{t(`popularRoutes.items.${i}.time`)} · {t(`popularRoutes.items.${i}.distance`)}</div>
+                </div>
+                <div className="route-card__body">
+                  <h3 className="route-card__title">{t(`popularRoutes.items.${i}.title`)}</h3>
+                  <p className="route-card__desc">{t(`popularRoutes.items.${i}.desc`)}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION: POPULAR ROUTES — scenic driving cards
+   ═══════════════════════════════════════════════════════════ */
+// Images + hrefs stay in code; title/desc/time/distance come from translations.
+const ROUTE_IMAGES = [
+  { image: '/img/perast-village.webp', href: '/perast' },
+  { image: '/img/budva-from-kotor.webp', href: '/budva' },
+  { image: '/img/lovcen-mountain.webp', href: '/blog/kotor-to-cetinje-drive' },
+  { image: '/img/dubrovnik-nearby.webp', href: '/dubrovnik-airport' },
+];
+
+function PopularRoutes() {
+  const { t, localePath } = useTranslation();
+  return (
+    <section className="section" id="routes">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('popularRoutes.label')}</span>
+          <h2 className="section-title">{t('popularRoutes.title')}</h2>
+          <p className="section-subtitle">{t('popularRoutes.subtitle')}</p>
+        </div>
+        <div className="routes-grid">
+          {ROUTE_IMAGES.map((route, i) => (
+            <a key={i} href={localePath('/book')} className="route-card">
+              <div className="route-card__img" style={{ backgroundImage: `url(${route.image})` }}>
+                <div className="route-card__badge">{t(`popularRoutes.items.${i}.time`)} · {t(`popularRoutes.items.${i}.distance`)}</div>
+              </div>
+              <div className="route-card__body">
+                <h3 className="route-card__title">{t(`popularRoutes.items.${i}.title`)}</h3>
+                <p className="route-card__desc">{t(`popularRoutes.items.${i}.desc`)}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION: HOW IT WORKS — 3 steps
+   ═══════════════════════════════════════════════════════════ */
+function HowItWorks() {
+  const { t } = useTranslation();
+  return (
+    <section className="section section--alt" id="how-it-works">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('howItWorks.label')}</span>
+          <h2 className="section-title">{t('howItWorks.title')}</h2>
+        </div>
+        <div className="steps-grid">
+          {[1, 2, 3].map(n => (
+            <div key={n} className="step-card">
+              <div className="step-card__number">{n}</div>
+              <h3 className="step-card__title">{t(`howItWorks.stepsTitle${n}`)}</h3>
+              <p className="step-card__desc">{t(`howItWorks.stepsDesc${n}`)}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION: STATS — counter strip
+   ═══════════════════════════════════════════════════════════ */
+function AnimatedNumber({ target, suffix = '', decimals = 0 }) {
+  const [count, setCount] = useState(0);
+  const ref = useRef(null);
+  const started = useRef(false);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    const obs = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting && !started.current) {
+        started.current = true;
+        const duration = 2000;
+        const start = performance.now();
+        function tick(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          setCount(parseFloat((eased * target).toFixed(decimals)));
+          if (progress < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      }
+    }, { threshold: 0.3 });
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [target, decimals]);
+
+  return <span ref={ref}>{count}{suffix}</span>;
+}
+
+function Stats() {
+  const { t } = useTranslation();
+  return (
+    <section className="stats-strip">
+      <div className="container">
+        <div className="stats-grid">
+          <div className="stat-item">
+            <div className="stat-item__number"><AnimatedNumber target={200} suffix="+" /></div>
+            <div className="stat-item__label">{t('statsLabels.vehiclesAvailable')}</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-item__number"><AnimatedNumber target={28} /></div>
+            <div className="stat-item__label">{t('statsLabels.pickupLocations')}</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-item__number"><AnimatedNumber target={4.8} decimals={1} /></div>
+            <div className="stat-item__label">{t('statsLabels.customerRating')}</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-item__number"><AnimatedNumber target={5} /></div>
+            <div className="stat-item__label">{t('statsLabels.countriesPermitted')}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION: INSIDER TIPS — photo cards with travel advice
+   ═══════════════════════════════════════════════════════════ */
+// Images stay in code; tag/title/text come from translations.
+const TIP_IMAGES = ['/img/tivat-airport.webp', '/img/lovcen-mountain.webp', '/img/dubrovnik-nearby.webp'];
+
+function InsiderTips() {
+  const { t } = useTranslation();
+  return (
+    <section className="section section--alt" id="tips">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('insiderTips.label')}</span>
+          <h2 className="section-title">{t('insiderTips.title')}</h2>
+        </div>
+        <div className="tips-grid">
+          {TIP_IMAGES.map((image, i) => (
+            <div key={i} className="tip-card">
+              <div className="tip-card__img" style={{ backgroundImage: `url(${image})` }}>
+                <span className="tip-card__tag">{t(`insiderTips.items.${i}.tag`)}</span>
+              </div>
+              <div className="tip-card__body">
+                <h3 className="tip-card__title">{t(`insiderTips.items.${i}.title`)}</h3>
+                <p className="tip-card__text">{t(`insiderTips.items.${i}.text`)}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 8: BLOG CARDS
+   ═══════════════════════════════════════════════════════════ */
+const blogPosts = [
+  { key: 'churches', image: '/img/blog-kotor-walls.webp', href: '/blog/kotor-hidden-churches' },
+  { key: 'vrmac', image: '/img/blog-lovcen-road.webp', href: '/blog/vrmac-ridge-trail' },
+  { key: 'swimming', image: '/img/blog-bay-boat.webp', href: '/blog/bay-of-kotor-swimming' },
+];
+
+function BlogCards() {
+  const { t, localePath } = useTranslation();
+  return (
+    <section className="section section--alt" id="blog">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('blogHome.sectionLabel')}</span>
+          <h2 className="section-title">{t('blogHome.sectionTitle')}</h2>
+          <p className="section-subtitle">{t('blogHome.sectionSubtitle')}</p>
+        </div>
+        <div className="blog-grid">
+          {blogPosts.map((post) => (
+            <a key={post.href} href={localePath(post.href)} className="blog-card">
+              <img src={post.image} alt={t(`blogIndex.card_${post.key}_title`)} className="blog-card__img" loading="lazy" />
+              <div className="blog-card__body">
+                <h3 className="blog-card__title">{t(`blogIndex.card_${post.key}_title`)}</h3>
+                <p className="blog-card__excerpt">{t(`blogIndex.card_${post.key}_excerpt`)}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+        <div style={{ textAlign: 'center', marginTop: 24 }}>
+          <a href={localePath('/blog')} className="link-arrow">{t('blogHome.viewAll')} <ArrowRight size={14} /></a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION: EXPERIENCES — internal destination cards
+   ═══════════════════════════════════════════════════════════ */
+// Images + hrefs stay in code; title/location come from translations.
+const EXPERIENCE_SLOTS = [
+  { image: '/img/perast-village.webp', href: '/perast' },
+  { image: '/img/lovcen-mountain.webp', href: '/blog/kotor-to-cetinje-drive' },
+  { image: '/img/budva-from-kotor.webp', href: '/budva' },
+  { image: '/img/dubrovnik-nearby.webp', href: '/dubrovnik-airport' },
+];
+
+function Experiences() {
+  const { t, localePath } = useTranslation();
+  return (
+    <section className="section" id="experiences">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('experiences.label')}</span>
+          <h2 className="section-title">{t('experiences.title')}</h2>
+          <p className="section-subtitle">{t('experiences.subtitle')}</p>
+        </div>
+        <div className="exp-grid">
+          {EXPERIENCE_SLOTS.map((exp, i) => (
+            <a key={i} href={localePath(exp.href)} className="exp-card">
+              <div className="exp-card__img" style={{ backgroundImage: `url(${exp.image})` }}>
+                <span className="exp-card__badge">{t(`experiences.items.${i}.location`)}</span>
+              </div>
+              <div className="exp-card__body">
+                <h3 className="exp-card__title">{t(`experiences.items.${i}.title`)}</h3>
+                <span className="exp-card__link">{t('experiences.readGuide')} →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION: AFFILIATE PROMO — split layout CTA
+   ═══════════════════════════════════════════════════════════ */
+function RoadTripPromo() {
+  const { t, localePath } = useTranslation();
+  return (
+    <section className="affiliate-promo">
+      <div className="container">
+        <div className="affiliate-promo__inner">
+          <div className="affiliate-promo__text">
+            <span className="section-label" style={{ textAlign: 'left' }}>{t('roadTripPlanner.label')}</span>
+            <h2 className="affiliate-promo__title">{t('roadTripPlanner.title')}</h2>
+            <p className="affiliate-promo__desc">{t('roadTripPlanner.desc') || 'Scenic routes, hidden viewpoints, fuel stops, parking tips, and border crossing advice, written by drivers who know every hairpin on these roads.'}</p>
+            <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
+              <a href={localePath('/blog')} className="affiliate-promo__btn">{t('roadTripPlanner.browseAll')}</a>
+              <a href={localePath('/blog/kotor-to-cetinje-drive')} className="aff-outline-btn">{t('roadTripPlanner.lovcenGuide')}</a>
+            </div>
+          </div>
+          <div className="affiliate-promo__image">
+            <img src="/img/lovcen-mountain.webp" alt="Winding mountain road in Montenegro" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 9: FAQ — accordion
+   ═══════════════════════════════════════════════════════════ */
 function FAQ() {
   const { t } = useTranslation();
   const [open, setOpen] = useState(null);
 
   return (
-    <section className="section section--gray" id="faq">
+    <section className="section" id="faq">
       <div className="container">
         <div className="section-header">
           <span className="section-label">{t("faq.label")}</span>
           <h2 className="section-title">{t("faq.title")}</h2>
           <p className="section-subtitle">{t("faq.subtitle")}</p>
         </div>
-
         <div className="faq-list">
           {[0, 4].map(start => (
             <div key={start} className="faq-column">
@@ -633,21 +841,12 @@ function FAQ() {
                 const isOpen = open === i;
                 return (
                   <div key={i} className={`faq-item${isOpen ? ' faq-item--open' : ''}`}>
-                    <button
-                      className="faq-question"
-                      onClick={() => setOpen(isOpen ? null : i)}
-                      aria-expanded={isOpen}
-                    >
+                    <button className="faq-question" onClick={() => setOpen(isOpen ? null : i)} aria-expanded={isOpen}>
                       <span>{t(`faqItems.${i}.q`)}</span>
-                      <ChevronDown
-                        size={18}
-                        className={`faq-chevron${isOpen ? ' faq-chevron--open' : ''}`}
-                      />
+                      <ChevronDown size={18} className={`faq-chevron${isOpen ? ' faq-chevron--open' : ''}`} />
                     </button>
                     <div className={`faq-answer-wrap${isOpen ? ' open' : ''}`}>
-                      <div>
-                        <p className="faq-answer">{t(`faqItems.${i}.a`)}</p>
-                      </div>
+                      <div><p className="faq-answer">{t(`faqItems.${i}.a`)}</p></div>
                     </div>
                   </div>
                 );
@@ -660,24 +859,62 @@ function FAQ() {
   );
 }
 
-/* ─── CTA BANNER ───────────────────────────────────────── */
-function CTABanner() {
+/* ═══════════════════════════════════════════════════════════
+   STICKY BOOKING BAR — appears when hero scrolls out of view
+   ═══════════════════════════════════════════════════════════ */
+function StickyBookingBar() {
   const { t, localePath } = useTranslation();
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const onScroll = () => setVisible(window.scrollY > 700);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
   return (
-    <section className="cta-banner">
-      <div className="cta-banner__inner">
-        <div className="reveal-up">
-          <h2 className="cta-banner__title">{t("cta.title")}</h2>
-          <p className="cta-banner__subtitle">
-            {t('cta.subtitle')}
-          </p>
-          <div className="cta-banner__actions">
-            <a href={localePath("/book")} className="cta-btn--primary" style={{ textDecoration: 'none' }}>
-              {t('cta.browseFleet')} <ArrowRight size={16} />
-            </a>
-            <a href="mailto:info@podgoricaairportcarrental.com" className="cta-btn--outline">
-              <Mail size={15} /> info@podgoricaairportcarrental.com
-            </a>
+    <div className={`sticky-bar${visible ? ' sticky-bar--visible' : ''}`}>
+      <div className="sticky-bar__inner">
+        <div className="sticky-bar__text">
+          <strong>{t('ctaBrand.brand')}</strong>
+          <span>{t('ctaBrand.tagline') || 'From €13/day · Tivat Airport pickup'}</span>
+        </div>
+        <a href={localePath('/book')} className="sticky-bar__btn">{t('ctaBrand.searchCars')} <ArrowRight size={14} /></a>
+      </div>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   PRICING COMPARISON — taxi vs rental car
+   ═══════════════════════════════════════════════════════════ */
+function PricingComparison() {
+  const { t } = useTranslation();
+  const withoutItems = [0, 1, 2, 3, 4].map(i => t(`compare.withoutItems.${i}`));
+  const withItems = [0, 1, 2, 3, 4].map(i => t(`compare.withItems.${i}`));
+  return (
+    <section className="section section--alt" id="compare">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('compare.label')}</span>
+          <h2 className="section-title">{t('compare.title')}</h2>
+        </div>
+        <div className="compare-grid">
+          <div className="compare-card compare-card--bad">
+            <div className="compare-card__header">{t('compare.withoutTitle')}</div>
+            <ul className="compare-card__list">
+              {withoutItems.map((item, i) => (
+                <li key={i}><span className="compare-x">✕</span> {item}</li>
+              ))}
+            </ul>
+            <div className="compare-card__total">{t('compare.withoutTotal')}</div>
+          </div>
+          <div className="compare-card compare-card--good">
+            <div className="compare-card__header">{t('compare.withTitle')}</div>
+            <ul className="compare-card__list">
+              {withItems.map((item, i) => (
+                <li key={i}><span className="compare-check">✓</span> {item}</li>
+              ))}
+            </ul>
+            <div className="compare-card__total">{t('compare.withTotal')}</div>
           </div>
         </div>
       </div>
@@ -685,41 +922,81 @@ function CTABanner() {
   );
 }
 
-/* ─── STICKY MOBILE CTA ───────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   DRIVE TIMES MAP — visual hub with radiating destinations
+   ═══════════════════════════════════════════════════════════ */
+function DriveTimesMap() {
+  const { t, localePath } = useTranslation();
+  const hrefs = ['/tivat-airport', '/budva', '/kotor', '/podgorica', '/dubrovnik-airport'];
+  return (
+    <section className="section" id="drive-times">
+      <div className="container">
+        <div className="section-header">
+          <span className="section-label">{t('driveMap.label')}</span>
+          <h2 className="section-title">{t('driveMap.title')}</h2>
+          <p className="section-subtitle">{t('driveMap.subtitle')}</p>
+        </div>
+        <div className="drivemap">
+          <div className="drivemap__center">
+            <div className="drivemap__hub">{t('driveMap.hub')}</div>
+          </div>
+          <div className="drivemap__spokes">
+            {hrefs.map((href, i) => (
+              <a key={i} href={localePath(href)} className="drivemap__spoke">
+                <span className="drivemap__spoke-name">{t(`driveMap.items.${i}.name`)}</span>
+                <span className="drivemap__spoke-time">{t(`driveMap.items.${i}.time`)}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   SECTION 10: CTA BANNER
+   ═══════════════════════════════════════════════════════════ */
+function CTABanner() {
+  const { t, localePath } = useTranslation();
+  return (
+    <section className="cta-banner">
+      <div className="cta-banner__inner">
+        <h2 className="cta-banner__title">{t("cta.title")}</h2>
+        <p className="cta-banner__subtitle">{t('cta.subtitle')}</p>
+        <div className="cta-banner__actions">
+          <a href={localePath("/book")} className="cta-white-btn">
+            {t('cta.browseFleet')} <ArrowRight size={16} />
+          </a>
+          <a href="mailto:info@kotorcarrental.com" className="cta-btn--outline">
+            <Mail size={15} /> info@kotorcarrental.com
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─── UTILITIES ───────────────────────────────────────── */
 function StickyMobileCTA() {
   const { t, localePath } = useTranslation();
   const [visible, setVisible] = useState(false);
-
   useEffect(() => {
-    function onScroll() {
-      setVisible(window.scrollY > 600);
-    }
+    const onScroll = () => setVisible(window.scrollY > 600);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-
   return (
     <div className={`sticky-cta${visible ? ' sticky-cta--visible' : ''}`}>
-      <a href={localePath("/book")} className="sticky-cta__btn">
-        {t('common.bookNow')} <ArrowRight size={16} />
-      </a>
-      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20at%20Podgorica%20Airport." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone">
-        <MessageCircle size={18} />
-      </a>
+      <a href={localePath("/book")} className="sticky-cta__btn">{t('common.bookNow')} <ArrowRight size={16} /></a>
+      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone"><MessageCircle size={18} /></a>
     </div>
   );
 }
 
-/* ─── SCROLL TO TOP ────────────────────────────────────── */
 function WhatsAppFab() {
   return (
-    <a
-      href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20at%20Podgorica%20Airport.`}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="whatsapp-fab"
-      aria-label="Chat on WhatsApp"
-    >
+    <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="whatsapp-fab" aria-label="Chat on WhatsApp">
       <MessageCircle size={22} />
     </a>
   );
@@ -727,71 +1004,43 @@ function WhatsAppFab() {
 
 function ScrollToTop() {
   const [show, setShow] = useState(false);
-
   useEffect(() => {
-    function onScroll() { setShow(window.scrollY > 400); }
+    const onScroll = () => setShow(window.scrollY > 400);
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
-
   if (!show) return null;
-
   return (
-    <button
-      className="scroll-top"
-      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      aria-label="Scroll to top"
-    >
+    <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Scroll to top">
       <ChevronRight size={20} style={{ transform: 'rotate(-90deg)' }} />
     </button>
   );
 }
 
-/* ─── APP ──────────────────────────────────────────────── */
+/* ═══════════════════════════════════════════════════════════
+   APP — Section order matches getrentacar.com
+   ═══════════════════════════════════════════════════════════ */
 export default function App() {
   useGlobalReveal();
-  const { t } = useTranslation();
-
-  // Lock hero height on mount to prevent iOS address bar scroll jump
-  useEffect(() => {
-    if (window.innerWidth <= 768) {
-      document.documentElement.style.setProperty('--hero-h', window.innerHeight + 'px');
-    }
-  }, []);
   return (
     <>
       <Nav />
       <main>
-        <div className="hero-wrapper">
-          <div className="hero-wrapper__bg">
-            {typeof navigator !== 'undefined' && (!navigator.connection || navigator.connection.effectiveType === '4g') && (
-              <video className="hero__video" autoPlay muted loop playsInline preload="auto"
-                onPlaying={e => e.target.classList.add('playing')}
-                ref={el => {
-                  if (!el) return;
-                  el.play().catch(() => {});
-                  setTimeout(() => { if (el.paused) el.play().catch(() => {}); }, 2000);
-                  setTimeout(() => { if (el.paused) el.play().catch(() => {}); }, 5000);
-                }}
-              >
-                <source src="/hero-video.mp4" type="video/mp4" />
-              </video>
-            )}
-          </div>
-          <Hero />
-          <TrustStrip />
-        </div>
-        <Destinations />
+        <Hero />
+        {/* <Reviews /> */}
         <Fleet />
-        <Reviews />
-        <TrustpilotBanner />
-        <BrandLogos />
-        <BeachGuide />
-        <Features />
+        <FleetShowcase />
+        <Destinations />
+        <InsiderTips />
+        <Stats />
+        <BlogCards />
+        <DriveTimesMap />
+        <RoadTripPromo />
         <FAQ />
         <CTABanner />
       </main>
       <Footer />
+      <StickyBookingBar />
       <WhatsAppFab />
       <ScrollToTop />
       <StickyMobileCTA />

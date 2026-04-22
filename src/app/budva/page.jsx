@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import Budva from '@/src/components/pages/Budva';
 
 export async function generateMetadata() {
-  const title = t('en', 'budva.title') + ' | Podgorica Airport Car Rental';
+  const title = t('en', 'budva.title') + ' | Kotor Car Rental';
   const description = t('en', 'budva.seoDesc');
   return {
     title: title,

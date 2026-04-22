@@ -9,12 +9,11 @@ export default function About() {
       title={t("about.title")}
       subtitle={t("about.subtitle")}
       description={t("about.seoDesc")}
-      image="/img/budva-riviera.webp"
+      image="/img/podgorica-bay-aerial.webp"
     >
+      <img src="/img/podgorica-bay-aerial.webp" alt="Podgorica region aerial view from above the fortress walls" loading="lazy" />
       <h2>{t('aboutBody.h1')}</h2>
       <p>{t('aboutBody.p1')}</p>
-
-      <img src="/img/budva-riviera.webp" alt="Budva Riviera coastline with beaches" loading="lazy" />
 
       <h2>{t('aboutBody.h2')}</h2>
       <p>{t('aboutBody.p2')}</p>
@@ -32,8 +31,17 @@ export default function About() {
         <li>{t('aboutBody.promise6')}</li>
       </ul>
 
+      <h2>{t('aboutBody.h6')}</h2>
+      <p>{t('aboutBody.p6')}</p>
+
       <h2>{t('aboutBody.h4')}</h2>
       <p>{t('aboutBody.p4')}</p>
+
+      <h2>{t('aboutBody.h7')}</h2>
+      <p>{t('aboutBody.p7')}</p>
+
+      <h2>{t('aboutBody.h8')}</h2>
+      <p>{t('aboutBody.p8')}</p>
 
       <h2>{t('aboutBody.h5')}</h2>
       <p>{t('aboutBody.p5')}</p>

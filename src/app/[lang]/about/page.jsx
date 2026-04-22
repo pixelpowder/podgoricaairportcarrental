@@ -4,7 +4,7 @@ import About from '@/src/components/pages/About';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'about.title') + ' | Podgorica Airport Car Rental',
+    title: t(lang, 'about.title') + ' | Kotor Car Rental',
     description: t(lang, 'about.seoDesc'),
     alternates: buildAlternates('about', lang),
   };

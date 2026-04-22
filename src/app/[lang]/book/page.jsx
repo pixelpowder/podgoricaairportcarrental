@@ -5,7 +5,7 @@ import BookPage from '@/src/BookPage';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'book.seoTitle') + ' | Podgorica Airport Car Rental',
+    title: t(lang, 'book.seoTitle') + ' | Kotor Car Rental',
     description: t(lang, 'book.seoDesc'),
     alternates: buildAlternates('book', lang),
   };

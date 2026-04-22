@@ -4,7 +4,7 @@ import Privacy from '@/src/components/pages/Privacy';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'privacy.title') + ' | Podgorica Airport Car Rental',
+    title: t(lang, 'privacy.title') + ' | Kotor Car Rental',
     description: t(lang, 'privacy.seoDesc'),
     alternates: buildAlternates('privacy', lang),
   };

@@ -3,7 +3,7 @@ import { t, buildAlternates } from '../metadata';
 import BookPage from '@/src/BookPage';
 
 export async function generateMetadata() {
-  const title = t('en', 'book.seoTitle') + ' | Podgorica Airport Car Rental';
+  const title = t('en', 'book.seoTitle') + ' | Kotor Car Rental';
   const description = t('en', 'book.seoDesc');
   return {
     title: title,
