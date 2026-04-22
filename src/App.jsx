@@ -405,7 +405,7 @@ function Destinations() {
               <div className="dest-card__img" style={{ backgroundImage: `url(${dest.image})` }} />
               <div className="dest-card__overlay">
                 {dest.tag && <span className="dest-card__tag">{t(`destCards.${dest.slug}.tag`) || dest.tag}</span>}
-                <h3 className="dest-card__name">{t(`destCards.${dest.slug}.name`) || dest.name}</h3>
+                <h3 className="dest-card__name">{(() => { const k = `destCards.${dest.slug}.name`; const v = t(k); return v && v !== k ? v : dest.name; })()}</h3>
                 <p className="dest-card__desc">{t(`destCards.${dest.slug}.desc`) || dest.desc}</p>
               </div>
             </a>
