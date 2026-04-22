@@ -56,15 +56,60 @@ const cardLinkStyle = {
 };
 
 const articles = [
-  { key: 'oldtown', image: '/img/blog-budva-old-town-walking.webp', href: '/blog/budva-old-town-walking' },
-  { key: 'stefan', image: '/img/blog-sveti-stefan-viewpoints.webp', href: '/blog/sveti-stefan-viewpoints' },
-  { key: 'beaches', image: '/img/blog-budva-riviera-beach-hop.webp', href: '/blog/budva-riviera-beach-hop' },
-  { key: 'skadar', image: '/img/blog-budva-to-skadar-day.webp', href: '/blog/budva-to-skadar-day' },
-  { key: 'nightlife', image: '/img/blog-budva-nightlife-guide.webp', href: '/blog/budva-nightlife-guide' },
-  { key: 'gastro', image: '/img/blog-budva-gastro-scene.webp', href: '/blog/budva-gastro-scene' },
-  { key: 'petrovac', image: '/img/blog-petrovac-to-buljarica.webp', href: '/blog/petrovac-to-buljarica' },
-  { key: 'rainy', image: '/img/blog-budva-rainy-day.webp', href: '/blog/budva-rainy-day' },
-  { key: 'sunrides', image: '/img/blog-budva-sunrise-sunset.webp', href: '/blog/budva-sunrise-sunset' },
+  {
+    image: '/img/blog-tgd-airport-arrival-guide.webp',
+    href: '/blog/tgd-airport-arrival-guide',
+    title: 'TGD Airport Arrival Guide — From Landing to Driving Out',
+    excerpt: 'The first-hour walkthrough: passport, baggage, SIM cards, rental desks, and the first turn onto the E762.',
+  },
+  {
+    image: '/img/blog-tgd-to-budva-drive.webp',
+    href: '/blog/tgd-to-budva-drive',
+    title: 'TGD to Budva — The Sozina Tunnel Drive',
+    excerpt: 'Route options, the tunnel toll, summer traffic, and the optional Virpazar detour on the way south.',
+  },
+  {
+    image: '/img/blog-tgd-to-kotor-drive.webp',
+    href: '/blog/tgd-to-kotor-drive',
+    title: 'TGD to Kotor — Two Routes from the Airport',
+    excerpt: 'The fast coastal route via Budva vs. the scenic Lovćen serpentine — which to take and when.',
+  },
+  {
+    image: '/img/blog-tgd-to-ulcinj-drive.webp',
+    href: '/blog/tgd-to-ulcinj-drive',
+    title: "TGD to Ulcinj — South to the Albanian-Coast Edge",
+    excerpt: 'The drive via Bar, Velika Plaža, and proximity to the quiet Sukobin border for onward Albania travel.',
+  },
+  {
+    image: '/img/blog-tgd-to-zabljak-durmitor-drive.webp',
+    href: '/blog/tgd-to-zabljak-durmitor-drive',
+    title: 'TGD to Žabljak — The Durmitor Mountain Drive',
+    excerpt: 'Through the Morača Canyon, over the Tara Bridge, and up to one of the highest towns in the Balkans.',
+  },
+  {
+    image: '/img/blog-tgd-to-ostrog-monastery-drive.webp',
+    href: '/blog/tgd-to-ostrog-monastery-drive',
+    title: 'TGD to Ostrog — The Cliffside Monastery Drive',
+    excerpt: 'Across the Bjelopavlići plain and up the switchback climb to the white monastery carved in the rock.',
+  },
+  {
+    image: '/img/blog-tgd-night-arrivals-guide.webp',
+    href: '/blog/tgd-night-arrivals-guide',
+    title: 'TGD Night Arrivals — Handling a Late Landing',
+    excerpt: 'After-hours rental pickup, which drives are reasonable in the dark, and where to overnight near the airport.',
+  },
+  {
+    image: '/img/blog-tgd-to-albania-via-tuzi.webp',
+    href: '/blog/tgd-to-albania-via-tuzi',
+    title: 'TGD to Albania via Tuzi — Hani i Hotit Crossing',
+    excerpt: 'The short road south-east into Albania for Shkodër and Tirana: paperwork, Green Card, and timing.',
+  },
+  {
+    image: '/img/blog-tgd-winter-driving-from-airport.webp',
+    href: '/blog/tgd-winter-driving-from-airport',
+    title: 'TGD Winter Driving — Snow, Ice, and Which Routes Stay Open',
+    excerpt: 'Winter tyres, chain rules, mountain pass status, and the safe default route out of the airport.',
+  },
 ];
 
 export default function BlogIndex() {
@@ -73,7 +118,7 @@ export default function BlogIndex() {
   return (
     <div className="content-page">
       <Nav />
-      <div className="content-hero" style={{ backgroundImage: 'url(/img/blog-budva-old-town-walking.webp)' }}>
+      <div className="content-hero" style={{ backgroundImage: 'url(/img/blog-tgd-airport-arrival-guide.webp)' }}>
         <div className="content-hero__overlay" />
         <div className="content-hero__text">
           <nav className="breadcrumbs">
@@ -81,8 +126,8 @@ export default function BlogIndex() {
             <span className="breadcrumbs__sep">/</span>
             <span>{t('blogIndex.breadcrumbBlog')}</span>
           </nav>
-          <h1 className="content-hero__title">{t('blogIndex.heroTitle')}</h1>
-          <p className="content-hero__subtitle">{t('blogIndex.heroSubtitle')}</p>
+          <h1 className="content-hero__title">Driving Guides from Podgorica Airport</h1>
+          <p className="content-hero__subtitle">Airport-pickup focused route notes from TGD to the coast, the mountains, Ostrog, and across the Albanian border.</p>
         </div>
       </div>
 
@@ -97,39 +142,35 @@ export default function BlogIndex() {
           gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
           gap: '28px',
         }}>
-          {articles.map((article) => {
-            const title = t(`blogIndex.card_${article.key}_title`);
-            const excerpt = t(`blogIndex.card_${article.key}_excerpt`);
-            return (
-              <a
-                key={article.href}
-                href={localePath(article.href)}
-                style={{ ...cardStyle, textDecoration: 'none', color: 'inherit' }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.boxShadow = 'var(--shadow-md)';
-                  e.currentTarget.style.transform = 'translateY(-2px)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
-                  e.currentTarget.style.transform = 'translateY(0)';
-                }}
-              >
-                <img
-                  src={article.image}
-                  alt={title}
-                  style={cardImageStyle}
-                  loading="lazy"
-                />
-                <div style={cardBodyStyle}>
-                  <h2 style={cardTitleStyle}>{title}</h2>
-                  <p style={cardExcerptStyle}>{excerpt}</p>
-                  <span style={cardLinkStyle}>
-                    {t('blogIndex.readGuide')} &rarr;
-                  </span>
-                </div>
-              </a>
-            );
-          })}
+          {articles.map((article) => (
+            <a
+              key={article.href}
+              href={localePath(article.href)}
+              style={{ ...cardStyle, textDecoration: 'none', color: 'inherit' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.boxShadow = 'var(--shadow-md)';
+                e.currentTarget.style.transform = 'translateY(-2px)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
+                e.currentTarget.style.transform = 'translateY(0)';
+              }}
+            >
+              <img
+                src={article.image}
+                alt={article.title}
+                style={cardImageStyle}
+                loading="lazy"
+              />
+              <div style={cardBodyStyle}>
+                <h2 style={cardTitleStyle}>{article.title}</h2>
+                <p style={cardExcerptStyle}>{article.excerpt}</p>
+                <span style={cardLinkStyle}>
+                  {t('blogIndex.readGuide')} &rarr;
+                </span>
+              </div>
+            </a>
+          ))}
         </div>
       </div>
 
