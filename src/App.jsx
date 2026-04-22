@@ -199,7 +199,7 @@ function LocationField({ value, onChange }) {
 function Hero() {
   const { t, localePath } = useTranslation();
   const router = useRouter();
-  const [pickup, setPickup] = useState('Budva');
+  const [pickup, setPickup] = useState('Podgorica');
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
   const [pickupTime, setPickupTime] = useState('10:00');
@@ -319,22 +319,22 @@ function TrustStrip() {
 }
 
 /* ─── STAT COUNTERS ────────────────────────────────────── */
-/* ─── BEACH GUIDE (BUDVA UNIQUE) ──────────────────────── */
+/* ─── DRIVE GUIDE (TGD AIRPORT) ───────────────────────── */
 function BeachGuide() {
   return (
     <section className="section" id="beaches">
       <div className="container">
         <div className="section-header">
-          <span className="section-label">Beach Guide</span>
-          <h2 className="section-title">Beaches Worth the Drive</h2>
-          <p className="section-subtitle">The Budva Riviera has 21 km of coastline. Here are the four beaches our customers visit most.</p>
+          <span className="section-label">Drive Guide</span>
+          <h2 className="section-title">Where to Drive from TGD</h2>
+          <p className="section-subtitle">Podgorica Airport sits at the centre of Montenegro. Four destinations within a couple of hours of the terminal — any direction you point the car.</p>
         </div>
         <div className="beach-grid">
           {[
-            { title: 'Jaz Beach', desc: 'Open sand bay 3 km north of town. Free parking in the upper lot, paid near the water. Summer music festival venue.', distance: '3 km', time: '5 min drive', image: '/img/jaz-beach.webp' },
-            { title: 'Mogren Beach', desc: 'Twin coves connected by a tunnel carved through the cliff. Walking distance from the Old Town walls. Loungers and bar May\u2013Sept.', distance: '0.5 km', time: 'Walk', image: '/img/budva-beach.webp' },
-            { title: 'Be\u010Di\u0107i Beach', desc: 'Long family-friendly sand strip with lifeguards in season. Gentle shallow entry, ideal for children. Ample paid parking.', distance: '2 km', time: '5 min', image: '/img/becici-beach.webp' },
-            { title: 'Sveti Stefan', desc: 'The iconic fortified island village. Public beach on the mainland side. Best photographed from the viewpoint above the road.', distance: '6 km', time: '10 min', image: '/img/sveti-stefan.webp' },
+            { title: 'Budva Riviera', desc: 'The main coastal resort strip. South via the Sozina tunnel — the fastest route from the airport to the Adriatic.', distance: '90 km', time: '1 hr 10 min', image: '/img/blog-tgd-to-budva-drive.webp' },
+            { title: 'Kotor Bay', desc: 'UNESCO walled town on a mountain-ringed fjord. Longer drive but the scenic payoff at the bay mouth is the single best arrival view in the country.', distance: '100 km', time: '1 hr 40 min', image: '/img/blog-tgd-to-kotor-drive.webp' },
+            { title: 'Durmitor / \u017Dabljak', desc: 'High mountains north via the Mora\u010Da Canyon — Black Lake, Tara Bridge, winter skiing. The big landscape trip from the airport.', distance: '170 km', time: '3 hr', image: '/img/blog-tgd-to-zabljak-durmitor-drive.webp' },
+            { title: 'Ostrog Monastery', desc: 'Cliff-built pilgrimage monastery one hour north. Easy half-day from a midday TGD arrival.', distance: '50 km', time: '1 hr', image: '/img/blog-tgd-to-ostrog-monastery-drive.webp' },
           ].map((beach) => (
             <div key={beach.title} className="beach-card reveal-item">
               {beach.image && <img src={beach.image} alt={beach.title} className="beach-card__image" loading="lazy" />}
@@ -703,7 +703,7 @@ function StickyMobileCTA() {
       <a href={localePath("/book")} className="sticky-cta__btn">
         {t('common.bookNow')} <ArrowRight size={16} />
       </a>
-      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Budva." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone">
+      <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20at%20Podgorica%20Airport." target="_blank" rel="noopener noreferrer" className="sticky-cta__phone">
         <MessageCircle size={18} />
       </a>
     </div>
@@ -714,7 +714,7 @@ function StickyMobileCTA() {
 function WhatsAppFab() {
   return (
     <a
-      href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Budva.`}
+      href={`https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20at%20Podgorica%20Airport.`}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-fab"
