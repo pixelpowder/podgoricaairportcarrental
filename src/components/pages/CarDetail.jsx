@@ -42,50 +42,50 @@ const INLINE_PHOTOS = {
 // same photo.
 const RELATED = {
   'vw-polo': [
-    { href: '/blog/podgorica-hidden-churches',    img: '/img/blog-our-lady-rocks.webp',  title: 'Secret Churches of Podgorica' },
-    { href: '/blog/vrmac-ridge-trail',        img: '/img/blog-vrmac-inline.webp',    title: 'Hiking the Komovi Ridge' },
-    { href: '/blog/bay-of-podgorica-swimming',    img: '/img/blog-podgorica-bay-winter.webp',title: 'Best Swimming Spots' },
+    { href: '/blog/first-hour-tgd-arrivals',      img: '/img/blog-tgd-airport-arrival-guide.webp', title: 'First Hour at Podgorica Airport' },
+    { href: '/blog/late-night-tgd-arrival',       img: '/img/blog-tgd-night-arrivals-guide.webp',  title: 'Late-Night Arrivals at TGD' },
+    { href: '/blog/tgd-winter-driving',           img: '/img/blog-tgd-winter-driving-from-airport.webp', title: 'Winter Driving from TGD' },
   ],
   'peugeot-308': [
-    { href: '/blog/podgorica-to-cetinje-drive',   img: '/img/blog-lovcen-road.webp',     title: 'Podgorica to Kolašin drive' },
-    { href: '/border-crossing-guide',          img: '/img/dubrovnik-nearby.webp',    title: 'Border crossing guide' },
-    { href: '/blog/podgorica-food-markets',        img: '/img/blog-podgorica-dining.webp',   title: 'Podgorica food markets' },
+    { href: '/blog/tgd-to-budva-drive',           img: '/img/blog-tgd-to-budva-drive.webp',        title: 'TGD to Budva — the 70 km drive' },
+    { href: '/blog/tgd-to-zabljak-durmitor-drive',img: '/img/blog-tgd-to-zabljak-durmitor-drive.webp', title: 'TGD to Žabljak and Durmitor' },
+    { href: '/blog/tgd-to-albania-via-tuzi',      img: '/img/blog-tgd-to-albania-via-tuzi.webp',   title: 'Crossing to Albania from TGD' },
   ],
   'renault-megane': [
-    { href: '/blog/dobrota-waterfront-walk',  img: '/img/blog-bay-boat.webp',        title: 'Zabjelo waterfront walk' },
-    { href: '/perast',                         img: '/img/perast-village.webp',      title: 'Virpazar' },
-    { href: '/budva',                          img: '/img/budva-from-podgorica.webp',    title: 'Budva' },
+    { href: '/blog/tgd-to-kotor-drive',           img: '/img/blog-tgd-to-kotor-drive.webp',        title: 'TGD to Kotor — the 85 km drive' },
+    { href: '/blog/tgd-to-ostrog-monastery-drive',img: '/img/blog-tgd-to-ostrog-monastery-drive.webp', title: 'TGD to Ostrog Monastery' },
+    { href: '/blog/tgd-to-budva-drive',           img: '/img/blog-tgd-to-budva-drive.webp',        title: 'TGD to Budva' },
   ],
   'kia-stonic': [
-    { href: '/blog/vrmac-ridge-trail',        img: '/img/blog-vrmac-inline.webp',    title: 'Komovi ridge trail' },
-    { href: '/blog/stoliv-abandoned-village', img: '/img/blog-walls-steps.webp',     title: 'Rijeka Crnojevića abandoned village' },
-    { href: '/blog/podgorica-kayak-and-car',      img: '/img/blog-podgorica-photo.webp',     title: 'Podgorica by kayak and car' },
+    { href: '/blog/tgd-to-zabljak-durmitor-drive',img: '/img/blog-tgd-to-zabljak-durmitor-drive.webp', title: 'TGD to Durmitor' },
+    { href: '/blog/tgd-winter-driving',           img: '/img/blog-tgd-winter-driving-from-airport.webp', title: 'Winter Driving from TGD' },
+    { href: '/blog/tgd-to-ostrog-monastery-drive',img: '/img/blog-tgd-to-ostrog-monastery-drive.webp', title: 'TGD to Ostrog' },
   ],
   'vw-golf': [
-    { href: '/blog/podgorica-to-cetinje-drive',   img: '/img/blog-lovcen-road.webp',     title: 'Podgorica to Kolašin drive' },
-    { href: '/border-crossing-guide',          img: '/img/dubrovnik-nearby.webp',    title: 'Border crossing guide' },
-    { href: '/podgorica',                      img: '/img/podgorica-city.webp',      title: 'Podgorica' },
+    { href: '/blog/tgd-to-kotor-drive',           img: '/img/blog-tgd-to-kotor-drive.webp',        title: 'TGD to Kotor' },
+    { href: '/blog/tgd-to-albania-via-tuzi',      img: '/img/blog-tgd-to-albania-via-tuzi.webp',   title: 'Crossing to Albania' },
+    { href: '/blog/duklja-roman-ruins-near-airport', img: '/img/blog-duklja-roman-ruins.webp',     title: 'Duklja Roman ruins' },
   ],
   'toyota-yaris': [
-    { href: '/podgorica',                          img: '/img/podgorica-old-town.webp',      title: 'Podgorica city centre' },
-    { href: '/perast',                         img: '/img/perast-village.webp',      title: 'Virpazar' },
-    { href: '/blog/podgorica-hidden-churches',    img: '/img/blog-our-lady-rocks.webp',  title: 'Podgorica hidden churches' },
+    { href: '/blog/first-hour-tgd-arrivals',      img: '/img/blog-tgd-airport-arrival-guide.webp', title: 'First Hour at TGD' },
+    { href: '/blog/duklja-roman-ruins-near-airport', img: '/img/blog-duklja-roman-ruins.webp',     title: 'Duklja Roman ruins near the airport' },
+    { href: '/blog/late-night-tgd-arrival',       img: '/img/blog-tgd-night-arrivals-guide.webp',  title: 'Late-night arrivals at TGD' },
   ],
   'citroen-c3': [
-    { href: '/blog/dobrota-waterfront-walk',  img: '/img/blog-bay-boat.webp',        title: 'Zabjelo waterfront walk' },
-    { href: '/blog/podgorica-spring-wildflowers', img: '/img/blog-podgorica-aerial.webp',    title: 'Podgorica spring wildflowers' },
-    { href: '/blog/stoliv-abandoned-village', img: '/img/blog-walls-steps.webp',     title: 'Rijeka Crnojevića abandoned village' },
+    { href: '/blog/first-hour-tgd-arrivals',      img: '/img/blog-tgd-airport-arrival-guide.webp', title: 'First Hour at TGD' },
+    { href: '/blog/tgd-to-ostrog-monastery-drive',img: '/img/blog-tgd-to-ostrog-monastery-drive.webp', title: 'TGD to Ostrog' },
+    { href: '/blog/duklja-roman-ruins-near-airport', img: '/img/blog-duklja-roman-ruins.webp',     title: 'Duklja Roman ruins' },
   ],
 };
 
 const ARTICLE_LINKS = {
-  'vw-polo':   { paraIndex: 1, candidates: ['Kolašin', 'Njegoš', 'Kolašin', 'Danilovgrad'],                 href: '/blog/podgorica-to-cetinje-drive' },
-  'peugeot-308':    { paraIndex: 1, candidates: ['Smokovac', 'motorway', 'Podgorica', 'Dubrovnik'],         href: '/border-crossing-guide' },
-  'renault-megane': { paraIndex: 1, candidates: ['Danilovgrad', 'motorway', 'Skadar', 'Kolašin'],                 href: '/blog/podgorica-to-cetinje-drive' },
-  'kia-stonic':     { paraIndex: 1, candidates: ['Gornja Lastva', 'Kolašin', 'Pestingrad', 'Ostrog'],       href: '/blog/vrmac-ridge-trail' },
-  'vw-golf':        { paraIndex: 1, candidates: ['Ostrog', 'Kolašin', 'Žabljak', 'Dubrovnik'],              href: '/blog/podgorica-to-cetinje-drive' },
-  'toyota-yaris':       { paraIndex: 1, candidates: ['Cijevna', 'city centre', 'Virpazar', 'Tuzi'],                    href: '/podgorica' },
-  'citroen-c3':     { paraIndex: 1, candidates: ['Danilovgrad', 'Virpazar', 'Tryphon', 'Stari Mlini'],              href: '/blog/dobrota-waterfront-walk' },
+  'vw-polo':        { paraIndex: 1, candidates: ['airport', 'Podgorica', 'TGD', 'Danilovgrad'],            href: '/blog/first-hour-tgd-arrivals' },
+  'peugeot-308':    { paraIndex: 1, candidates: ['Smokovac', 'motorway', 'Budva', 'Sozina'],               href: '/blog/tgd-to-budva-drive' },
+  'renault-megane': { paraIndex: 1, candidates: ['Kotor', 'Vrmac', 'Sozina', 'motorway'],                  href: '/blog/tgd-to-kotor-drive' },
+  'kia-stonic':     { paraIndex: 1, candidates: ['Durmitor', 'Kolašin', 'Žabljak', 'Ostrog'],              href: '/blog/tgd-to-zabljak-durmitor-drive' },
+  'vw-golf':        { paraIndex: 1, candidates: ['Ostrog', 'Kolašin', 'Žabljak', 'Dubrovnik'],             href: '/blog/tgd-to-ostrog-monastery-drive' },
+  'toyota-yaris':   { paraIndex: 1, candidates: ['Duklja', 'city centre', 'Virpazar', 'Tuzi'],             href: '/blog/duklja-roman-ruins-near-airport' },
+  'citroen-c3':     { paraIndex: 1, candidates: ['Danilovgrad', 'Virpazar', 'Ostrog', 'Bogetići'],         href: '/blog/tgd-to-ostrog-monastery-drive' },
 };
 
 function renderParagraphWithLink(paragraph, rule, localePath, linkLabel) {

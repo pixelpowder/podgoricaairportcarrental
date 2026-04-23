@@ -59,17 +59,17 @@ export default function ContentPage({ title, subtitle, image, description, child
         <div className="related-guides__inner">
           <h2 className="related-guides__title">{t('contentPage.youMightAlsoLike')}</h2>
           <div className="related-guides__cards">
-            <a href={localePath('/blog/kotor-hidden-churches')} className="related-card">
-              <img src="/img/blog-kotor-walls.webp" alt={t('relatedGuides.secretChurches')} loading="lazy" />
-              <span>{t('relatedGuides.secretChurches')}</span>
+            <a href={localePath('/blog/first-hour-tgd-arrivals')} className="related-card">
+              <img src="/img/blog-tgd-airport-arrival-guide.webp" alt="First Hour at Podgorica Airport" loading="lazy" />
+              <span>First Hour at Podgorica Airport</span>
             </a>
-            <a href={localePath('/blog/vrmac-ridge-trail')} className="related-card">
-              <img src="/img/blog-lovcen-road.webp" alt={t('relatedGuides.vrmacRidge')} loading="lazy" />
-              <span>{t('relatedGuides.vrmacRidge')}</span>
+            <a href={localePath('/blog/tgd-to-ostrog-monastery-drive')} className="related-card">
+              <img src="/img/blog-tgd-to-ostrog-monastery-drive.webp" alt="TGD to Ostrog Monastery" loading="lazy" />
+              <span>TGD to Ostrog Monastery</span>
             </a>
-            <a href={localePath('/blog/bay-of-kotor-swimming')} className="related-card">
-              <img src="/img/blog-bay-boat.webp" alt={t('relatedGuides.swimmingSpots')} loading="lazy" />
-              <span>{t('relatedGuides.swimmingSpots')}</span>
+            <a href={localePath('/blog/tgd-to-zabljak-durmitor-drive')} className="related-card">
+              <img src="/img/blog-tgd-to-zabljak-durmitor-drive.webp" alt="TGD to Žabljak and Durmitor" loading="lazy" />
+              <span>TGD to Žabljak and Durmitor</span>
             </a>
           </div>
         </div>

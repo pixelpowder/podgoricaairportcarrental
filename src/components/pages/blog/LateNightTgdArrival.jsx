@@ -1,0 +1,69 @@
+'use client';
+import ContentPage from '../../../ContentPage';
+import useTranslation from '../../../i18n/useTranslation';
+
+export default function LateNightTgdArrival() {
+  const { localePath } = useTranslation();
+  return (
+    <ContentPage
+      title="Landing at Podgorica Airport After Dark — The Post-23:00 Handbook"
+      subtitle="Ryanair and Wizz Air schedule many arrivals after 22:00 — what's open in the terminal, whether to drive on or overnight near the airport, and where to find a 24-hour petrol station"
+      description="Handling a late-night arrival at TGD: what's open after 23:00, whether to push on to the coast, mountain routes after dark, and overnight options in Golubovci and Tuzi when you want to crash near the airport."
+      image="/img/blog-tgd-night-arrivals-guide.webp"
+    >
+      <h2>Why so many TGD flights land after 22:00</h2>
+      <p>Podgorica Airport's late-night slots are a direct consequence of fleet utilisation at the two low-cost carriers that dominate its schedule. Ryanair's FR4557 from London Stansted routinely touches down between 23:40 and 00:10 depending on headwinds. Wizz Air's W6 4372 from London Luton lands around 23:20, and the Budapest W6 3471 often arrives at 22:50. Even the Turkish Airlines evening flight from Istanbul, TK1081, reaches the apron by 21:45 — which is late enough that much of the terminal has already started rolling down the shutters.</p>
+      <p>This matters because the airport's daytime operating rhythm assumes walk-in service at rental desks, an open petrol station on the access road, and a staffed SIM kiosk. None of those assumptions hold after about 22:30. You need a different mental model for the late-night landing, and it starts with a single decision made before the flight: are you sleeping near the airport or pushing on?</p>
+
+      <h2>What is open in the terminal after 22:30</h2>
+      <p>The baggage belt and passport control work whenever a flight arrives, full stop. The CKB ATM in the arrivals hall is a 24-hour machine and reliably dispenses cash through the night. Toilets stay open. The main automatic doors out to the car park also stay open. Everything else closes: the café at around 22:30, the souvenir shop at 21:00, the currency-exchange booth at 22:00, and the Telenor, M:tel, and Yettel SIM kiosks all shut between 21:30 and 22:30 depending on the day of the week. If you need a Montenegrin SIM and your flight lands past 22:00, buy an eSIM package online before you fly or resign yourself to a morning errand.</p>
+      <p>Rental desks operate on a pre-arranged meet-and-greet basis outside daytime hours. Most companies will have a named agent waiting in the arrivals hall holding a sign with your surname or booking reference. Walk-up rentals are effectively unavailable after 23:00 — if your booking has lapsed or you turn up without a reservation, you are overnighting and sorting the car in the morning. Confirm the meet-and-greet arrangement forty-eight hours out; a returned email matters more than an online reservation with no named agent attached.</p>
+
+      <h2>Fuel — the Lukoil question</h2>
+      <p>The Lukoil on the airport access road, which is the first and most useful petrol station during daytime hours, closes between 22:00 and 22:30. By the time your Ryanair passengers reach the car park, it is shut. The nearest 24-hour station is an INA in Tuzi, roughly ten kilometres south-east of the airport on the road to the Albanian border. If your rental car is delivered with a full tank — which is standard — the Lukoil question is moot until morning. If you have been handed a less-than-full car, the INA at Tuzi is your target before anything else; driving any further without a known fuel level is a bad idea at night.</p>
+      <p>An alternative is the 24-hour Jugopetrol on the southern ring road of Podgorica, roughly fifteen kilometres from the terminal. It is on the way to the Sozina tunnel and the coast, so if you are heading to Budva or Bar, it costs nothing extra. If you are heading to the mountains, the Tuzi INA detour adds twenty minutes but means you are fuelled before entering the Morača canyon.</p>
+
+      <h2>The decision tree — push on or sleep nearby</h2>
+      <p>At midnight in the TGD car park, you have four realistic options, and they reward different priorities.</p>
+      <ul>
+        <li><strong>Push on to the coast</strong> — Budva via the M2 south, the Podgorica ring road, and the Sozina tunnel. Around 90 minutes to Budva's old town, 105 to Kotor. The road is lit as far as the ring road, then unlit but well-surfaced. The Sozina toll booth is manned around the clock.</li>
+        <li><strong>Sleep in central Podgorica</strong> — fifteen minutes up the M2. Plenty of hotels take late check-ins if you have confirmed by phone; Hilton Podgorica, CentreVille, and Hotel Podgorica all have night receptions.</li>
+        <li><strong>Sleep in Golubovci or Tuzi</strong> — five to ten minutes from the airport. Golubovci in particular is the budget answer: a handful of small hotels and guesthouses within cycling distance of TGD.</li>
+        <li><strong>Push on to the mountains</strong> — only advisable for experienced mountain drivers in good weather and not at all in the November-to-April window. The Morača canyon road at night is narrow, winding, and dark, and there is no shoulder to pull onto if you tire.</li>
+      </ul>
+
+      <img src="/img/blog-tgd-night-arrivals-guide.webp" alt="Podgorica Airport approach road at night" loading="lazy" />
+
+      <h2>Overnight options close to TGD</h2>
+      <p>If you want to flop into a bed within fifteen minutes of pulling out of the car park, these are the realistic targets. In Golubovci, Hotel Franca and Hotel Centar both sit within five minutes of the terminal on the main street through the village; rooms run €45 to €70 depending on season, and both have been happy to take a midnight arrival if you have called ahead. In Tuzi, Hotel Amore and a cluster of guesthouses offer similar pricing ten minutes south of TGD. The compromise is that neither village gives you a lot to do the next morning beyond a coffee and a supermarket run.</p>
+      <p>Central Podgorica is a fifteen-minute M2 run and gives you a real city in the morning — the Stara Varoš Ottoman quarter, the King Nikola palace, and proper restaurants. Hilton Podgorica near Republic Square is the safest pick for a 01:00 check-in because it has a staffed night reception and a secure car park. Budget travellers will find better value at a handful of apartments rented through the usual platforms; make sure the host has confirmed late check-in by message, not just via a "self-check-in" pretend box.</p>
+
+      <h2>Deer, dogs, and other things on the M2 at night</h2>
+      <p>The twelve-kilometre stretch of M2 between TGD and central Podgorica runs through open farmland. After about 23:00, traffic drops to perhaps one vehicle a minute in each direction, and wildlife moves onto the warm tarmac. Deer crossing signs are not decorative on this road — collisions happen several times a year, and one or two deer on the verge near the Golubovci exit is common enough that locals instinctively drop speed by twenty kilometres an hour through there. Stray dogs are the other nuisance, especially on the slip roads.</p>
+      <p>Drop your speed to 80 km/h through the unlit sections even though the limit is 100, keep your main beam on wherever oncoming traffic permits, and pay more attention to the verges than the centre line. If something does appear, brake hard in a straight line rather than swerving — the concrete median barrier is unforgiving. If you picked up the car for a <a href={localePath('/blog/first-hour-tgd-arrivals')}>noon arrival</a> you get none of this; it is strictly an after-dark problem.</p>
+
+      <h2>Weather at night in the shoulder seasons</h2>
+      <p>October to April, the Zeta plain around TGD generates fog between about 23:00 and 08:00 whenever there is cold air pooling and no wind. Visibility can drop below fifty metres on the M2 approach to the Morača bridge. The airport rarely diverts — Podgorica's CAT I ILS handles it — but your drive does not get the same gift. If you exit the terminal into soup, do not try to push on to the coast; the Morača canyon is a much worse place to encounter the same fog forty minutes later. Sleep in Podgorica or Golubovci and leave at first light.</p>
+      <p>Winter compounds the problem. Black ice on unsalted side roads south of Podgorica is a real thing below about 2°C, and the decision matrix changes substantially in the cold months — the <a href={localePath('/blog/tgd-winter-driving')}>winter-driving guide</a> covers the mandatory-tyre rules, the chain-zone signs north of Kolašin, and which routes simply close after fresh snow.</p>
+
+      <h2>Police, tolls, and night driving practicalities</h2>
+      <p>Montenegrin traffic police set up occasional night checkpoints on the M2 between the airport and Podgorica, most often on Friday and Saturday nights and around public holidays. They are looking for drink-drivers; the legal blood-alcohol limit is 0.03%, which is effectively zero, and they will breathalyse you as a routine. Have your passport, your driving licence, the rental agreement, and the green card insurance document accessible — not buried in a suitcase in the boot.</p>
+      <p>The Sozina tunnel toll booth operates twenty-four hours. Cash in euros, or any Visa or Mastercard, both work. There is no toll between the airport and central Podgorica, and no toll on the Bar–Ulcinj coastal road. If a toll-road app or sticker is suggested at the rental desk, decline it — Montenegro simply does not have the infrastructure that would need.</p>
+
+      <h2>Pair with</h2>
+      <p>For the daytime version of the same journey — what the SIM kiosks sell, which Lukoil is useful, what the ATM dispenses — the <a href={localePath('/blog/first-hour-tgd-arrivals')}>first-hour guide</a> is the companion piece. If your late-night landing falls between November and April, read it alongside the <a href={localePath('/blog/tgd-winter-driving')}>winter-driving handbook</a>; night plus winter is the one combination that genuinely changes the decision about whether to push on at all.</p>
+
+      <div className="route-info">
+        <h3>At a glance</h3>
+        <div className="route-info__grid">
+          <div className="route-info__item"><strong>Typical late arrivals</strong>FR4557 (STN), W6 4372 (LTN), W6 3471 (BUD)</div>
+          <div className="route-info__item"><strong>ATM hours</strong>24 hours</div>
+          <div className="route-info__item"><strong>SIM kiosks</strong>Closed after 21:30–22:30</div>
+          <div className="route-info__item"><strong>Nearest 24h fuel</strong>INA Tuzi, 10 km south</div>
+          <div className="route-info__item"><strong>TGD to Budva</strong>~90 min via Sozina</div>
+          <div className="route-info__item"><strong>Alcohol limit</strong>0.03% BAC (effectively zero)</div>
+        </div>
+      </div>
+    </ContentPage>
+  );
+}

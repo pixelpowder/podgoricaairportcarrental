@@ -563,7 +563,7 @@ function Destinations() {
 const ROUTE_IMAGES = [
   { image: '/img/perast-village.webp', href: '/perast' },
   { image: '/img/budva-from-kotor.webp', href: '/budva' },
-  { image: '/img/lovcen-mountain.webp', href: '/blog/kotor-to-cetinje-drive' },
+  { image: '/img/lovcen-mountain.webp', href: '/blog/tgd-to-ostrog-monastery-drive' },
   { image: '/img/dubrovnik-nearby.webp', href: '/dubrovnik-airport' },
 ];
 
@@ -718,9 +718,24 @@ function InsiderTips() {
    SECTION 8: BLOG CARDS
    ═══════════════════════════════════════════════════════════ */
 const blogPosts = [
-  { key: 'churches', image: '/img/blog-kotor-walls.webp', href: '/blog/kotor-hidden-churches' },
-  { key: 'vrmac', image: '/img/blog-lovcen-road.webp', href: '/blog/vrmac-ridge-trail' },
-  { key: 'swimming', image: '/img/blog-bay-boat.webp', href: '/blog/bay-of-kotor-swimming' },
+  {
+    image: '/img/blog-tgd-airport-arrival-guide.webp',
+    href: '/blog/first-hour-tgd-arrivals',
+    title: 'The First Hour After Landing at Podgorica Airport (TGD)',
+    excerpt: 'Passport control, the rental desk, the ATM, a SIM card, and the exit roundabout — a minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2.',
+  },
+  {
+    image: '/img/blog-tgd-to-ostrog-monastery-drive.webp',
+    href: '/blog/tgd-to-ostrog-monastery-drive',
+    title: 'Podgorica Airport to Ostrog Monastery',
+    excerpt: 'The clifftop pilgrimage monastery is astonishingly close to TGD. The drive, the Lower Monastery fork, and the hairpin climb to the Upper Monastery carved into the rock.',
+  },
+  {
+    image: '/img/blog-tgd-to-zabljak-durmitor-drive.webp',
+    href: '/blog/tgd-to-zabljak-durmitor-drive',
+    title: 'Podgorica Airport to Žabljak and Durmitor',
+    excerpt: 'The new Bar–Boljare motorway section cuts an hour off the old Morača canyon road. TGD to the Durmitor plateau in two hours flat.',
+  },
 ];
 
 function BlogCards() {
@@ -736,10 +751,10 @@ function BlogCards() {
         <div className="blog-grid">
           {blogPosts.map((post) => (
             <a key={post.href} href={localePath(post.href)} className="blog-card">
-              <img src={post.image} alt={t(`blogIndex.card_${post.key}_title`)} className="blog-card__img" loading="lazy" />
+              <img src={post.image} alt={post.title} className="blog-card__img" loading="lazy" />
               <div className="blog-card__body">
-                <h3 className="blog-card__title">{t(`blogIndex.card_${post.key}_title`)}</h3>
-                <p className="blog-card__excerpt">{t(`blogIndex.card_${post.key}_excerpt`)}</p>
+                <h3 className="blog-card__title">{post.title}</h3>
+                <p className="blog-card__excerpt">{post.excerpt}</p>
               </div>
             </a>
           ))}
@@ -758,7 +773,7 @@ function BlogCards() {
 // Images + hrefs stay in code; title/location come from translations.
 const EXPERIENCE_SLOTS = [
   { image: '/img/perast-village.webp', href: '/perast' },
-  { image: '/img/lovcen-mountain.webp', href: '/blog/kotor-to-cetinje-drive' },
+  { image: '/img/lovcen-mountain.webp', href: '/blog/tgd-to-ostrog-monastery-drive' },
   { image: '/img/budva-from-kotor.webp', href: '/budva' },
   { image: '/img/dubrovnik-nearby.webp', href: '/dubrovnik-airport' },
 ];
@@ -806,7 +821,7 @@ function RoadTripPromo() {
             <p className="affiliate-promo__desc">{t('roadTripPlanner.desc') || 'Scenic routes, hidden viewpoints, fuel stops, parking tips, and border crossing advice, written by drivers who know every hairpin on these roads.'}</p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <a href={localePath('/blog')} className="affiliate-promo__btn">{t('roadTripPlanner.browseAll')}</a>
-              <a href={localePath('/blog/kotor-to-cetinje-drive')} className="aff-outline-btn">{t('roadTripPlanner.lovcenGuide')}</a>
+              <a href={localePath('/blog/tgd-to-ostrog-monastery-drive')} className="aff-outline-btn">{t('roadTripPlanner.lovcenGuide')}</a>
             </div>
           </div>
           <div className="affiliate-promo__image">
