@@ -1,7 +1,7 @@
 import { t, buildAlternates, OG_LOCALE } from '../../metadata';
 import FleetIndex from '@/src/components/pages/FleetIndex';
 
-const SITE = 'https://www.kotorcarrental.com';
+const SITE = 'https://www.podgoricaairportcarrental.com';
 
 export async function generateMetadata({ params }) {
   const { lang } = await params;
@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
     : 'Seven multi-day rental cars for Kotor — mid-size wagons, diesel cruisers and a city Fiat. Specs, fuel range, and which car suits day-trips out of the bay.';
   const titleTranslated = t(lang, 'fleetIndex.title');
   const baseTitle = titleTranslated !== 'fleetIndex.title' ? titleTranslated : 'Our Fleet';
-  const title = `${baseTitle} | Kotor Car Rental`;
+  const title = `${baseTitle} | Podgorica Airport Car Rental`;
   return {
     title,
     description,

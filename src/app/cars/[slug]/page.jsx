@@ -14,9 +14,9 @@ export async function generateMetadata({ params }) {
   if (!car) return {};
 
   const meta = carMetas[slug]?.en;
-  const title = meta?.title || `${car.name} Rental in Kotor | Kotor Car Rental`;
+  const title = meta?.title || `${car.name} Rental at Podgorica Airport | Podgorica Airport Car Rental`;
   const description = meta?.desc || `${car.name} rental guide for multi-day Kotor trips.`;
-  const SITE = 'https://www.kotorcarrental.com';
+  const SITE = 'https://www.podgoricaairportcarrental.com';
   return {
     title,
     description,

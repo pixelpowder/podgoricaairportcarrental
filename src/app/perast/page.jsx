@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import Perast from '@/src/components/pages/Perast';
 
 export async function generateMetadata() {
-  const title = t('en', 'perast.title') + ' | Kotor Car Rental';
+  const title = t('en', 'perast.title') + ' | Podgorica Airport Car Rental';
   const description = t('en', 'perast.seoDesc');
   return {
     title: title,

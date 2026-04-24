@@ -4,7 +4,7 @@ import TivatAirport from '@/src/components/pages/TivatAirport';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'tivat-airport.title') + ' | Kotor Car Rental',
+    title: t(lang, 'tivat-airport.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'tivat-airport.seoDesc'),
     alternates: buildAlternates('tivat-airport', lang),
   };

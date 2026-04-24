@@ -1,11 +1,11 @@
 import { t, buildAlternates, OG_LOCALE } from './metadata';
 import HomeClient from '@/src/HomeClient';
 
-const SITE_URL = 'https://www.kotorcarrental.com';
-const SITE_NAME = 'Kotor Car Rental';
+const SITE_URL = 'https://www.podgoricaairportcarrental.com';
+const SITE_NAME = 'Podgorica Airport Car Rental';
 
 export async function generateMetadata() {
-  const title = t('en', 'home.title') + ' | Kotor Car Rental';
+  const title = t('en', 'home.title') + ' | Podgorica Airport Car Rental';
   const description = t('en', 'home.seoDesc');
   return {
     title,

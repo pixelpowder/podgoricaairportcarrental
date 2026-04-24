@@ -70,5 +70,10 @@ export function buildMetadata(lang, titleKey, descKey, slug) {
       locale: OG_LOCALE[resolvedLang] || 'en_US',
       type: 'website',
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: displayTitle,
+      description: desc,
+    },
   };
 }

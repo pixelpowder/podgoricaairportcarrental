@@ -4,7 +4,7 @@ import BorderCrossing from '@/src/components/pages/BorderCrossing';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'border-crossing.title') + ' | Kotor Car Rental',
+    title: t(lang, 'border-crossing.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'border-crossing.seoDesc'),
     alternates: buildAlternates('border-crossing-guide', lang),
   };

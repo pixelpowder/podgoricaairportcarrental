@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import CookiePolicy from '@/src/components/pages/CookiePolicy';
 
 export async function generateMetadata() {
-  const title = t('en', 'cookie-policy.title') + ' | Kotor Car Rental';
+  const title = t('en', 'cookie-policy.title') + ' | Podgorica Airport Car Rental';
   const description = t('en', 'cookie-policy.seoDesc');
   return {
     title: title,

@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import Tivat from '@/src/components/pages/Tivat';
 
 export async function generateMetadata() {
-  const title = t('en', 'tivat.title') + ' | Kotor Car Rental';
+  const title = t('en', 'tivat.title') + ' | Podgorica Airport Car Rental';
   const description = t('en', 'tivat.seoDesc');
   return {
     title: title,

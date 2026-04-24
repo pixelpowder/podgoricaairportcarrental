@@ -4,7 +4,7 @@ import PodgoricaAirport from '@/src/components/pages/PodgoricaAirport';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'podgorica-airport.title') + ' | Kotor Car Rental',
+    title: t(lang, 'podgorica-airport.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'podgorica-airport.seoDesc'),
     alternates: buildAlternates('podgorica-airport', lang),
   };

@@ -2,7 +2,7 @@ import { t, buildAlternates } from '../metadata';
 import BorderCrossing from '@/src/components/pages/BorderCrossing';
 
 export async function generateMetadata() {
-  const title = t('en', 'border-crossing.title') + ' | Kotor Car Rental';
+  const title = t('en', 'border-crossing.title') + ' | Podgorica Airport Car Rental';
   const description = t('en', 'border-crossing.seoDesc');
   return {
     title: title,

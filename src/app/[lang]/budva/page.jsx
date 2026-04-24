@@ -4,7 +4,7 @@ import Budva from '@/src/components/pages/Budva';
 export async function generateMetadata({ params }) {
   const { lang } = await params;
   return {
-    title: t(lang, 'budva.title') + ' | Kotor Car Rental',
+    title: t(lang, 'budva.title') + ' | Podgorica Airport Car Rental',
     description: t(lang, 'budva.seoDesc'),
     alternates: buildAlternates('budva', lang),
   };
