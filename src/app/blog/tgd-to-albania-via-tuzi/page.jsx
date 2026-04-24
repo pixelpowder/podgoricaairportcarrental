@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import TgdToAlbaniaViaTuzi from '@/src/components/pages/blog/TgdToAlbaniaViaTuzi';
 
-const TITLE = "Crossing into Albania from Podgorica Airport — The Tuzi Border Route";
-const DESC = "Driving from Podgorica Airport (TGD) across the Albanian border at Hani i Hotit: the Tuzi approach, paperwork, Green Card insurance, fuel differences, and the first half hour into Albania.";
+const TITLE = "TGD to Albania via Tuzi Border";
+const DESC = "Driving from Podgorica Airport across the Albanian border at Hani i Hotit: the Tuzi approach, paperwork, Green Card insurance, fuel, and the first half hour in.";
 
 export async function generateMetadata() {
   return {

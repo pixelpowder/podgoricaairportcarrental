@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import FirstHourTgdArrivals from '@/src/components/pages/blog/FirstHourTgdArrivals';
 
-const TITLE = "The First Hour After Landing at Podgorica Airport (TGD)";
-const DESC = "A minute-by-minute walk-through of arrival at Podgorica Airport (TGD), from cabin-door to the first fuel station on the motorway — what to expect, what to carry in your phone, and what to skip.";
+const TITLE = "First Hour After Landing at TGD";
+const DESC = "A minute-by-minute walk-through of arrival at Podgorica Airport (TGD), from cabin door to the first motorway fuel station — what to carry, what to skip.";
 
 export async function generateMetadata() {
   return {

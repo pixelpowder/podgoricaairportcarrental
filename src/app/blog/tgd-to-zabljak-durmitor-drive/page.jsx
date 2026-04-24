@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import TgdToZabljakDurmitorDrive from '@/src/components/pages/blog/TgdToZabljakDurmitorDrive';
 
-const TITLE = "Podgorica Airport to Žabljak and Durmitor — The 2-Hour Mountain Drive";
-const DESC = "Driving from Podgorica Airport (TGD) to Žabljak: the new Bar–Boljare motorway section, the Morača canyon alternative, altitude gain, mountain-road fuel planning, and the descent into the Durmitor plateau.";
+const TITLE = "TGD to Žabljak & Durmitor";
+const DESC = "Driving from Podgorica Airport to Žabljak: the new Bar–Boljare motorway section, the Morača canyon alternative, and the descent onto the Durmitor plateau.";
 
 export async function generateMetadata() {
   return {

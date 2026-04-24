@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import TgdWinterDriving from '@/src/components/pages/blog/TgdWinterDriving';
 
-const TITLE = "Winter Driving from Podgorica Airport — November to April";
-const DESC = "Winter driving from Podgorica Airport: mandatory winter tyres/chains dates, which mountain roads close after snowfall, coast versus interior temperature split, and what TGDs winter rental kit includes.";
+const TITLE = "Winter Driving from TGD (Nov–Apr)";
+const DESC = "Winter driving from Podgorica Airport: mandatory winter tyre and chain dates, which mountain roads close after snowfall, and what the TGD winter kit includes.";
 
 export async function generateMetadata() {
   return {

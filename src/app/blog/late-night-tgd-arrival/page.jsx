@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import LateNightTgdArrival from '@/src/components/pages/blog/LateNightTgdArrival';
 
-const TITLE = "Landing at Podgorica Airport After Dark — The Post-23:00 Handbook";
-const DESC = "Handling a late-night arrival at TGD: what is open after 23:00, whether to push on to the coast, mountain routes after dark, and overnight options in Golubovci and Tuzi when you want to crash near the airport.";
+const TITLE = "Late-Night Arrival at TGD Airport";
+const DESC = "Handling a post-23:00 arrival at TGD: what stays open, whether to push on to the coast, mountain routes after dark, and overnight options in Golubovci or Tuzi.";
 
 export async function generateMetadata() {
   return {

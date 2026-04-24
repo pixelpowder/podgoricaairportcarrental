@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import DukljaRomanRuinsNearAirport from '@/src/components/pages/blog/DukljaRomanRuinsNearAirport';
 
-const TITLE = "Duklja (Doclea) — The Roman City Five Kilometres from Your Runway";
-const DESC = "A driving guide to Duklja/Doclea Roman ruins near Podgorica Airport: the forum, the basilica, the thermal baths, how to reach the site, and why most visitors fly over it without knowing it is there.";
+const TITLE = "Duklja Roman Ruins near TGD Airport";
+const DESC = "A driving guide to Duklja/Doclea Roman ruins near Podgorica Airport: the forum, basilica, thermal baths, and how to reach the site in under ten minutes.";
 
 export async function generateMetadata() {
   return {

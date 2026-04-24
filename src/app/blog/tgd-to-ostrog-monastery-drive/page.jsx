@@ -1,8 +1,8 @@
 import { buildAlternates } from '../../metadata';
 import TgdToOstrogMonasteryDrive from '@/src/components/pages/blog/TgdToOstrogMonasteryDrive';
 
-const TITLE = "Podgorica Airport to Ostrog Monastery — The 45-Minute Airport Pilgrimage";
-const DESC = "Driving from Podgorica Airport (TGD) to Ostrog Monastery: the E80 motorway exit, the Bogetići turnoff, the Lower Monastery fork, and the steep switchback road to the Upper Monastery carved into the cliff.";
+const TITLE = "TGD to Ostrog Monastery (45 min)";
+const DESC = "Driving from Podgorica Airport to Ostrog Monastery: the E80 exit, Bogetići turnoff, Lower Monastery fork, and the steep switchback up to the cliffside shrine.";
 
 export async function generateMetadata() {
   return {
