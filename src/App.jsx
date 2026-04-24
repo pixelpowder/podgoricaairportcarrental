@@ -398,8 +398,7 @@ const FLEET_TABS = [
 
 // Homepage curates 6 of 7 — leave off citroen-c3 (very close in brief to Clio).
 const HOMEPAGE_FLEET_SLUGS = [
-  'renault-megane', 'peugeot-308', 'vw-golf',
-  'kia-stonic', 'renault-clio', 'fiat-500',
+  'renault-megane', 'peugeot-308', 'vw-golf', 'kia-stonic', 'renault-clio', 'fiat-500', 'citroen-c3',
 ];
 
 function FleetShowcase() {
