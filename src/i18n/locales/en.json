@@ -16,7 +16,7 @@
     "emailUs": "Email Us"
   },
   "hero": {
-    "headline": "Podgorica Airport Car Rental. Rent Local for Less.",
+    "headline": "Podgorica Airport Car Rental. Keys at TGD, Zeta Plain at Your Feet.",
     "badges": {
       "freeCancellation": "Free Cancellation",
       "fullInsurance": "Full Insurance Included",
@@ -32,15 +32,15 @@
     "dropoffTime": "Time",
     "selectDates": "Select dates",
     "headlineMain": "Podgorica Airport Car Rental.",
-    "headlineSub": "Rent Local for Less."
+    "headlineSub": "Keys at TGD, Zeta Plain at Your Feet."
   },
   "trust": {
     "noHiddenFees": "No Hidden Fees",
     "noHiddenFeesDesc": "The price on your confirmation is the price you pay at collection, zero surprise charges, zero add-ons",
     "fullInsurance": "Full Insurance",
-    "fullInsuranceDesc": "CDW and liability on every vehicle, plus a zero-excess upgrade for mountain roads and narrow city centre lanes",
-    "fastPickup": "Podgorica Airport",
-    "fastPickupDesc": "Collect your car 8 km from Podgorica's medieval walls, on the capital road in under fifteen minutes"
+    "fullInsuranceDesc": "CDW and liability on every vehicle, plus a zero-excess upgrade for the Morača canyon and tight Stara Varoš lanes",
+    "fastPickup": "Podgorica Airport (TGD)",
+    "fastPickupDesc": "Collect your car 12 km south of Podgorica's centre, on the motorway north in under fifteen minutes"
   },
   "stats": {
     "years": "Years Experience",
@@ -51,19 +51,19 @@
   "howItWorks": {
     "label": "How It Works",
     "title": "On the Road in 3 Steps",
-    "subtitle": "Simple booking. Instant confirmation. No queues at the airport.",
+    "subtitle": "Simple booking. Instant confirmation. No queues at TGD arrivals.",
     "step1Title": "Choose Your Location",
-    "step1Desc": "Pick up at Podgorica Airport, Podgorica city centre, Virpazar, Budva, or any of 28+ locations across Montenegro.",
+    "step1Desc": "Pick up at Podgorica Airport (TGD), Podgorica city centre, Virpazar, Cetinje, or any of 28+ locations across Montenegro.",
     "step2Title": "Pick Your Car",
     "step2Desc": "Browse our fleet from economy runabouts to premium SUVs. Filter by size, transmission, or budget.",
     "step3Title": "Drive the Podgorica region",
-    "step3Desc": "We meet you at arrivals or your hotel. Your car is ready. Explore the capital, mountains, and historic towns.",
+    "step3Desc": "We meet you at TGD arrivals or your hotel. Your car is ready. Explore the capital, Ostrog, Skadar, and the Durmitor plateau.",
     "stepsTitle1": "Search & Compare",
     "stepsDesc1": "Pick your dates and location. Browse real-time prices from local providers across Montenegro.",
     "stepsTitle2": "Book Instantly",
     "stepsDesc2": "Reserve online in minutes. Free cancellation on most vehicles. No credit card tricks.",
     "stepsTitle3": "Collect & Drive",
-    "stepsDesc3": "Your car waits at Podgorica Airport or Podgorica city centre. Keys in hand, motorway ahead."
+    "stepsDesc3": "Your car waits at Podgorica Airport (TGD) or in the capital centre. Keys in hand, Zeta plain ahead."
   },
   "fleet": {
     "label": "Our Fleet",
@@ -81,17 +81,17 @@
   "destinations": {
     "label": "Top Destinations",
     "title": "Explore from Podgorica",
-    "subtitle": "From the UNESCO city centre to Virpazar, Budva, and the mountains, everything is within easy reach."
+    "subtitle": "From the capital's old core to Lake Skadar, Ostrog, and the Morača canyon, everything is within easy reach of TGD."
   },
   "features": {
     "label": "Why Choose Us",
-    "title": "Built for Travellers",
-    "subtitle": "Everything you need for a stress-free car rental in the Podgorica region."
+    "title": "Built for the Zeta Plain",
+    "subtitle": "Everything you need for a stress-free pickup at TGD and a week of inland driving."
   },
   "reviews": {
     "label": "Reviews",
     "title": "Loved by Travellers",
-    "subtitle": "Real experiences from real customers exploring Podgorica and the capital."
+    "subtitle": "Real experiences from drivers who've picked up at TGD and fanned out across the capital region."
   },
   "faq": {
     "label": "FAQ",
@@ -99,13 +99,13 @@
     "subtitle": "Everything you need to know before you book."
   },
   "cta": {
-    "title": "Ready to Explore the Podgorica region?",
-    "subtitle": "Book in minutes. Pick up at Podgorica Airport or Podgorica city centre. Drive the Montenegrin capital, Virpazar, and the Adriatic coast at your own pace.",
+    "title": "Ready to Explore Inland Montenegro?",
+    "subtitle": "Book in minutes. Pick up at Podgorica Airport (TGD) and drive to Ostrog, Skadar, or the Durmitor plateau at your own pace.",
     "browseFleet": "Browse Fleet"
   },
   "sidebar": {
     "bookTitle": "Book Your Car",
-    "bookText": "Search real-time availability and prices for Podgorica and the capital.",
+    "bookText": "Search real-time availability and prices for Podgorica, TGD airport, and the Zeta plain.",
     "helpTitle": "Need Help?",
     "helpText": "Our team is available via WhatsApp, Viber, or phone.",
     "popularDest": "Popular Destinations",
@@ -115,10 +115,10 @@
   "book": {
     "title": "Find Your Car",
     "seoTitle": "Book a Car in Podgorica",
-    "seoDesc": "Weekly and monthly rental cars for Podgorica and the the Zeta plain. Insurance included, Podgorica Airport handover, and one flat price for the whole stay."
+    "seoDesc": "Weekly and monthly rental cars for Podgorica and the Zeta plain. Insurance included, Podgorica Airport (TGD) handover, and one flat price for the whole stay."
   },
   "footer": {
-    "brandDesc": "Podgorica monthly car rental with airport handover, comprehensive insurance, and predictable week on week pricing for extended the Zeta plain stays.",
+    "brandDesc": "Podgorica monthly car rental with TGD airport handover, comprehensive insurance, and predictable week-on-week pricing for extended Zeta plain stays.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "locations": "Locations",
@@ -140,18 +140,18 @@
   "notFound": {
     "code": "404",
     "title": "Wrong Turn",
-    "text": "This road leads nowhere, but the the Zeta plain's finest driving routes are just a click away.",
+    "text": "This road leads nowhere, but the Zeta plain's finest driving routes are just a click away.",
     "backHome": "Back to Home",
     "searchCars": "Search Cars"
   },
   "home": {
-    "seoDesc": "Long term car rental in Podgorica with monthly rates, insurance and CDW already baked in. Podgorica Airport handover 8 km away, no daily excess deposit surprises.",
+    "seoDesc": "Long-term car rental in Podgorica with monthly rates, insurance and CDW baked in. Podgorica Airport (TGD) handover 12 km south of the capital, no daily excess deposit surprises.",
     "title": "Car Rental in Podgorica. Monthly Rates, Insurance Included."
   },
   "about": {
     "title": "About Us",
-    "subtitle": "Car rental in Podgorica with Podgorica Airport pickup",
-    "seoDesc": "Podgorica rentals built for the long haul: weekly and monthly rates, insurance bundled in, Podgorica Airport collection, and support for expats staying the season.",
+    "subtitle": "Car rental in the Montenegrin capital with TGD airport pickup, 12 km from the city.",
+    "seoDesc": "Podgorica rentals built for the long haul: weekly and monthly rates, insurance bundled in, TGD airport collection 12 km from the centre, and support for expats staying the whole season.",
     "heading1": "Podgorica Airport Car Rental",
     "p1": "Podgorica Airport Car Rental connects travellers with reliable rental cars in the Podgorica region. We work with trusted local operators to offer a range of vehicles, from compact city cars for old town lanes to 4x4s for the mountain road to Ostrog.",
     "heading2": "Why a Car Makes Sense in Podgorica",
@@ -219,23 +219,23 @@
   },
   "montenegro": {
     "title": "Montenegro Driving Guide",
-    "subtitle": "Bay roads, mountain switchbacks, and border crossings, from a driver who has covered them all from a Podgorica base.",
-    "seoDesc": "Montenegro monthly car rental based in Podgorica: unlimited km for inland trips to Durmitor, Skadar Lake, Ostrog. Long-stay insurance, four-season tyres."
+    "subtitle": "Mountain switchbacks, canyon roads, and border crossings, from a driver who has covered them all from a Podgorica base.",
+    "seoDesc": "Montenegro monthly car rental based in Podgorica: unlimited km for inland trips to Durmitor, Skadar Lake, and Ostrog. Long-stay insurance, four-season tyres."
   },
   "border-crossing": {
     "title": "Driving Across Borders from Podgorica",
-    "subtitle": "Five borders within driving range of Podgorica. Here is what each one demands.",
-    "seoDesc": "Cross-border rental from Podgorica: Croatia 45 km via Debeli Brijeg, Albania 200 km via Sukobin, Bosnia via Trebinje. Full green card coverage."
+    "subtitle": "Five borders within driving range of TGD. Here is what each one demands.",
+    "seoDesc": "Cross-border rental from Podgorica: Albania 30 km via Božaj, Croatia via Debeli Brijeg, Bosnia via Šćepan Polje. Full Green Card coverage."
   },
   "privacy": {
     "title": "Privacy Policy",
     "subtitle": "How we handle your information.",
-    "seoDesc": "How Podgorica Airport Car Rental manages your data. What we store when you search for the Zeta plain rentals, and how your booking details remain protected."
+    "seoDesc": "How Podgorica Airport Car Rental manages your data. What we store when you search for Zeta plain rentals, and how your booking details remain protected."
   },
   "terms": {
     "title": "Terms & Conditions",
     "subtitle": "Terms of use for our website.",
-    "seoDesc": "Booking terms for Podgorica Airport Car Rental. Covers Podgorica city centre and Podgorica Airport collection, cancellation windows, insurance specifics, and supplier liability."
+    "seoDesc": "Booking terms for Podgorica Airport Car Rental. Covers Podgorica city centre and TGD airport collection, cancellation windows, insurance specifics, and supplier liability."
   },
   "cookie-policy": {
     "title": "Cookie Policy",
@@ -244,28 +244,28 @@
   },
   "featureCards": {
     "airportPickup": {
-      "title": "Podgorica Airport Collection",
-      "desc": "Your vehicle waits outside Podgorica arrivals, just 8 km from the medieval walls. On the capital road to Podgorica within minutes of touching down."
+      "title": "Podgorica Airport (TGD) Collection",
+      "desc": "Your vehicle waits outside TGD arrivals, just 12 km from the capital. On the motorway into Podgorica within minutes of touching down."
     },
     "fullInsurance": {
       "title": "Comprehensive Cover",
-      "desc": "Every rental includes CDW and third-party liability. Upgrade to zero excess if the Ostrog hairpins or tight city centre lanes make you nervous."
+      "desc": "Every rental includes CDW and third-party liability. Upgrade to zero excess if the Ostrog hairpins or tight Stara Varoš lanes make you nervous."
     },
     "support": {
       "title": "Round-the-Clock Assistance",
-      "desc": "Flat tyre near Danilovgrad? Lost a key in Virpazar? Our local team answers day and night, they know every road around the capital."
+      "desc": "Flat tyre near Danilovgrad? Lost a key in Virpazar? Our local team answers day and night, they know every road off the Zeta plain."
     },
     "noHiddenFees": {
       "title": "Transparent Pricing",
-      "desc": "The figure on your confirmation is the figure at the desk. No fuel surprises, no airport levies, no extras sneaked in at collection."
+      "desc": "The figure on your confirmation is the figure at the desk. No fuel surprises, no TGD airport levies, no extras sneaked in at collection."
     },
     "freeCancellation": {
       "title": "Flexible Cancellation",
-      "desc": "Plans shift, ferries reschedule, weather closes mountain roads. Cancel most bookings free up to a week before your collection date."
+      "desc": "Plans shift, flights reschedule, snow closes the Durmitor passes. Cancel most bookings free up to a week before your collection date."
     },
     "crossBorder": {
       "title": "Cross-Border Ready",
-      "desc": "Croatia via Debeli Brijeg, Bosnia through Trebinje, Albania from Ulcinj, Green Card paperwork prepared at booking time."
+      "desc": "Albania via Božaj or Sukobin, Croatia via Debeli Brijeg, Bosnia through Nikšić and Šćepan Polje, Green Card paperwork prepared at booking time."
     }
   },
   "testimonials": {
