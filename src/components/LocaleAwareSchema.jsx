@@ -53,14 +53,7 @@ const BASE_AUTO_RENTAL = {
       "opens": "00:00",
       "closes": "23:59"
     }
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "3",
-    "bestRating": "5"
-  }
-};
+  ] };
 
 // Resolve a nested path like "faqItems.0.q" against a translations object.
 function pick(obj, path) {
