@@ -60,7 +60,7 @@ const articles = [
     href: '/blog/first-hour-tgd-arrivals',
     image: '/img/blog-tgd-airport-arrival-guide.webp',
     title: 'The First Hour After Landing at Podgorica Airport (TGD)',
-    excerpt: 'A minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2 — passport control, the rental desk, the ATM, a SIM card, and the exit roundabout.',
+    excerpt: 'A minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2, passport control, the rental desk, the ATM, a SIM card, and the exit roundabout.',
   },
   {
     href: '/blog/late-night-tgd-arrival',
@@ -71,19 +71,19 @@ const articles = [
   {
     href: '/blog/tgd-to-albania-via-tuzi',
     image: '/img/blog-tgd-to-albania-via-tuzi.webp',
-    title: 'Crossing into Albania from Podgorica Airport — The Tuzi Route',
-    excerpt: 'The Hani i Hotit border is thirty-five kilometres from TGD — an hour to Shkodër with an interesting back-country drive through Tuzi on the way.',
+    title: 'Crossing into Albania from Podgorica Airport, The Tuzi Route',
+    excerpt: 'The Hani i Hotit border is thirty-five kilometres from TGD, an hour to Shkodër with an interesting back-country drive through Tuzi on the way.',
   },
   {
     href: '/blog/tgd-to-budva-drive',
     image: '/img/blog-tgd-to-budva-drive.webp',
-    title: 'Podgorica Airport to Budva — The 70 km Drive via Sozina',
-    excerpt: 'The inland approach to Budva through the Sozina tunnel — an hour of motorway and coast road that most first-time renters do not realise is faster than Tivat.',
+    title: 'Podgorica Airport to Budva, The 70 km Drive via Sozina',
+    excerpt: 'The inland approach to Budva through the Sozina tunnel, an hour of motorway and coast road that most first-time renters do not realise is faster than Tivat.',
   },
   {
     href: '/blog/tgd-to-kotor-drive',
     image: '/img/blog-tgd-to-kotor-drive.webp',
-    title: 'Podgorica Airport to Kotor — The 85 km Drive Inland',
+    title: 'Podgorica Airport to Kotor, The 85 km Drive Inland',
     excerpt: 'From TGD to the Bay of Kotor via Sozina, Budva and the Vrmac ridge. An hour and twenty minutes, one toll, two viewpoints.',
   },
   {
@@ -107,7 +107,7 @@ const articles = [
   {
     href: '/blog/duklja-roman-ruins-near-airport',
     image: '/img/blog-duklja-roman-ruins.webp',
-    title: 'Duklja (Doclea) — The Roman City Five Kilometres from Your Runway',
+    title: 'Duklja (Doclea), The Roman City Five Kilometres from Your Runway',
     excerpt: 'A 2,000-year-old Roman colonia at the confluence of the Morača and Zeta rivers. The most overlooked archaeological site in Montenegro, fifteen minutes from TGD.',
   },
 ];

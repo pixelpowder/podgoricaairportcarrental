@@ -6,8 +6,8 @@ export default function TgdToOstrogMonasteryDrive() {
   const { localePath } = useTranslation();
   return (
     <ContentPage
-      title="Podgorica Airport to Ostrog Monastery — The 45-Minute Airport Pilgrimage"
-      subtitle="The clifftop pilgrimage monastery is astonishingly close to TGD — a practical guide to the drive, the lower-monastery fork, and the hairpin climb to the upper church"
+      title="Podgorica Airport to Ostrog Monastery, The 45-Minute Airport Pilgrimage"
+      subtitle="The clifftop pilgrimage monastery is astonishingly close to TGD, a practical guide to the drive, the lower-monastery fork, and the hairpin climb to the upper church"
       description="Driving from Podgorica Airport (TGD) to Ostrog Monastery: the E80 motorway exit, the Bogetići turnoff, the Lower Monastery fork, and the steep switchback road to the Upper Monastery carved into the cliff."
       image="/img/blog-tgd-to-ostrog-monastery-drive.webp"
     >

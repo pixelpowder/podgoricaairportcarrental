@@ -6,8 +6,8 @@ export default function DukljaRomanRuinsNearAirport() {
   const { localePath } = useTranslation();
   return (
     <ContentPage
-      title="Duklja (Doclea) — The Roman City Five Kilometres from Your Runway"
-      subtitle="A 2,000-year-old Roman colonia at the confluence of the Morača and Zeta rivers — the most overlooked archaeological site in Montenegro, fifteen minutes from TGD"
+      title="Duklja (Doclea), The Roman City Five Kilometres from Your Runway"
+      subtitle="A 2,000-year-old Roman colonia at the confluence of the Morača and Zeta rivers, the most overlooked archaeological site in Montenegro, fifteen minutes from TGD"
       description="A driving guide to Duklja/Doclea Roman ruins near Podgorica Airport: the forum, the basilica, the thermal baths, how to reach the site, and why most visitors fly over it without knowing it's there."
       image="/img/blog-duklja-roman-ruins.webp"
     >
@@ -40,11 +40,11 @@ export default function DukljaRomanRuinsNearAirport() {
       <p>There is also a ruined early-Christian basilica on the south side, dating to the 4th or 5th century, marking the short window between Doclea's conversion to Christianity and its destruction.</p>
 
       <h2>Best time of day</h2>
-      <p>Morning light, up to about 10:00, is the best for photographs — the low sun picks out the wall courses and the forum pavement. Late afternoon, from roughly 17:00 in summer, does the same thing from the opposite direction and has the added benefit of cooler temperatures. Midday in July and August is punishing: the site has no shade to speak of, the stone radiates heat, and the Zeta plain routinely hits 38°C. Bring water — at least a litre each — because there is nothing on site and nothing within walking distance. A hat is not optional.</p>
-      <p>Winter is actually a pleasant time to visit: mild (10–15°C), the grass is green rather than burnt yellow, and the site is entirely empty. Avoid the day after heavy rain — parts of the terrace drain slowly and you will be walking through mud.</p>
+      <p>Morning light, up to about 10:00, is the best for photographs, the low sun picks out the wall courses and the forum pavement. Late afternoon, from roughly 17:00 in summer, does the same thing from the opposite direction and has the added benefit of cooler temperatures. Midday in July and August is punishing: the site has no shade to speak of, the stone radiates heat, and the Zeta plain routinely hits 38°C. Bring water, at least a litre each, because there is nothing on site and nothing within walking distance. A hat is not optional.</p>
+      <p>Winter is actually a pleasant time to visit: mild (10–15°C), the grass is green rather than burnt yellow, and the site is entirely empty. Avoid the day after heavy rain, parts of the terrace drain slowly and you will be walking through mud.</p>
 
       <h2>Combining with other drives</h2>
-      <p>Doclea combines beautifully with any onward drive north. The Rogami turnoff is only a few kilometres off the E80, so you can stop for an hour on the way up to Ostrog or to Durmitor and lose almost no time from your main itinerary. Of the two, the <a href={localePath('/blog/tgd-to-ostrog-monastery-drive')}>Ostrog drive</a> is the tidier pairing — same direction, same day, two religious complexes separated by 1,700 years. The <a href={localePath('/blog/tgd-to-zabljak-durmitor-drive')}>Žabljak and Durmitor</a> drive is better done as a dedicated full day, so Doclea pairs with it only if you are doing an unhurried return on day two.</p>
+      <p>Doclea combines beautifully with any onward drive north. The Rogami turnoff is only a few kilometres off the E80, so you can stop for an hour on the way up to Ostrog or to Durmitor and lose almost no time from your main itinerary. Of the two, the <a href={localePath('/blog/tgd-to-ostrog-monastery-drive')}>Ostrog drive</a> is the tidier pairing, same direction, same day, two religious complexes separated by 1,700 years. The <a href={localePath('/blog/tgd-to-zabljak-durmitor-drive')}>Žabljak and Durmitor</a> drive is better done as a dedicated full day, so Doclea pairs with it only if you are doing an unhurried return on day two.</p>
       <p>The <strong>Archaeological Museum</strong> (<em>Muzeji i galerije Podgorice</em>) on Marka Miljanova street in central Podgorica is the other half of the Doclea visit — it holds the mosaic fragments, the carved stelae, the bronze Diana statuette, and the coin hoards that have been lifted off the site over the last century. Forty minutes inside the museum makes the outdoor site three times more legible. Entry is a few euros, closed Mondays.</p>
 
       <h2>Why it is worth the detour</h2>

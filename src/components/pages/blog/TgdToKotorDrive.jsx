@@ -6,8 +6,8 @@ export default function TgdToKotorDrive() {
   const { localePath } = useTranslation();
   return (
     <ContentPage
-      title="Podgorica Airport to Kotor — The 85 km Drive Inland"
-      subtitle="From the airport to the Bay of Kotor through Sozina, Budva, and the Vrmac ridge — an hour and twenty minutes, one toll, two viewpoints"
+      title="Podgorica Airport to Kotor, The 85 km Drive Inland"
+      subtitle="From the airport to the Bay of Kotor through Sozina, Budva, and the Vrmac ridge, an hour and twenty minutes, one toll, two viewpoints"
       description="A driving guide from Podgorica Airport (TGD) to Kotor: the Sozina tunnel route, the Budva bypass, the Vrmac ridge descent, and where to park when you arrive at the UNESCO Old Town."
       image="/img/blog-tgd-to-kotor-drive.webp"
     >
@@ -21,11 +21,11 @@ export default function TgdToKotorDrive() {
 
       <h2>The coast road — Petrovac to Budva bypass</h2>
       <p>Out of the tunnel you drop to sea level in three kilometres and reach a T-junction. Turn right for the coast road signed <em>Petrovac / Budva / Kotor</em>. The first town is <strong>Petrovac</strong>, 12 km further, bypassed on its inland side. From Petrovac to Budva is 18 km of twisting two-lane coast road, speed limit 80, realistic average 60 in summer. This is the most scenic part of the lowland drive — the Paštrovska riviera on your left, with Sveti Stefan framed perfectly from a layby about 15 km before Budva.</p>
-      <p>Approaching Budva you have a choice. If Budva is not your destination — and for Kotor it is not — take the <strong>Budva bypass tunnel</strong>, which opened in 2017 and cuts straight through Spas Hill, dropping you on the north side of town. This saves 15–20 minutes in summer and avoids the town's notoriously slow seafront junction. The bypass is free, signed, and obvious on the approach. Ignore sat-nav instructions that try to route you through the centre — they are often out of date.</p>
+      <p>Approaching Budva you have a choice. If Budva is not your destination — and for Kotor it is not — take the <strong>Budva bypass tunnel</strong>, which opened in 2017 and cuts straight through Spas Hill, dropping you on the north side of town. This saves 15–20 minutes in summer and avoids the town's notoriously slow seafront junction. The bypass is free, signed, and obvious on the approach. Ignore sat-nav instructions that try to route you through the centre, they are often out of date.</p>
 
       <h2>Budva to the Vrmac ridge</h2>
       <p>North of Budva the road stays close to the shore for 12 km through <strong>Bečići</strong>, <strong>Rafailovići</strong>, and <strong>Przno</strong>, all small resort strips on the approach to Tivat. Around <strong>Radanovići</strong> the road divides. The <strong>main option</strong>, and the one the sat-nav will pick, is to continue north toward Tivat, skirt the airport perimeter, and cross the bay via the <strong>Verige</strong> strait on a road that hugs the water the whole way round. Total time from Budva about 45 minutes.</p>
-      <p>The <strong>shortcut</strong> is the <strong>Lepetane–Kamenari ferry</strong>. From Tivat you follow signs to <em>Lepetane</em>, queue for a five-minute crossing of the Verige strait, and emerge at Kamenari on the Herceg Novi road. This saves about 15 km and 20 minutes but only helps if you are going to Herceg Novi or the outer bay — for Kotor it's a detour. The ferry runs every 15 minutes, costs €4.50 for a car, and takes payment on board.</p>
+      <p>The <strong>shortcut</strong> is the <strong>Lepetane–Kamenari ferry</strong>. From Tivat you follow signs to <em>Lepetane</em>, queue for a five-minute crossing of the Verige strait, and emerge at Kamenari on the Herceg Novi road. This saves about 15 km and 20 minutes but only helps if you are going to Herceg Novi or the outer bay, for Kotor it's a detour. The ferry runs every 15 minutes, costs €4.50 for a car, and takes payment on board.</p>
 
       <img src="/img/blog-tgd-to-kotor-drive.webp" alt="View down to the Bay of Kotor from the Vrmac descent" loading="lazy" />
 
@@ -35,15 +35,15 @@ export default function TgdToKotorDrive() {
       <h2>Arriving at Kotor — where to park</h2>
       <p>Kotor's Old Town is car-free. The walls are intact, the gates are narrow, and there is no vehicle access at all inside. Parking is entirely in the waterfront lots west of the main gate:</p>
       <ul>
-        <li><strong>PP1</strong> — the largest lot, along the seafront road south of the Old Town. €1 per hour, €10 per 24 hours. Fills from 9 a.m. in summer.</li>
-        <li><strong>PP2</strong> — smaller, directly opposite the main gate (Sea Gate / Vrata od mora). Same price. Usually full by mid-morning.</li>
-        <li><strong>Škaljari free lot</strong> — 600 metres south of the Old Town, behind the supermarket. Free, unguarded, 10-minute walk to the main gate.</li>
-        <li><strong>Cruise terminal overflow</strong> — only available when no cruise ship is in port; check the electronic sign at the entrance.</li>
+        <li><strong>PP1</strong>, the largest lot, along the seafront road south of the Old Town. €1 per hour, €10 per 24 hours. Fills from 9 a.m. in summer.</li>
+        <li><strong>PP2</strong>, smaller, directly opposite the main gate (Sea Gate / Vrata od mora). Same price. Usually full by mid-morning.</li>
+        <li><strong>Škaljari free lot</strong>, 600 metres south of the Old Town, behind the supermarket. Free, unguarded, 10-minute walk to the main gate.</li>
+        <li><strong>Cruise terminal overflow</strong>, only available when no cruise ship is in port; check the electronic sign at the entrance.</li>
       </ul>
-      <p>Cruise days — typically Tuesday, Wednesday, Friday in high season — roughly double the foot-traffic and halve the available parking. If you are arriving on a cruise day, aim for before 9 a.m. or after 5 p.m.</p>
+      <p>Cruise days, typically Tuesday, Wednesday, Friday in high season, roughly double the foot-traffic and halve the available parking. If you are arriving on a cruise day, aim for before 9 a.m. or after 5 p.m.</p>
 
       <h2>When TGD beats Tivat for a Kotor trip</h2>
-      <p>Tivat Airport is 8 km from Kotor and the obvious choice on paper. In practice, three things move the balance toward TGD. First, flight availability — TGD has far more European connections including Ryanair and Wizz routes that Tivat simply does not serve. Second, car hire prices — Tivat is a premium market and the same car can be 30–40% more expensive at TIV than at TGD. Third, summer traffic — the Tivat road between the airport and Kotor can sit solid at peak times, especially when cruise ships berth and the town's traffic management diverts cars round the long way.</p>
+      <p>Tivat Airport is 8 km from Kotor and the obvious choice on paper. In practice, three things move the balance toward TGD. First, flight availability, TGD has far more European connections including Ryanair and Wizz routes that Tivat simply does not serve. Second, car hire prices, Tivat is a premium market and the same car can be 30–40% more expensive at TIV than at TGD. Third, summer traffic, the Tivat road between the airport and Kotor can sit solid at peak times, especially when cruise ships berth and the town's traffic management diverts cars round the long way.</p>
       <p>The inland TGD approach avoids all of that until the final 15 km. You are on motorway, then a tunnel, then the coast road, then the Vrmac tunnel. The only real queue point is the Verige stretch between Tivat and Kotor, which is the same from either airport.</p>
 
       <h2>One-way drop-offs at Kotor</h2>

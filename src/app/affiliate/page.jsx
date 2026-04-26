@@ -3,7 +3,7 @@ import Affiliate from '@/src/components/pages/Affiliate';
 
 export async function generateMetadata() {
   const title = 'Affiliate Programme | Podgorica Airport Car Rental';
-  const description = 'Earn 50% commission on every car rental booking in Montenegro. Join the Podgorica Airport Car Rental affiliate programme — referral links, widgets, white-label, and API.';
+  const description = 'Earn 50% commission on every car rental booking in Montenegro. Join the Podgorica Airport Car Rental affiliate programme, referral links, widgets, white-label, and API.';
   return {
     title: title,
     description: description,

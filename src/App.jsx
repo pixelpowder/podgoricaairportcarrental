@@ -719,7 +719,7 @@ const blogPosts = [
     image: '/img/blog-tgd-airport-arrival-guide.webp',
     href: '/blog/first-hour-tgd-arrivals',
     title: 'The First Hour After Landing at Podgorica Airport (TGD)',
-    excerpt: 'Passport control, the rental desk, the ATM, a SIM card, and the exit roundabout — a minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2.',
+    excerpt: 'Passport control, the rental desk, the ATM, a SIM card, and the exit roundabout, a minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2.',
   },
   {
     image: '/img/blog-tgd-to-ostrog-monastery-drive.webp',

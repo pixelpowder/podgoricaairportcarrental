@@ -1,7 +1,7 @@
 import { buildAlternates } from '../../metadata';
 import TgdToKotorDrive from '@/src/components/pages/blog/TgdToKotorDrive';
 
-const TITLE = "TGD to Kotor — 85 km Inland Drive";
+const TITLE = "TGD to Kotor, 85 km Inland Drive";
 const DESC = "A driving guide from Podgorica Airport to Kotor: the Sozina tunnel, the Budva bypass, the Vrmac ridge descent, and where to park at the UNESCO Old Town.";
 
 export async function generateMetadata() {

@@ -9,7 +9,7 @@ export async function generateMetadata({ params }) {
   const descTranslated = t(lang, descKey);
   const description = descTranslated !== descKey
     ? descTranslated
-    : 'Seven multi-day rental cars for Kotor — mid-size wagons, diesel cruisers and a city Fiat. Specs, fuel range, and which car suits day-trips out of the bay.';
+    : 'Seven multi-day rental cars for Kotor, mid-size wagons, diesel cruisers and a city Fiat. Specs, fuel range, and which car suits day-trips out of the bay.';
   const titleTranslated = t(lang, 'fleetIndex.title');
   const baseTitle = titleTranslated !== 'fleetIndex.title' ? titleTranslated : 'Our Fleet';
   const title = `${baseTitle} | Podgorica Airport Car Rental`;
