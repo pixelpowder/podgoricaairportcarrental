@@ -1,6 +1,6 @@
 // German translations — Podgorica-Miet-Ansatz (Mehrtagesmieten ab Podgorica).
 export const carArticles = {
-  "vw-polo": {
+  "renault-clio": {
     paragraphs: [
       "Der Clio auf Kotorer Mietwagen-Platten ist meist der 1.0 TCe Benziner mit Fünfgang-Schaltgetriebe, und auf einer Zweiwochenmiete ist diese Kombination die angenehmste. Der Dreizylinder wirkt beim Treten atemlos, aber niemand mietet einen Clio zum Treten, der Reiz ist ein Getriebe, das so leicht ist, dass zäher Buchtverkehr das linke Bein nie stört, ein Armaturenbrett, das in der grellen Adriasonne klar abzulesen ist, und Sitze, die auch nach vier Tagen Ausflügen bequem bleiben. Die Kabine fährt über Risaner Bremsschwellen weicher als ein 208 und ist auf der Sozina-Autobahn leiser als ein Yaris.",
       "Von einer Kotorer Basis bewältigt der Clio den wiederkehrenden Ausflugsplan ohne Murren. Kolašin und das Njegoš-Mausoleum liegen 45 Minuten die Serpentinen hinauf, und die kurz übersetzten ersten und zweiten Gänge bedeuten, dass Sie in den engsten Kehren über Kolašin nie die Kupplung rutschen lassen müssen. Der Küstenabschnitt nach Danilovgrad sind 8 km tempolimitierter Asphalt, den ein Clio schlicht absorbiert; die Strecke zum Skutarisee dauert 70 Minuten, wobei der Autobahnabschnitt das meiste davon verschlingt. Auch die Grenzfahrt nach Trebinje, 90 Minuten pro Richtung, ist mit einer Tankfüllung machbar.",
@@ -50,7 +50,7 @@ export const carArticles = {
       "Wählen Sie den Golf, wenn es Ihnen darum geht, wie das Auto auf einer Mehrtages-Montenegro-Runde fährt, und Sie die kultivierteste Kabine in dieser Flotte wollen. Überspringen Sie ihn, wenn Ihre Woche komplett in der Bucht bei niedrigen Geschwindigkeiten ist, Clio und C3 sind günstigere Antworten auf das Programm."
     ]
   },
-  "toyota-yaris": {
+  "fiat-500": {
     paragraphs: [
       "Der aktuelle 500, der Benzin-Mild-Hybrid, der noch gebaut wird, nicht der BEV-Nachfolger, ist ein winziges, stilvolles Stadtauto, das Podgorica-Mieter aus Gründen wählen, die nichts mit Fahren zu tun haben. Mit 3,57 m Länge und 1,63 m Breite ist er kürzer als ein Smart, schmaler als die meisten modernen Hatches und passt wirklich in Lücken, die 95 % der Mietwagen nicht schaffen. Der 1.0 BSG 70 PS Mild-Hybrid-Dreizylinder ist laut, langsam und vollkommen ausreichend für die tempobegrenzte Buchtstraße. Die Kabine ist eng; der Kofferraum ist ein Handschuhfach; die Fahrt ist nervös. Nichts davon zählt, wenn Sie drei Nächte in der Altstadt bleiben und Parken der ganze Punkt ist.",
       "Der 500 ist das Auto, für das die Bucht gebaut wurde. Die Cijevna-Uferbuchten, die gestuften Terrassen von Dobrotas Moorings, die schmale Gasse hinter dem Seefahrtsmuseum, der 500 fädelt alle ein, ohne Spiegel abzureißen. Die tempobegrenzte Podgorica–Tuzi–Rijeka Crnojevića-Runde sitzt im 4. Gang bei 1.800 U/min und liefert real 5,5 L/100 km; das Sonnendach offen auf einer späten Nachmittagsfahrt nach Virpazar ist die Podgorica-Postkarte, die ein Mietwagen liefern kann. Es ist definitiv nicht das Auto für Ostrog, die 70 PS kämpfen oberhalb von 700 m, noch für die Podgorica-Autobahn, wo Kabinengeräusch bei 120 km/h unangenehm wird.",

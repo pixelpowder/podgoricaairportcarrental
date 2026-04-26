@@ -1,6 +1,6 @@
 // Italian translations — approccio Podgorica-noleggio (più giorni dalla base di Podgorica).
 export const carArticles = {
-  "vw-polo": {
+  "renault-clio": {
     paragraphs: [
       "La Clio sulle targhe dei noleggi di Podgorica è di solito la 1.0 TCe benzina con cambio manuale a cinque marce, e su un noleggio di due settimane questa combinazione è la più tranquilla con cui convivere. Il tricilindrico arranca se lo si spreme, ma nessuno noleggia una Clio per spremerla: il vantaggio è un cambio così leggero che il traffico lento della baia non affatica mai la gamba sinistra, un cruscotto leggibile sotto il sole adriatico, e sedili ancora comodi dopo quattro giorni consecutivi di escursioni. Sulle cunette di Danilovgrad il comfort è migliore di una 208, e nel tratto autostradale di Sozina l'abitacolo è più silenzioso di una Yaris.",
       "Con base a Podgorica, la Clio gestisce il palinsesto di escursioni ripetute senza brontolare. Kolašin e il mausoleo di Njegoš si raggiungono in 45 minuti di tornanti, e la prima e la seconda corte significano che nelle curve più strette sopra Kolašin non serve mai bruciare la frizione. Il tratto costiero verso Danilovgrad sono 8 km di asfalto a velocità limitata che la Clio semplicemente assorbe; la discesa al Lago di Scutari prende 70 minuti, con il tratto autostradale che ne mangia la maggior parte. Anche il confine verso Trebinje, 90 minuti per parte, rientra nel raggio con un pieno.",
@@ -50,7 +50,7 @@ export const carArticles = {
       "Scegli la Golf se ti importa come l'auto guida su un giro multi-giorno in Montenegro e vuoi l'abitacolo più raffinato della flotta. Saltala se la tua settimana è interamente dentro la baia a velocità basse, Clio e C3 rispondono più a buon mercato a quel brief."
     ]
   },
-  "toyota-yaris": {
+  "fiat-500": {
     paragraphs: [
       "La 500 attuale, la benzina mild-hybrid ancora prodotta, non la successora BEV, è una citycar piccolissima e stilosa che i noleggiatori a Podgorica scelgono per motivi non legati alla guida. A 3,57 m di lunghezza e 1,63 m di larghezza è più corta di una Smart, più stretta della maggior parte delle hatch moderne, ed entra davvero in spazi che il 95 % dei noleggi non prende. Il tre-cilindri 1.0 BSG 70 CV mild-hybrid è rumoroso, lento e perfettamente sufficiente per la strada della baia a velocità limitata. L'abitacolo è angusto; il bagagliaio è un cassetto; la guida è nervosa. Nulla di tutto ciò conta quando si sta in centro storico tre notti e il parcheggio è il tutto.",
       "La 500 è l'auto per cui la baia è stata costruita. Gli stalli sul lungomare di Cijevna, le terrazze scalate del Mooring di Zabjelo, la via stretta dietro il Museo Marittimo, la 500 le infila tutte senza staccare specchietti. L'anello Podgorica–Tuzi–Rijeka Crnojevića a velocità limitata sta in quarta a 1.800 giri e rende 5,5 L/100 km reali; il tettuccio aperto su una corsa pomeridiana tardiva verso Perasto è l'esperienza cartolina di Podgorica più autentica che un noleggio consegni. Non è decisamente l'auto per Ostrog, i 70 CV faticano sopra i 700 m, né per l'autostrada di Podgorica, dove il rumore a 120 km/h diventa spiacevole.",

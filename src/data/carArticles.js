@@ -4,7 +4,7 @@
 // Dubrovnik) rather than single-day cruise hire.
 
 export const carArticles = {
-  "vw-polo": {
+  "renault-clio": {
     paragraphs: [
       "Clios on Podgorica plates are usually the 1.0 TCe petrol paired with a five-speed manual, and on a fortnight rental that combination is the calmest one to live with. The three-cylinder is breathless when you push it, but nobody rents a Clio to push it, the appeal is a gearbox light enough that slow bay traffic never bothers the left leg, a dashboard that reads clearly under bright Adriatic sun, and seats that are still comfortable after four straight days of day-trips. The cabin rides better than a 208 on the Danilovgrad speed bumps and is quieter than a Yaris on the Sozina motorway run.",
       "From a Podgorica base the Clio handles the repeating day-trip roster without grumbling. Kolašin and the Njegoš mausoleum sit 45 minutes up the hairpins, and the short-geared first and second ratios mean you never need to slip the clutch through the tightest bends above Kolašin. The coastal run out to Danilovgrad is 8 km of speed-limited tarmac that a Clio simply absorbs; the push down to Lake Skadar takes 70 minutes with the motorway section swallowing most of it. Cross-border into Trebinje, 90 minutes each way, is also within easy reach on a single tank.",
@@ -59,7 +59,7 @@ export const carArticles = {
     ]
   },
 
-  "toyota-yaris": {
+  "fiat-500": {
     paragraphs: [
       "The current 500, the petrol mild-hybrid that's still made, not the BEV successor, is a tiny, stylish city car that Podgorica renters choose for reasons unrelated to driving. At 3.57 m long and 1.63 m wide it is shorter than a Smart, narrower than most modern hatches, and genuinely fits gaps that 95 % of rental cars cannot. The 1.0 BSG 70 hp mild-hybrid three-cylinder is noisy, slow, and perfectly adequate for the speed-limited motorway. The cabin is cramped; the boot is a glove-box; the ride is fidgety. None of that matters when you are staying in the city centre for three nights and parking is the entire point.",
       "The 500 is the car the capital was built for. The Cijevna waterfront bays, the stepped terraces of Zabjelo's Moorings, the narrow lane behind the Maritime Museum, the 500 threads all of them without pulling mirrors. The speed-limited Podgorica–Tuzi–Rijeka Crnojevića loop sits in fourth gear at 1,800 rpm and returns 5.5 L/100 km in real use; the sunroof open on a late-afternoon drive to Virpazar is the most Podgorica-postcard experience a rental car delivers. It is emphatically not the car for Ostrog, the 70 hp struggles above 700 m, nor for the Podgorica motorway, where cabin noise at 120 km/h becomes unpleasant.",

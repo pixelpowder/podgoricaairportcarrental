@@ -187,12 +187,12 @@ function Hero() {
       </div>
 
       {/* Image section with overlaid search form */}
-      <div className="hero__image-section">
+      <div className="hero__image-section" style={{ backgroundImage: `url(${config.hero.image})` }}>
         <div className="booking-card">
           <div className="booking-card__fields">
             <LocationField value={pickup} onChange={setPickup} />
             <div className="booking-field booking-field--dates">
-              <label>{t('hero.pickupDate')} — {t('hero.dropoffDate')}</label>
+              <label>{t('hero.pickupDate')} - {t('hero.dropoffDate')}</label>
               <DatePicker
                 selectsRange startDate={startDate} endDate={endDate}
                 onChange={handleDateChange} minDate={new Date()}
@@ -714,29 +714,28 @@ function InsiderTips() {
 /* ═══════════════════════════════════════════════════════════
    SECTION 8: BLOG CARDS
    ═══════════════════════════════════════════════════════════ */
-const blogPosts = [
-  {
-    image: '/img/blog-tgd-airport-arrival-guide.webp',
-    href: '/blog/first-hour-tgd-arrivals',
-    title: 'The First Hour After Landing at Podgorica Airport (TGD)',
-    excerpt: 'Passport control, the rental desk, the ATM, a SIM card, and the exit roundabout, a minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2.',
-  },
-  {
-    image: '/img/blog-tgd-to-ostrog-monastery-drive.webp',
-    href: '/blog/tgd-to-ostrog-monastery-drive',
-    title: 'Podgorica Airport to Ostrog Monastery',
-    excerpt: 'The clifftop pilgrimage monastery is astonishingly close to TGD. The drive, the Lower Monastery fork, and the hairpin climb to the Upper Monastery carved into the rock.',
-  },
-  {
-    image: '/img/blog-tgd-to-zabljak-durmitor-drive.webp',
-    href: '/blog/tgd-to-zabljak-durmitor-drive',
-    title: 'Podgorica Airport to Žabljak and Durmitor',
-    excerpt: 'The new Bar–Boljare motorway section cuts an hour off the old Morača canyon road. TGD to the Durmitor plateau in two hours flat.',
-  },
-];
-
 function BlogCards() {
   const { t, localePath } = useTranslation();
+  const blogPosts = [
+    {
+      image: '/img/blog-tgd-airport-arrival-guide.webp',
+      href: '/blog/first-hour-tgd-arrivals',
+      title: t('blogHome.posts.firstHour.title'),
+      excerpt: t('blogHome.posts.firstHour.excerpt'),
+    },
+    {
+      image: '/img/blog-tgd-to-ostrog-monastery-drive.webp',
+      href: '/blog/tgd-to-ostrog-monastery-drive',
+      title: t('blogHome.posts.ostrog.title'),
+      excerpt: t('blogHome.posts.ostrog.excerpt'),
+    },
+    {
+      image: '/img/blog-tgd-to-zabljak-durmitor-drive.webp',
+      href: '/blog/tgd-to-zabljak-durmitor-drive',
+      title: t('blogHome.posts.durmitor.title'),
+      excerpt: t('blogHome.posts.durmitor.excerpt'),
+    },
+  ];
   return (
     <section className="section section--alt" id="blog">
       <div className="container">
@@ -822,7 +821,7 @@ function RoadTripPromo() {
             </div>
           </div>
           <div className="affiliate-promo__image">
-            <img src="/img/lovcen-mountain.webp" alt="Winding mountain road in Montenegro" loading="lazy" />
+            <img src="/img/lovcen-mountain.webp" alt={t('roadTripPlanner.lovcenAlt')} loading="lazy" />
           </div>
         </div>
       </div>
@@ -1007,14 +1006,16 @@ function StickyMobileCTA() {
 }
 
 function WhatsAppFab() {
+  const { t } = useTranslation();
   return (
-    <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="whatsapp-fab" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/38269000000?text=Hi!%20I%27d%20like%20to%20enquire%20about%20renting%20a%20car%20in%20Montenegro." target="_blank" rel="noopener noreferrer" className="whatsapp-fab" aria-label={t('common.whatsappAria')}>
       <MessageCircle size={22} />
     </a>
   );
 }
 
 function ScrollToTop() {
+  const { t } = useTranslation();
   const [show, setShow] = useState(false);
   useEffect(() => {
     const onScroll = () => setShow(window.scrollY > 400);
@@ -1023,7 +1024,7 @@ function ScrollToTop() {
   }, []);
   if (!show) return null;
   return (
-    <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label="Scroll to top">
+    <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} aria-label={t('common.scrollTopAria')}>
       <ChevronRight size={20} style={{ transform: 'rotate(-90deg)' }} />
     </button>
   );

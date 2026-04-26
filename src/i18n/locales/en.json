@@ -13,7 +13,9 @@
     "callUs": "Call Us",
     "bookNow": "Book Now",
     "perDay": "per day",
-    "emailUs": "Email Us"
+    "emailUs": "Email Us",
+    "whatsappAria": "Chat on WhatsApp",
+    "scrollTopAria": "Scroll to top"
   },
   "hero": {
     "headline": "Podgorica Airport Car Rental. Keys at Podgorica Airport, Zeta Plain at Your Feet.",
@@ -300,8 +302,8 @@
       "a": "A representative meets you inside the TGD arrivals hall with a name board. The rental car waits in the short-stay car park directly outside, two minutes on foot. Podgorica city centre is fifteen minutes away on the E80 and the Smokovac motorway entrance is a further five."
     },
     "5": {
-      "q": "Is one-way rental possible?",
-      "a": "Yes, all rentals are round-trip. Collect and return at the same pickup point. One-way drop-offs are not currently offered; plan your route to loop back to the pickup location."
+      "q": "Where do I return the car?",
+      "a": "All rentals are round-trip. Collect and return the car at the same pickup point. Plan your route to loop back to the pickup location at the end of your hire."
     },
     "6": {
       "q": "What if I need to cancel?",
@@ -343,6 +345,31 @@
       "name": "Virpazar",
       "tag": "15 min from Podgorica",
       "desc": "Baroque waterfront and two island churches."
+    },
+    "kotor": {
+      "name": "Kotor",
+      "tag": "90 min from TGD",
+      "desc": "UNESCO walled Old Town at the head of the bay."
+    },
+    "budva": {
+      "name": "Budva",
+      "tag": "60 min drive",
+      "desc": "Riviera beaches and a 2,500-year-old citadel."
+    },
+    "tivat": {
+      "name": "Tivat",
+      "tag": "90 min drive",
+      "desc": "Porto Montenegro marina and the bay promenade."
+    },
+    "tivat-airport": {
+      "name": "Tivat Airport",
+      "tag": "Cross-airport",
+      "desc": "Coastal airport, drop or pick up either side."
+    },
+    "dubrovnik-airport": {
+      "name": "Dubrovnik Airport",
+      "tag": "Cross-border",
+      "desc": "Land in Croatia, reach Podgorica in three hours."
     }
   },
   "aboutBody": {
@@ -548,7 +575,21 @@
     "sectionLabel": "Driving Guides",
     "sectionTitle": "From Our Blog",
     "sectionSubtitle": "Road routes, quiet corners, and local tips for exploring the Podgorica region by car.",
-    "viewAll": "View all guides"
+    "viewAll": "View all guides",
+    "posts": {
+      "firstHour": {
+        "title": "The First Hour After Landing at Podgorica Airport (TGD)",
+        "excerpt": "Passport control, the rental desk, the ATM, a SIM card, and the exit roundabout, a minute-by-minute run-through of the sixty minutes between touchdown and merging onto the M2."
+      },
+      "ostrog": {
+        "title": "Podgorica Airport to Ostrog Monastery",
+        "excerpt": "The clifftop pilgrimage monastery is astonishingly close to TGD. The drive, the Lower Monastery fork, and the hairpin climb to the Upper Monastery carved into the rock."
+      },
+      "durmitor": {
+        "title": "Podgorica Airport to Žabljak and Durmitor",
+        "excerpt": "The new Bar to Boljare motorway section cuts an hour off the old Morača canyon road. TGD to the Durmitor plateau in two hours flat."
+      }
+    }
   },
   "contact": {
     "heroTitle": "Get in Touch",
@@ -628,9 +669,9 @@
     "thirdText": "Our website uses the following third-party services:",
     "third1Label": "LocalRent:",
     "third1": "car rental booking widget, processes your search queries and handles all booking and payment",
-    "third2Label": "Vercel:",
+    "third2Label": "Hosting:",
     "third2": "website hosting",
-    "third3Label": "Pexels:",
+    "third3Label": "Stock Photography:",
     "third3": "stock photography",
     "thirdNote": "Each of these services has their own privacy policy governing how they handle data.",
     "cookiesTitle": "Cookies",
@@ -672,7 +713,7 @@
     "liability3": "Losses arising from border crossing issues or documentation problems",
     "liability4": "Changes to prices after booking confirmation",
     "ipTitle": "Intellectual Property",
-    "ipText": "All content on this website, including text, design, and graphics, is owned by Podgorica Airport Car Rental unless otherwise credited. Stock photography is used under licence from Pexels.",
+    "ipText": "All content on this website, including text, design, and graphics, is owned by Podgorica Airport Car Rental unless otherwise credited. Stock photography is used under licence from stock photography providers.",
     "contactTitle": "Contact",
     "contactText": "Questions about these terms? Contact us at info@podgoricaairportcarrental.com."
   },
@@ -807,7 +848,8 @@
     "title": "Planning an Inland Montenegro Road Trip?",
     "browseAll": "Browse all guides",
     "lovcenGuide": "Ostrog drive guide",
-    "desc": "Motorway exits, Ostrog serpentine tips, Skadar Lake wineries, Hani i Hotit border queues, written by drivers who leave from Podgorica Airport every week."
+    "desc": "Motorway exits, Ostrog serpentine tips, Skadar Lake wineries, Hani i Hotit border queues, written by drivers who leave from Podgorica Airport every week.",
+    "lovcenAlt": "Winding mountain road in Montenegro"
   },
   "compare": {
     "label": "Why Rent?",
@@ -872,7 +914,10 @@
   "relatedGuides": {
     "secretChurches": "First Hour at Podgorica Airport: Arrivals Guide",
     "vrmacRidge": "Late-Night TGD Arrivals",
-    "swimmingSpots": "Podgorica Airport to Ostrog Monastery Drive"
+    "swimmingSpots": "Podgorica Airport to Ostrog Monastery Drive",
+    "firstHour": "First Hour at Podgorica Airport",
+    "ostrog": "TGD to Ostrog Monastery",
+    "durmitor": "TGD to Žabljak and Durmitor"
   },
   "navTop": {
     "carRental": "Car Rental",
@@ -887,7 +932,156 @@
     "decline": "Decline"
   },
   "cars": {
-    "readGuide": "Read guide"
+    "overviewTitle": "At a glance",
+    "whoForTitle": "Who is this car for?",
+    "regionalTitle": "Best regional use",
+    "articleTitle": "On the road",
+    "featuresTitle": "Inside the car",
+    "relatedTitle": "Where this car takes you",
+    "checkAvailability": "Check availability and live pricing",
+    "nextBtn": "Next in fleet",
+    "readGuide": "Read guide",
+    "sections": {
+      "behindWheel": "Behind the wheel",
+      "onRoads": "On Podgorica roads",
+      "spaceLoad": "Space and load",
+      "bestFor": "Best journeys for this car",
+      "practical": "Practical notes",
+      "verdict": "The verdict"
+    },
+    "renault-clio": {
+      "name": "Renault Clio",
+      "category": "Economy",
+      "tagline": "The low-maintenance coast-runner for a fortnight-long Podgorica base",
+      "lede": "Light on fuel, cheap to park at the pickup location, and comfortable on the motorway push to Podgorica or Žabljak.",
+      "suitability": "A pair settling in Podgorica for ten to fourteen days, with regular day-trips out to Cetinje, Risan and the Lake Skadar shore, simple to park, forgiving on petrol.",
+      "regional": "Handles the Podgorica to Cetinje climb in third gear without drama, threads the narrow waterfront through outlying villages, and the 5.3 L/100 km petrol keeps the fuel bill predictable over a multi-week hire.",
+      "bestFor": [
+        "Couples on a two-week stay",
+        "Day-trippers to Cetinje and Njeguši",
+        "Shoppers at Risan Roman mosaics"
+      ],
+      "features": [
+        "Bluetooth Audio",
+        "USB Charging",
+        "Central Locking",
+        "Touchscreen Display"
+      ]
+    },
+    "peugeot-308": {
+      "name": "Peugeot 308",
+      "category": "Mid-Size",
+      "tagline": "Diesel mid-size for the Podgorica to Dubrovnik and Podgorica to Durmitor runs",
+      "lede": "Long-legged BlueHDi plus auto box built for the 3-hour push up to Žabljak or the cross-border drive to Trebinje and Mostar.",
+      "suitability": "The mid-size diesel pick for anyone pairing a Podgorica base with multi-day drives inland, auto gearbox and cruise control earn their keep on the Podgorica motorway.",
+      "regional": "Cruises the Smokovac to Mateševo motorway section effortlessly, swallows a week of hiking kit bound for Žabljak, and covers the Podgorica to Dubrovnik via Debeli Brijeg run on half a tank.",
+      "bestFor": [
+        "Cross-border road-trippers",
+        "Durmitor weekenders",
+        "Four adults with full luggage"
+      ],
+      "features": [
+        "Automatic Transmission",
+        "Adaptive Cruise",
+        "Dual-Zone Climate",
+        "Large Boot"
+      ]
+    },
+    "renault-megane": {
+      "name": "Renault Megane",
+      "category": "Mid-Size",
+      "tagline": "Biggest-boot French mid-size, built for long-stay loads and lake trips",
+      "lede": "434-litre boot, quiet diesel cruising, sofa-soft damping, the mid-size wagon pick for a month in the bay with regular excursions out.",
+      "suitability": "Renters who want more than a hatchback packing space without the length of a full estate, ideal for Skadar Lake fishing kit, Cetinje monastery day-bags and a cool-box for the drive home.",
+      "regional": "The long-travel suspension shrugs off the patchy bitumen on the old Podgorica to Budva road, the dCi diesel sips on the Sozina tunnel run, and the generous boot takes two weeks of family kit plus the laundry bag you pick up in Prčanj.",
+      "bestFor": [
+        "Long-stay renters",
+        "Skadar Lake day-trippers",
+        "Families visiting monasteries"
+      ],
+      "features": [
+        "Large Boot",
+        "Bluetooth Audio",
+        "Cruise Control",
+        "Parking Sensors"
+      ]
+    },
+    "kia-stonic": {
+      "name": "Kia Stonic",
+      "category": "Compact Crossover",
+      "tagline": "Raised-ride crossover for the gravel approach to Njeguši and Lovćen",
+      "lede": "A slightly higher-riding alternative to a hatchback, takes the rutted spur roads around Njeguši and the Lovćen back approaches without scraping.",
+      "suitability": "Renters who want crossover sight-lines and a bit of ground clearance for the side-roads around Podgorica upper bay and the Lovćen approach, without paying full-SUV money.",
+      "regional": "Higher seating position means easier viewing over region parapet walls, the 182 mm ride height clears the stone ruts on the old Njeguši ham-smoker lane, and the 352-litre boot handles a family Durmitor hiking gear without folding seats.",
+      "bestFor": [
+        "Weekend trippers to Njeguši",
+        "Durmitor day-trippers",
+        "Photographers chasing ridge viewpoints"
+      ],
+      "features": [
+        "Raised Ride Height",
+        "Apple CarPlay",
+        "Reversing Camera",
+        "Lane Keep Assist"
+      ]
+    },
+    "vw-golf": {
+      "name": "VW Golf",
+      "category": "Mid-Size",
+      "tagline": "DSG diesel all-rounder, calm cruising for the E80 and multi-day loops",
+      "lede": "The rational default for a renter mixing a Podgorica base with long inland drives, refined, quick enough, and economical on the motorway.",
+      "suitability": "The default mid-size for renters who want one car that will do the Podgorica Old Town perimeter on day one and the Smokovac to Mateševo motorway on day four without complaint.",
+      "regional": "DSG picks the right ratio on the Podgorica to Lovćen hairpins without any thinking, the 2.0 TDI holds 130 km/h on the motorway section up to Podgorica at 4.3 L/100 km, and the cabin quiet makes the 3-hour push to Žabljak genuinely relaxing.",
+      "bestFor": [
+        "Couples mixing coast and canyon",
+        "Business travellers on week-long hires",
+        "Drivers planning the BiH or Croatia border run"
+      ],
+      "features": [
+        "DSG Automatic",
+        "Adaptive Cruise",
+        "Digital Cockpit",
+        "Apple CarPlay"
+      ]
+    },
+    "fiat-500": {
+      "name": "Fiat 500",
+      "category": "City",
+      "tagline": "Postage-stamp city car for a short Podgorica stay, slots between delivery vans",
+      "lede": "Tiny footprint, sunroof, hybrid-assisted 1.0, the pick for a two- or three-night Podgorica anchor when multi-day drives are not on the schedule.",
+      "suitability": "Two or three nights in Podgorica with short afternoon hops to Perast and Prčanj, the 500 parks where mid-size cars wave and drive past.",
+      "regional": "The 3.57 m length is the deciding factor: it fits the stepped terrace parking on the nearby villages waterfront and the shoulder-wide gap outside the Sea Gate that a Clio cannot. Underpowered for the Lovćen climb, so pair with cable-car transfers or keep within bay limits.",
+      "bestFor": [
+        "Short city-base stays",
+        "Solo visitors on a shoestring",
+        "Photographers doing short hops"
+      ],
+      "features": [
+        "Compact Size",
+        "Easy Parking",
+        "Sunroof",
+        "Bluetooth"
+      ]
+    },
+    "citroen-c3": {
+      "name": "Citroen C3",
+      "category": "Economy",
+      "tagline": "Softest small hatch for the broken Podgorica to Risan stretch and back-road detours",
+      "lede": "Advanced Comfort dampers iron out the patched tarmac on the old bay road, the gentlest small car to park at the Podgorica bastions overnight.",
+      "suitability": "The comfort-first pick for a week in Podgorica with daily slow-paced detours, Risan Roman mosaics, the Gornja Lastva hamlet above Tivat, the loop back through nearby villages.",
+      "regional": "The progressive hydraulic bump stops make the potholed stretch from Risan to Perast feel a size-class quieter, the low-stress 83 hp motor suits the 50 km/h bay-road limits, and the 4-metre length slots into any Old Town bastion bay.",
+      "bestFor": [
+        "Slow-touring couples",
+        "Back-road explorers",
+        "Renters prone to motion sickness"
+      ],
+      "features": [
+        "Advanced Comfort Seats",
+        "Bluetooth Audio",
+        "USB Charging",
+        "Lane Departure Warning"
+      ]
+    }
   },
   "fleetShowcase": {
     "label": "Know your car",
@@ -910,5 +1104,218 @@
     "intro1": "This fleet is built around the multi-day TGD renter, visitors who land at Podgorica Airport with a one- or two-week itinerary and plan real driving between Skadar Lake, Ostrog, Durmitor and the Albanian border. That brief is different from a cruise-day hire on the coast: it leans on boot space for the weekly shop, diesel torque for the Smokovac-Mateševo motorway run to Žabljak, and a seating position that keeps four adults comfortable on the 45-minute serpentine climb to Ostrog's upper monastery. The seven cars below are chosen accordingly.",
     "intro2": "The mix is deliberately weighted toward mid-size. A Peugeot 308 with the 1.5 BlueHDi and the EAT auto, a Renault Megane diesel with the segment's biggest boot, a VW Golf with the DSG 2.0 TDI, these are the cars that turn a TGD → Ostrog → Nikšić → Durmitor loop from a gear-changing chore into a cruise. For shorter hops we keep a VW Polo, a Citroën C3 with Advanced Comfort dampers, a Kia Stonic crossover for the rutted upper Ostrog approach and the gravel spurs around Skadar Lake, and a tiny Toyota Yaris for when Podgorica city-centre parking is the deciding constraint. No one-trick supercars, no vans; every car here justifies a multi-day hire.",
     "intro3": "A practical TGD note before you choose. Diesel remains the smarter spec for anyone planning even one cross-border run, Shkodër via Hani i Hotit is an hour each way, Trebinje is ninety minutes, and the Smokovac-Mateševo motorway to Durmitor eats diesel torque for breakfast. The 308 and Megane will cover all three on a single tank. The Golf is the most refined motorway car we have. The petrol Clio will still do a TGD → Shkodër return on half a tank, and the Kia Stonic has the clearance for the rough final kilometre up to Ostrog's upper monastery. Fuel up at the Jugopetrol on the airport access road before any mountain run, stations thin out fast past Nikšić. Pick on your itinerary, not the daily rate."
+  },
+  "budvaBody": {
+    "h1": "Budva: Twenty-One Kilometres of Riviera, Thirty Minutes from Podgorica Airport",
+    "p1": "Greeks from Epidaurus founded a colony here around the 5th century BC. Romans, Slavic tribes, Venetians, Austrians and modern Montenegro followed in turn, and each left a mark. Today Budva is defined by contrasts: a walled citadel jutting into the Adriatic on one side, beach clubs that play music until sunrise on the other.",
+    "p2": "From Podgorica Airport (TGD) the drive takes about an hour, south on the E80 through the Sozina tunnel and down to the coast. From central Podgorica it is closer to forty minutes. With a car the entire 21 km riviera opens up, Mogren is five minutes from the Old Town, Jaz ten and Sveti Stefan fifteen.",
+    "beachesTitle": "The Riviera Coast",
+    "beachesIntro": "The Budva municipality covers 21 kilometres of coastline. Four beaches stand out:",
+    "mogren": "Two pebble bays connected by a tunnel cut through the rock. Walkable from the Old Town yet feels secluded",
+    "jaz": "The largest stretch of sand near Budva, set behind a shallow lagoon. Hosts the Sea Dance festival in summer and fills with families the rest of the season",
+    "svetiStefan": "Visible from the coastal highway as a photogenic fortified islet. The Queen's Beach on the mainland is open to all; the island itself is a private resort",
+    "becici": "A 2 km arc of fine sand once voted Europe's best beach by continental travel writers. Less hectic than Budva's main strip",
+    "oldTownTitle": "Inside the Citadel",
+    "oldTownText": "Budva's Stari Grad fills a compact peninsula that has been fortified since antiquity. Cobbled lanes barely two metres wide twist between Venetian townhouses, 7th-century churches and restaurants. At the southern end the Citadela, now a summer venue, gives views down the coast. A small library inside holds editions in a dozen languages, left by sailors over the centuries.",
+    "dayTripsTitle": "Day Trips from Budva",
+    "svetiStefanTrip": "Six kilometres south, the road above Sveti Stefan offers the camera angle that has sold a million postcards. The mainland beach is free. With a car you can arrive early, before tour buses from Budva claim every parking spot.",
+    "kotorTrip": "Forty minutes north through the Vrmac tunnel sits Kotor's UNESCO-listed Old Town. Most Budva visitors make this drive at least once, a strong argument for having your own car waiting at Podgorica Airport.",
+    "lovcenTrip": "Inland the road climbs through Lovćen National Park to the Njegoš Mausoleum at 1,657 metres. On a clear afternoon the panorama takes in four countries. Allow three hours round trip.",
+    "parkingDetailsTitle": "Where to Park in Budva",
+    "parkingDetailsP1": "The main car park beside the Old Town walls costs around 2 euro per hour in high season and fills up by mid-morning on every sunny day between June and August. An overflow lot sits 300 metres south along the Slovenska Obala promenade, slightly cheaper at 1.50 euro per hour. For a full beach day the Jaz beach lots (2 euro day flat) or the Bečići car park (3 euro per day) are markedly less stressful.",
+    "parkingDetailsP2": "A local trick: park at the Hotel Mediteran lot at the southern end of the Budva strip and walk 10 minutes along the promenade to the Old Town. That lot is rarely full even in August, because most visitors circle endlessly looking for spots closer to the walls.",
+    "parkingLink": "{{link}} and reach Budva in around an hour via the Sozina tunnel.",
+    "parkingLinkText": "Pick up your car at Podgorica Airport",
+    "nightlifeTitle": "After Dark: Budva Nightlife",
+    "nightlifeP": "Budva's Old Town transforms after sundown. The cobbled lanes fill with bar terraces and music drifts from dozens of doorways well past midnight. The strip along Slovenska Obala between the Old Town and Bečići operates at an entirely different scale, open-air clubs with DJ stages right on the beach. Top Hill, a club built into the hill above Budva, draws international acts and stays open until dawn through the season. If nightlife matters to your trip Budva is the only real option on the Montenegrin coast. Podgorica closes early by comparison.",
+    "whereToEatTitle": "Where to Eat in Budva",
+    "whereToEatP1": "Inside the citadel walls Konoba Stari Grad occupies a stone courtyard and serves platters of grilled Adriatic fish with roast peppers and house olive oil. The menu changes daily with the catch. Portions are generous and a full meal with wine runs 15 to 22 euro per person. Seating is limited, so come before 19:30 in summer or expect to wait.",
+    "whereToEatP2": "For something more casual Jadran on the seafront promenade serves pizza and ćevapi (grilled meat rolls) at sensible prices with a front-row seat for the evening passeggiata. It is the kind of place locals stop for a quick dinner on the way home from the beach. Café culture also thrives in Budva, Café Greco on the main square pulls a strong macchiato and the terrace fills mornings with a mixed crowd of pensioners and laptop workers.",
+    "drivingTipsTitle": "Driving Tips for the Budva Riviera",
+    "drivingTipsP1": "The road from the Vrmac tunnel down into Budva drops steeply through a series of roundabouts. In summer it backs up at the final roundabout before the Old Town, especially between 10:00 and 12:00 when day-trippers from Tivat and Kotor arrive. Consider approaching from the south: the Bečići road offers a calmer entrance.",
+    "drivingTipsP2": "Speed limits on the riviera highway are 60 km/h, dropping to 40 km/h through Bečići and Rafailovići. Police enforcement is sporadic but fines are issued on the spot and not negotiable. Road surface is generally good, but watch for scooters threading between lanes in summer, two-wheel hire is popular and riders are not always experienced.",
+    "drivingTipsP3": "Petrol stations are plentiful along the main road. The Jugopetrol station at the northern entrance to Budva has a car wash and minimarket. Diesel and petrol prices in Montenegro hover at 1.45 to 1.55 euro per litre, standardised across brands.",
+    "seasonalTitle": "Budva Through the Seasons",
+    "seasonalP1": "Summer is what Budva exists for. The riviera runs at full capacity from mid-June through early September: every beach has sun-lounger hire, every restaurant runs double sittings and the promenade fills with an evening passeggiata. Water temperature settles at 24 to 26 degrees Celsius through July and August.",
+    "seasonalP2": "Spring and autumn frame the chaos with milder weather and far fewer visitors. Jaz beach is particularly pleasant in May, warm enough to swim, quiet enough to hear the waves. Many hotels and restaurants open by Easter and stay open until the end of October.",
+    "seasonalP3": "Winter in Budva is a ghost town by comparison. Most beach bars close, the Old Town empties and only a handful of restaurants stay open. But the citadel is still there, the views are still spectacular and if you enjoy a Mediterranean town in its off-season quiet there is genuine charm to it. Rental car prices drop significantly between November and March."
+  },
+  "kotorBody": {
+    "h1": "Kotor: Twelve Centuries Inside the Walls, Ninety Minutes from TGD",
+    "p1": "First defensive walls rose above Kotor in the 6th century, but documented history reaches further back, Roman settlement, Byzantine rule and almost four hundred years under Venetian sovereignty. UNESCO inscribed the natural and cultural heritage region of Kotor in 1979, recognising not only the walled Old Town but the surrounding bay landscape as a single cultural unit. Step through the Sea Gate (Vrata od Mora), built in 1555, and you enter a medieval street network barely changed since.",
+    "p2": "From Podgorica Airport (TGD) the drive is about 90 minutes via the Sozina tunnel and the Vrmac tunnel. Car parks line the approach. The largest sits below the walls at the river gate; a less crowded option stretches along the Dobrota road heading north. On days when cruise ships are in port, sometimes three or four at once between May and October, arrive before 07:30 or prepare for a parking battle.",
+    "landmarksTitle": "Inside and Above the Walls",
+    "stJohnTitle": "St. John Fortress",
+    "stJohnText": "Exactly 1,355 steps lead from the northern edge of the Old Town to the fortress summit at 280 metres. Venetian engineers reinforced the 4.5 km wall between the 15th and 18th centuries. Carry water, wear proper shoes and allow forty-five minutes for the climb. The view from the top, the inner bay splitting around the Vrmac peninsula into two arms, justifies every step. Outside July and August admission is free.",
+    "cathedralTitle": "Cathedral of St. Tryphon (1166)",
+    "cathedralText": "A chapel has stood on this spot since 809 AD, but the present Romanesque building dates from 1166 and is one of two Roman Catholic cathedrals in Montenegro. The twin towers, rebuilt after the 1667 earthquake, define Kotor's silhouette. Inside, a ciborium over the main altar shelters 14th-century frescoes, and the relic treasury holds gold and silver pieces from five centuries. St. Tryphon, patron saint of the city, is honoured on 3 February each year with processions.",
+    "dayTripsTitle": "Beyond the Walls: Day Trips",
+    "perastTrip": "Fifteen minutes north along the coast road sits Perast, quiet by comparison with Kotor's bustle. Park at the waterfront, take a boat to the Gospa od Škrpjela islet, the island that locals have been enlarging with stones since 1452, and return for coffee in a waterfront palazzo. The drive itself ranks among the country's most scenic short stretches.",
+    "cetinjeTrip": "An hour of switchbacks through Lovćen National Park brings you to Cetinje, Montenegro's former royal capital. The monastery preserves relics said to include the hand of John the Baptist. Continue to the Njegoš Mausoleum at 1,657 metres, where four countries are visible on a clear morning.",
+    "royalCourtText": "Also in Cetinje, the Royal Palace of 1871, once the residence of King Nikola I, preserves paintings, weapons and photographs from the brief era of the Montenegrin monarchy. It stands beside the monastery on a tree-lined boulevard of the historic capital.",
+    "parkingTitle": "Parking in Kotor: A Detailed Guide",
+    "parkingP1": "Parking is the biggest frustration visitors face in Kotor and understanding the system saves significant time. The main car park lies directly below the fortress walls, beside the river gate. It costs around 1.50 euro per hour in summer and slightly less from October to April. Capacity is limited to roughly 150 vehicles and on cruise-ship days it is full by 09:00.",
+    "parkingP2": "A better strategy on busy mornings is the Dobrota strip. Drive past Kotor's walls heading north along the bay road and within two minutes you reach a long stretch of street parking that rarely fills. From there it is a ten-minute walk back to the Sea Gate along a flat waterfront promenade. The spaces closest to Kotor fill first, so drive on for 500 metres and you will almost always find a space.",
+    "parkingP3": "There is also a large gravel lot near the shopping centre on the approach from Tivat, about 800 metres south of the Old Town. It runs at a flat 5 euro per day with a manned booth. Locals use this lot during summer peaks and walk in along the main road.",
+    "whereToEatTitle": "Where to Eat Near the Old Town",
+    "whereToEatP1": "Inside the walls Konoba Scala Santa on Trg od Salate serves a grilled cuttlefish plate with blitva (chard and potato) that captures bay cooking at its simplest and best. The restaurant occupies a converted stone ground floor and keeps its menu short, fish from the morning market, local salads, house wine in carafes. Expect 12 to 18 euro for a main. Come by 12:30 for a table without a wait, since cruise passengers fill the Old Town restaurants between 13:00 and 15:00.",
+    "whereToEatP2": "Outside the walls Restoran Galion sits on a terrace with a direct view of the Old Town across the water. The setting is the real attraction, fortress walls reflected in the still bay, but the seafood risotto and grilled sea bream hold up. It is a 5-minute drive from the river-gate car park or a 15-minute walk along the Dobrota waterfront.",
+    "whereToEatLink": "Explore the coast road north to {{link}}, fifteen minutes along the waterfront.",
+    "perastLinkText": "Perast",
+    "drivingTipsTitle": "Driving Tips Around Kotor",
+    "drivingTipsP1": "The approach road from Tivat follows the eastern shoreline of the bay through Dobrota. It is well surfaced but narrow in places, with stone walls hugging both sides. In summer expect oncoming traffic from tour buses and delivery vans, pull into the next widened section and let them past. Speed limits along this stretch are 40 km/h, monitored by a fixed camera near the Dobrota waterfront.",
+    "drivingTipsP2": "Heading south from Kotor toward Budva the road climbs briefly before entering the Vrmac tunnel. This is a single-bore tunnel with two-way traffic, so stay in your lane and switch on dipped beam. Beyond the tunnel the road snakes down to the Budva bypass. The full drive from Kotor's Sea Gate to Budva's Old Town car park takes about 25 minutes outside peak hours.",
+    "drivingTipsP3": "For the Lovćen serpentines leave Kotor via the back streets behind the Old Town. The road is signposted but the first junctions are easy to miss between residential houses. Once you clear the last houses the switchbacks begin in earnest. Sound the horn before each blind bend, locals do this routinely and it is the most effective safety measure on this road.",
+    "seasonalTitle": "Kotor Through the Seasons",
+    "seasonalP1": "Summer (June to September) is Kotor's busiest and most expensive season. The Old Town teems with cruise visitors between 09:00 and 16:00 and the bay road can come to a standstill when buses converge on the waterfront. Evening, however, is when Kotor transforms: day-trippers vanish, the squares empty and restaurants set tables under the fortress walls in the warm dusk. If you can time your visit to the late afternoon, summer in Kotor is magical.",
+    "seasonalP2": "Autumn brings relief. October and November offer mild weather, near-empty streets and lower rental car prices. The fortress climb is far more pleasant without the July heat. Many restaurants stay open into November, though some close after the last cruise ships of the season depart in late October.",
+    "seasonalP3": "Winter in Kotor is quiet, introspective and surprisingly atmospheric. Rain sweeps the bay, the mountain peaks gather snow and the stone lanes of the Old Town gleam in lantern light. Carnival season in February fills the squares with masked parades and live music, a local tradition reaching back centuries. Parking is effortless in winter and rental car prices are at their lowest.",
+    "seasonalP4": "Spring, particularly April and early May, is arguably the finest time to visit. Wildflowers carpet the hills, the bay road verges bloom with iris and poppy, and the air has a clarity that makes the mountains feel within reach. Tourist numbers are still low and the Lovćen road is freshly opened after winter closures."
+  },
+  "tivatBody": {
+    "h1": "Tivat: From Naval Yard to Mediterranean Playground",
+    "p1": "Until the 1990s Tivat was a Yugoslav naval town, a closed area for submarine maintenance and warship resupply. Canadian billionaire Peter Munk acquired the decommissioned arsenal in 2006 and Porto Montenegro emerged: 450 berths, a waterfront promenade and a new identity for the town.",
+    "p2": "From Podgorica Airport (TGD) the drive to Tivat is about an hour and a half via the Sozina tunnel. From central Podgorica reckon on an hour and ten minutes. Tivat itself has a small airport (TIV, 4 km from the centre) but most long-stay visitors collect their car at TGD for the wider winter flight network and head west to the bay.",
+    "beachesTitle": "Seventeen Beaches, Three Kilometres",
+    "beachesText": "The Tivat municipality counts 17 beaches along a 3 km coast. Two are particularly worthwhile:",
+    "beach1": "Plavi Horizonti (Blue Horizons) on the Luštica peninsula: fine white sand in a sheltered cove, crystal-clear water. Reached by a short drive from the centre",
+    "beach2": "Sveti Marko island beaches near Pržno: leftovers of a 1960s resort, half reclaimed by nature. Boat taxis from Pržno in summer",
+    "portoTitle": "Porto Montenegro: The Marina Quarter",
+    "portoText": "The old arsenal dry docks now host superyachts up to 250 metres in length. The surrounding waterfront village was built with boutiques, a pool club, restaurants and a maritime history collection housed in the original submarine repair buildings. Whether you arrive by car or by 60-metre catamaran, the dress code is the same: relaxed Mediterranean.",
+    "culturalTitle": "Beyond the Marina",
+    "monasteryTitle": "Prevlaka Peninsula: Archangel Michael",
+    "monasteryText": "At the tip of the Prevlaka peninsula archaeological excavations are uncovering layers of a 10th-century monastery complex. Atmospheric, stone walls, column fragments and views across the Tivat strait.",
+    "churchTitle": "Sveti Antun Padovanski (1734)",
+    "churchText": "Compact Baroque church on a hillside above Tivat with religious paintings and silver reliquaries. The terrace gives a panoramic view from Porto Montenegro's masts to Kotor's fortress walls in the distance.",
+    "museumText": "Kotor's Maritime Museum, twenty minutes' drive away, gives context to Tivat's naval past. Exhibits cover centuries of Boka seafaring under Venetian and Austro-Hungarian flags.",
+    "parkingTitle": "Parking in Tivat",
+    "parkingP1": "Tivat is markedly easier to park in than Kotor or Budva. Porto Montenegro has its own car park at 1 euro per hour, with the first hour free for visitors. Street parking along the main waterfront runs on a ticket system at 0.50 euro per hour, one of the cheapest parking deals on the coast.",
+    "parkingP2": "The car park beside the Tivat sports centre, 400 metres from Porto Montenegro, is free and rarely full. For Plavi Horizonti beach a dedicated lot at the end of the access road costs 3 euro per day in summer. Arrive before 10:00 for a guaranteed space.",
+    "parkingLink": "Pick up your car at {{link}} and reach Tivat in around 90 minutes via the Sozina tunnel.",
+    "tivatAirportLinkText": "Podgorica Airport",
+    "whereToEatTitle": "Where to Eat in Tivat",
+    "whereToEatP1": "One, in the Porto Montenegro complex, serves creative Mediterranean dishes in a setting closer to Dubrovnik or Monaco than Montenegro. Their grilled octopus with smoked potato purée is the signature plate, and a meal runs 20 to 30 euro per person. Reserve for a waterfront table at sunset.",
+    "whereToEatP2": "For something more affordable and more local, Konoba Bacchus on Ulica Nika Anđelića, a five-minute walk from the marina, serves enormous portions of grilled lamb and veal under sač (a traditional metal bell) with fresh salad and local bread. Weekends fill with Tivat families and a complete dinner for two costs 25 to 35 euro including wine. The atmosphere is genuinely Montenegrin rather than touristy.",
+    "drivingTipsTitle": "Driving Around Tivat",
+    "drivingTipsP1": "Tivat sits at the junction of two main routes: the bay road north to Kotor (20 minutes) and the coast road south toward Budva via the Vrmac tunnel (25 minutes). Both are well-maintained two-lane roads. The Vrmac tunnel is the main bottleneck, it carries two-way traffic in a single bore, so use dipped beam and stay in lane.",
+    "drivingTipsP2": "For the Luštica peninsula and Plavi Horizonti beach take the Luštica road from the Tivat roundabout. The peninsula road is narrow and twisty but surfaced throughout. Watch for cyclists, Luštica's quiet roads attract road-cycling groups, particularly in spring and autumn.",
+    "seasonalTitle": "Tivat Through the Seasons",
+    "seasonalP1": "In summer Tivat becomes an extension of the Mediterranean yachting circuit. Porto Montenegro fills with multi-million-euro vessels, the pool club operates at full capacity and waterfront bars stay open past midnight. It is the most glamorous version of Montenegro you will find on the coast.",
+    "seasonalP2": "Winter in Tivat is quieter but never dead. The airport keeps year-round flights to Belgrade, the cafés along the promenade stay open and the Porto Montenegro restaurants keep serving. The marina is less crowded, the superyachts have migrated south and the town reverts to its local character, families on the promenade, fishermen mending nets at the harbour and the occasional cat sunning itself on the quay.",
+    "lustitcaTitle": "The Luštica Peninsula Road Trip",
+    "lusticaP": "The Luštica peninsula extends west from Tivat into the Adriatic and a drive along its full length makes a half-day excursion. Beyond Plavi Horizonti the road continues to Žanjice beach at the peninsula tip, where boats depart for the Blue Grotto (Plava Špilja), a sea cave where refracted sunlight turns the water electric blue. The round trip from Tivat is about 50 km. Pack a swimsuit and allow time for at least two swimming stops.",
+    "lusticaLink": "Explore {{link}}, just 20 minutes along the coast road.",
+    "nearbyKotorLinkText": "nearby Kotor"
+  },
+  "perastBody": {
+    "h1": "Perast: A Miniature Republic of Sea Captains",
+    "p1": "Perast occupies a single narrow waterfront strip below Mount St. Elias, so narrow that most buildings are only one room deep. Around 350 people live here year-round, yet this village once provided the Republic of Venice with its finest sea captains. Between 1420 and 1797 Perast's shipyards built galleys, its navigators charted the Adriatic and its merchant families raised palazzo after palazzo on the quay.",
+    "p2": "From Podgorica Airport (TGD) the drive is about 90 minutes via the Sozina and Vrmac tunnels and the bay road. Park at the northern end of the village (spaces are limited, in summer it is one-way) and walk the waterfront in ten minutes. The brevity is deceptive, there is more per metre here than almost anywhere else on the coast.",
+    "islandsTitle": "Two Islands, Two Stories",
+    "stGeorgeTitle": "Sveti Đorđe (St. George)",
+    "stGeorgeText": "The natural island closer to shore is dark with cypress trees and closed to visitors. A Benedictine abbey has occupied the site since the 12th century. Photographers prefer the early morning, when the silhouette is sharpest against the eastern light.",
+    "ladyOfRocksTitle": "Gospa od Škrpjela (Our Lady of the Rocks)",
+    "ladyOfRocksText": "On 22 July 1452 two fishermen pulled an icon of the Madonna from the seabed near a submerged rock. Townspeople began sinking stones around the rock, a tradition continued annually for over five centuries. Today the island holds a Baroque church with 68 paintings by Tripo Kokolja. Boats leave every half hour from the waterfront; the crossing takes five minutes.",
+    "historicTitle": "Stone and Memory",
+    "historicText": "Sixteen palazzi along the waterfront, seventeen Catholic churches and several watchtowers, then you begin to grasp how prosperous this tiny settlement once was. The Museum of Perast in the Bujović Palace holds nautical instruments, ship models, battle flags and town chronicles.",
+    "monasteryTitle": "Banja Monastery (a short detour north)",
+    "monasteryText": "Following the coast road past Perast toward Risan, a side road leads to Banja Monastery. Religious artefacts from Russian, Greek and Boka dynasties in modest surroundings. Few visitors make the detour, which is precisely its charm.",
+    "parkingTitle": "Parking in Perast",
+    "parkingP1": "Parking in Perast tests your patience in summer. The village has one road and in July and August it is one-way (southbound only). A small car park at the northern entrance holds about 30 vehicles and costs 2 euro per hour. If it is full there is no other space within the village. The only alternative is to park 300 to 500 metres north of the village along the bay road and walk in.",
+    "parkingP2": "Outside high season street parking opens up along the waterfront. Between October and April parking is free and you can usually pull in right next to the harbour. The contrast with summer is striking, in January you may be the only car in sight.",
+    "parkingLink": "Plan your route with our {{link}}.",
+    "parkingLinkText": "Montenegro driving and route guide",
+    "whereToEatTitle": "Where to Eat in Perast",
+    "whereToEatP1": "Konoba Školji at the southern end of the waterfront serves grilled fish on a stone terrace directly over the water. The catch changes daily, ask what came in that morning. Their octopus salad with capers and local olive oil is a highlight. A meal for two with a bottle of Montenegrin white runs about 35 to 45 euro. Reservations are essential in July and August; outside summer walking in is fine.",
+    "whereToEatP2": "For coffee and a small snack Conte Perast occupies the ground floor of one of the restored palazzi. The espresso is strong, pastries are baked in-house and the view from the waterfront table takes in both islands, the monastery bell tower and the ridge behind. It opens at 08:00, which makes it a natural stop on a morning drive from Podgorica.",
+    "drivingTipsTitle": "The Bay Road to Perast",
+    "drivingTipsP1": "The 12 km road from Kotor to Perast ranks among Europe's most scenic short drives. It runs right at the water's edge through the settlements of Dobrota, Ljuta and Orahovac. The road is well maintained but narrow, in places just wide enough for two cars. Stone walls and buildings press in on the inland side and the bay laps at the road on the other.",
+    "drivingTipsP2": "Speed limits are 40 km/h through the settlements and 60 km/h between them. A fixed camera sits near the Dobrota waterfront and police occasionally set up mobile checks at Orahovac. Drive evenly rather than fast, the scenery is the entire point of this road. Stop at one of the small lay-bys between Kotor and Perast for photos; the view changes character every few hundred metres.",
+    "seasonalTitle": "Perast Through the Year",
+    "seasonalP1": "Summer turns this quiet hamlet into one of the most-visited spots on the bay. Excursion boats from Kotor dock at the harbour continually, kayak groups paddle past the waterfront and every restaurant table looks at the islands. The atmosphere is lively but retains a softness that Budva lacks, no nightclubs, no beach bars, just stone buildings and water.",
+    "seasonalP2": "In winter Perast returns to its residents. The Baroque facades stand still against grey skies, rain dimples the bay surface and the boatmen stay home. The Museum of Perast remains open year-round and the churches are unlocked most days. If you want to see what this village felt like before tourism, come in January. The light is softer, the mountains are dusted with snow and the silence is absolute.",
+    "beyondTitle": "Beyond Perast: Risan and the Roman Mosaics",
+    "beyondP": "Five minutes past Perast on the bay road, the small town of Risan holds one of Montenegro's least-visited treasures: a 2nd-century AD Roman floor mosaic ensemble in remarkable condition. The highlight is a depiction of Hypnos, god of sleep, reclining on a bed of flowers, one of only three known representations of this kind from the ancient world. Admission is 3 euro. The site is modest in scale but extraordinarily well preserved. Pair Risan with Perast for a morning that spans two millennia of bay history."
+  },
+  "tivatAirportBody": {
+    "h1": "Tivat Airport (TIV): Coast-Side Alternative to Podgorica Airport",
+    "p1": "Pilots know Tivat for the approach: aircraft drop between Mount Lovćen and the Vrmac ridge, bank over the bay and touch down on a runway that practically ends in the water. The terminal (IATA code TIV) sits 4 km from Tivat town centre and 8 km from Kotor's Sea Gate, one of the shortest airport-to-old-town distances in southern Europe.",
+    "p2": "Tivat handles seasonal Adriatic charter flights heavily between May and October. Outside that window Podgorica Airport (TGD) carries the wider year-round network, including ground-time-friendly evening arrivals from London, Vienna and Belgrade. Many travellers fly into TGD and pick up a car there to reach the bay.",
+    "distancesTitle": "Drive Times from the Terminal",
+    "dist1": "Kotor Old Town: 8 km, about 15 minutes on the coast road",
+    "dist2": "Perast waterfront: about 25 minutes, further north past Kotor",
+    "dist3": "Budva riviera: about 20 minutes south through the Vrmac tunnel",
+    "dist4": "Podgorica city centre: about 90 minutes via the Sozina tunnel and motorway",
+    "facilitiesTitle": "Inside the Terminal",
+    "facilitiesText": "Expect a café, a small duty-free area, souvenir stands and an ATM. Bus connections to Kotor and Budva exist but are infrequent and slow. Taxis wait outside arrivals. Far easier: a rental car waiting in the car park.",
+    "whyTitle": "Why Pick Up Here?",
+    "whyText": "Tivat is the closest airport to Kotor, fifteen minutes' drive away. From the terminal four drives branch out: north to Perast, south through the tunnel to Budva, up the 25 Lovćen hairpins, or straight through Dobrota to Kotor's fortress walls. No shuttle, no waiting for a bus.",
+    "whyLink": "{{link}} are 30 minutes south through the tunnel.",
+    "budvaLinkText": "Budva's beaches and Old Town",
+    "meetText": "Our representative waits in the arrivals hall, your name on a board. The car is parked right outside. From landing to wheels rolling toward Kotor: about fifteen minutes.",
+    "firstDriveTitle": "Your First Drive: Airport to Kotor",
+    "firstDriveP1": "Turn right out of the airport car park and follow signs for Kotor. The road runs through the outskirts of Tivat, crosses a small roundabout at the Tivat sports centre and then hugs the eastern shoreline of the bay. Within five minutes you are driving alongside the water, with the Vrmac ridge rising sharply on your left and the bay opening out ahead.",
+    "firstDriveP2": "After about 10 minutes the road reaches the Dobrota settlement, where stone palazzi line the waterfront. Kotor's fortress walls become visible ahead, clinging to the mountainside. The final approach narrows as the road threads under the fortress walls. Follow signs for the car park, the main lot is beside the river gate and the Dobrota strip provides overflow.",
+    "firstDriveP3": "The whole drive is scenic from the first minute. Let your passenger work the camera, because the road deserves your full attention, it is narrow in places, with stone walls on both sides and pedestrians occasionally stepping off the pavement at Dobrota.",
+    "flightsTitle": "Airlines and Route Network",
+    "flightsP1": "Air Serbia operates the year-round Belgrade link, which connects to dozens of European and Middle Eastern cities. From May to October charter and budget carriers add seasonal routes from London Gatwick, Manchester, several German cities, Vienna, Zurich, Moscow and St. Petersburg. Wizz Air, Ryanair and TUI all operate summer schedules.",
+    "flightsP2": "The seasonal nature of many routes means winter arrivals are more limited. If your travel dates fall between November and April and Tivat does not have a convenient flight, consider flying into Podgorica (TGD), which keeps wider year-round connections, or Dubrovnik (DBV) in Croatia, which has the largest route network in the region.",
+    "flightsLink": "For winter alternatives see our {{link}}.",
+    "podgoricaGuideLinkText": "Podgorica Airport guide",
+    "fuelTitle": "Fuel and First Stops",
+    "fuelP": "The nearest petrol station is a Jugopetrol on the Tivat bypass, about 2 km from the airport. Rental cars are handed over with a full tank, so you do not need to fill up immediately, but it is worth noting the location for the return trip. Fuel prices in Montenegro are standardised across brands at roughly 1.45 to 1.55 euro per litre for diesel and slightly more for petrol. The station has a minimarket for water and snacks.",
+    "tipsTitle": "Practical Arrival Tips",
+    "tipsP1": "The terminal is small. Passport control and baggage collection rarely take more than 20 minutes, even on a full charter flight. Our representative waits in the arrivals hall with a name board. If your flight is delayed, do not worry, we track arrivals and adjust our timing.",
+    "tipsP2": "ATMs in the terminal dispense euros. Montenegro uses the euro as currency, so there is no exchange to consider if you arrive from the eurozone. Mobile coverage is excellent across the bay, Montenegrin networks connect immediately, and EU roaming applies to European travellers.",
+    "tipsP3": "If you land in the evening, the drive to Kotor along the bay road after dark is atmospheric. The waterfront settlements are lit, the fortress walls glow under floodlight, and the bay surface reflects the lights of the opposite shore. It is an unforgettable first impression.",
+    "seasonalTitle": "Seasonal Flight Patterns",
+    "seasonalP1": "May to October is high season at Tivat. Charter flights from the UK, Germany, Scandinavia and Russia fill the terminal, and rental car availability tightens. Book your vehicle at least two weeks ahead for July and August travel. The airport handles up to 15 flights per day in peak weeks, compared with two or three per day in winter.",
+    "seasonalP2": "November to April is quiet. Only the Belgrade service runs regularly, with occasional flights from a handful of other cities. If you arrive in winter, confirm your flight, schedule changes and cancellations are more common in the off season. Podgorica Airport, with its broader year-round offer, is the more reliable winter option.",
+    "returnTitle": "Returning Your Rental Car",
+    "returnP": "On departure day, allow 15 minutes for the drive from Kotor to the airport and arrive 90 minutes before your flight. Drop the car at the terminal car park and call the representative, who will meet you for a brief inspection and complete the paperwork on the spot. Refuel before arrival; the nearest petrol station sits on the Tivat bypass, 2 km from the terminal. The drop-off process takes about 10 minutes and leaves plenty of time for check-in."
+  },
+  "dubrovnikAirportBody": {
+    "h1": "Dubrovnik Airport (DBV): The Cross-Border Option",
+    "p1": "Dubrovnik's route network exceeds both Montenegrin airports combined. Direct flights to most major European cities, low-cost carriers in summer. The catch: Dubrovnik is in Croatia. The reward: a two-hour coastal drive on the E65.",
+    "p2": "After collection at DBV the road heads south-east through the Konavle valley to the Debeli Brijeg border crossing. Once through, you continue into Montenegro: down through Herceg Novi, along the northern bay, past Perast and on to Kotor's walls or Tivat's marina. Continuing inland to Podgorica adds another 90 minutes via the Sozina tunnel.",
+    "p3": "A Green Card insurance document must be in the glove box before the border. We arrange this at the time of booking. Confirm at reservation that Montenegro is covered.",
+    "borderTitle": "The Queue at Debeli Brijeg",
+    "borderText": "In July and August expect a one to two hour wait on the coastal E65. Weekday mornings before 08:00 and evenings after 20:00 are quietest. Alternative: the inland crossing at Konfin near Trebinje, often clear when the coastal crossing is jammed.",
+    "borderLink": "For documents and wait-time information see our {{link}}.",
+    "borderLinkText": "guide to crossing borders by rental car",
+    "facilitiesTitle": "About the Airport",
+    "facilitiesText1": "The terminal sits at Čilipi, 25 minutes south-east of Dubrovnik Old Town. A single runway handles everything from budget turboprops to wide-body charters.",
+    "facilitiesText2": "Inside: bureau de change, bank, post office, duty-free, cafés. Outside: taxi rank, bus connection and rental car desks. Functional, efficient.",
+    "gettingTitle": "The Drive into Montenegro",
+    "gettingText1": "Two hours from the airport to Kotor, plus border wait. The E65 drops to the coast at Herceg Novi and follows the northern arm of the bay. At Kamenari a car ferry shortens the route, or you continue around through Perast.",
+    "gettingText2": "The approach to Kotor is unforgettable. Mountains rise vertically out of the water, the bay narrows, and the fortress walls appear on the cliff face ahead.",
+    "routeDetailTitle": "The Route in Detail",
+    "routeDetailP1": "From the airport the road heads south through Čilipi and the Konavle valley, vineyards, stone houses and quiet countryside. After about 30 minutes you reach the Debeli Brijeg border crossing. On the Montenegrin side the road descends sharply through a series of tunnels into Herceg Novi, a pleasant coastal town at the bay mouth.",
+    "routeDetailP2": "At Herceg Novi you have a choice. The direct route continues along the northern bay shoreline through Bijela, Đenovići and on toward Perast and Kotor. This road is scenic and well maintained, if narrow and slow in places behind tour buses. Total drive time from Herceg Novi to Kotor along this route is around 45 minutes.",
+    "routeDetailP3": "The alternative uses the Kamenari to Lepetane car ferry, which crosses the narrowest point of the bay in about five minutes. Ferries run continuously from early morning until late at night, with departures every 10 to 15 minutes. The fare is around 4.50 euro for a car. This shortcut saves 30 to 40 minutes compared with going around the inner bay and puts you on the road between Tivat and Kotor, 15 minutes from the Old Town.",
+    "ferryTitle": "The Kamenari to Lepetane Ferry",
+    "ferryP": "The ferry crossing is one of those small travel moments that becomes a highlight. You drive on to the flat-deck boat, step out of the car, lean on the rail and watch the bay slip beneath you. Mountains rise on both sides, the water is flat and green, and on a well-timed crossing the sunset catches the Kotor fortress walls in the distance. The crossing takes about five minutes. On summer weekends queues can build, expect a 20 to 30 minute wait at the ferry between June and August from late morning to late afternoon.",
+    "whereToStopTitle": "Worthwhile Stops on the Way",
+    "whereToStopP1": "Herceg Novi deserves more than a drive-through. The Old Town climbs a hillside above the bay, with a fortress, a clock tower and shaded squares full of café tables. If you have an hour to spare park near the main square and walk down through the Kanli Kula fortress to the waterfront. The town has a different feel from Kotor, more relaxed, more residential, less pitched at tourists.",
+    "whereToStopP2": "Perast, about 30 minutes before Kotor on the northern route, is worth a stop for a coffee on the waterfront. The Baroque palazzi, the two islands and the mountain backdrop make it one of the most photogenic spots in the entire bay.",
+    "documentsTitle": "Documents You Need at the Border",
+    "documentsP1": "Passport or EU national identity card, original, no photocopies. Your driving licence. The original rental agreement with the company stamp. A Green Card listing Montenegro as a covered country. And the vehicle registration document, which should already be in the car.",
+    "documentsP2": "Arrange these documents in an envelope on the dashboard before you join the border queue. When your turn comes, hand the entire set to the officer. Efficiency at the booth is appreciated, fumbling for paperwork costs everyone behind you time.",
+    "seasonalTitle": "Seasonal Considerations",
+    "seasonalP1": "The border queue at Debeli Brijeg is the variable that determines how long this trip takes. In winter the crossing is almost instant. In spring and autumn a 10 to 20 minute wait is typical. In July and August prepare for one to two hours at peak. Saturday and Sunday afternoons are worst; Tuesday and Wednesday mornings are quietest.",
+    "seasonalP2": "Dubrovnik Airport's route network peaks in summer with dozens of direct European connections. The winter schedule is more limited but still substantial, year-round services to London, Frankfurt and a handful of other cities keep the airport ticking through the quiet months. The drive into Montenegro in winter is actually faster because of the empty border, even if fewer flights are available."
+  },
+  "carSpecs": {
+    "seats": "Seats",
+    "transmission": "Gearbox",
+    "fuel": "Fuel",
+    "luggage": "Luggage",
+    "bootSize": "Boot",
+    "mpg": "Economy"
+  },
+  "kotor": {
+    "title": "Car Rental for Kotor from Podgorica Airport",
+    "subtitle": "UNESCO bay town, 90 minutes from Podgorica Airport via the Sozina and Vrmac tunnels.",
+    "seoDesc": "Pick up a rental at Podgorica Airport (TGD) and reach the Kotor walls in 90 minutes. Insurance included, Green Card for onward travel, transparent weekly and monthly rates."
   }
 }

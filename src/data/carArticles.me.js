@@ -1,6 +1,6 @@
 // Crnogorski prijevodi — Podgorica-iznajmljivanje (višednevni najam iz Podgorice kao baze).
 export const carArticles = {
-  "vw-polo": {
+  "renault-clio": {
     paragraphs: [
       "Clio na kotorskim rent-a-car tablicama obično je 1.0 TCe benzinac s petostepenim manuelnim mjenjačem, a na dvonedeljnom najmu ta kombinacija je najmirnija za svakodnevno korišćenje. Tricilindarski motor se zadihava kada se tjera, ali niko ne iznajmljuje Clio da bi ga tjerao, draž je u lakom mjenjaču koji ne zamara lijevu nogu u sporom saobraćaju kroz zaliv, u instrument tabli čitljivoj pod jadranskim suncem, i u sjedištima udobnim i poslije četiri dana izleta. Vožnja preko kvrgavih usporivača u Risnu je mekša nego u 208, a kabina je tiša nego u Yarisu na Sozinskoj autoputu.",
       "Sa bazom u Podgorici, Clio obavlja ponavljajući raspored dnevnih izleta bez gunđanja. Kolašin i Njegošev mauzolej su 45 minuta serpentinama, a kratki prvi i drugi stepen prenosa znače da na najužim okukama iznad Njeguša nikad ne morate paliti kvačilo. Primorska ruta do Risna je 8 km asfalta sa ograničenjem brzine koje Clio jednostavno apsorbuje; spuštanje do Skadarskog jezera traje 70 minuta, od čega najveći dio ide preko autoputa. Čak i prekogranični Trebinje, po 90 minuta u svakom smjeru, je u dometu jednog punog rezervoara.",
@@ -50,7 +50,7 @@ export const carArticles = {
       "Izaberite Golf ako vam je stalo do toga kako auto vozi na višednevnoj crnogorskoj petlji i hoćete najprofiniraniju kabinu u ovoj floti. Preskočite ga ako je vaša sedmica potpuno unutar zaliva na niskim brzinama, Clio i C3 su jeftiniji odgovori na taj zadatak."
     ]
   },
-  "toyota-yaris": {
+  "fiat-500": {
     paragraphs: [
       "Trenutni 500, benzinski mild-hibrid koji se još pravi, ne BEV naslednik, je sitan, stilski gradski auto koji kotorski najmodavci biraju iz razloga nepovezanih s vožnjom. Sa 3,57 m dužine i 1,63 m širine je kraći od Smart-a, uži od većine modernih hečbekova, i stvarno staje u rupe koje 95 % rent-a-car vozila ne može. 1.0 BSG 70 KS mild-hibrid tricilindar je bučan, spor i savršeno dovoljan za put zaliva sa ograničenjem brzine. Kabina je tesna; prtljažnik je odjeljak za rukavice; vožnja je nervozna. Ništa od toga nije važno kada ste tri noći u Starom gradu i parkiranje je cijela poenta.",
       "500 je auto za koji je zaliv izgrađen. Parkinzi na molu u Muu, stepenaste terase Mooring-a u Dobroti, uski prolaz iza Pomorskog muzeja, 500 ih sve nanize bez skidanja retrovizora. Ograničena petlja Podgorica–Tuzi–Rijeka Crnojevića sjedi u četvrtom stepenu na 1.800 o/min i vraća realnih 5,5 L/100 km; otvoreni krov na kasnoj popodnevnoj vožnji ka Perastu je najpravija kotorska razglednica koju može da isporuči rent-a-car auto. To decidno nije auto za Ostrog, 70 KS se bori iznad 700 m, niti za autoput za Podgoricu, gde buka u kabini na 120 km/h postaje neprijatna.",

@@ -127,7 +127,7 @@ export default function Contact() {
             <CheckCircle2 size={24} style={{ color: '#0f7a3c', flexShrink: 0, marginTop: '2px' }} />
             <div>
               <div style={{ fontWeight: 700, color: '#0f7a3c', marginBottom: '4px' }}>Message sent!</div>
-              <div style={{ fontSize: '14px', color: '#495057', lineHeight: 1.5 }}>Thanks for getting in touch — we'll reply within a few hours.</div>
+              <div style={{ fontSize: '14px', color: '#495057', lineHeight: 1.5 }}>Thanks for getting in touch, we'll reply within a few hours.</div>
             </div>
           </div>
         ) : (

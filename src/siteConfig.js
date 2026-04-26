@@ -260,7 +260,6 @@ const siteConfig = {
     { q: "What age do I need to be?", a: "The minimum is 21 years old with at least two years of driving experience. Drivers under 25 pay a young-driver supplement, the exact amount depends on the vehicle category." },
     { q: "What does the rental price cover?", a: "Every booking includes CDW insurance, third-party liability, VAT, and a roadside safety kit. Most vehicles offer unlimited mileage, check the individual listing for details." },
     { q: "How do I collect the car at Podgorica Airport?", a: "A representative meets you inside the TGD arrivals area with a name board. Your car is in the terminal car park, steps away. The drive to central Podgorica is around fifteen minutes." },
-    { q: "Is one-way rental possible?", a: "Yes, pick up and drop off at different locations across 28+ points in Montenegro. A one-way surcharge may apply depending on the distance between locations." },
     { q: "What if I need to cancel?", a: "Most vehicles offer free cancellation up to seven days before pickup. Premium and convertible classes require thirty days. A small processing fee applies to all cancellations." },
     { q: "Do I need a deposit?", a: "Most cars require between €100 and €350 held on a credit card. Some economy vehicles are deposit-free, these are clearly marked in your search results." },
     { q: "Is there a mileage cap?", a: "Many vehicles include unlimited mileage. Those with limits charge a per-kilometre rate beyond the allowance, always visible before you confirm." },
