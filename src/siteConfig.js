@@ -255,6 +255,7 @@ const siteConfig = {
   ],
 
   faq: [
+    { q: "Is one-way rental possible?", a: "Yes, pick up and drop off at different locations across 28+ points in Montenegro. A one-way surcharge may apply depending on the distance between locations." },
     { q: "What do I need to bring for pickup?", a: "A valid driving licence, your passport or national ID, and a physical credit card in the lead driver's name. Licences without Latin characters also require an International Driving Permit." },
     { q: "Can I cross into Albania, Serbia or other countries?", a: "Absolutely. Albania is about 40 minutes via the Božaj or Tuzi checkpoints, we include the Green Card at booking. Serbia, Kosovo, Bosnia and Croatia are also available with advance notice." },
     { q: "What age do I need to be?", a: "The minimum is 21 years old with at least two years of driving experience. Drivers under 25 pay a young-driver supplement, the exact amount depends on the vehicle category." },
