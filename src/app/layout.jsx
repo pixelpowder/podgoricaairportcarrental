@@ -10,8 +10,8 @@ import DynamicLanguageProvider from '@/src/i18n/DynamicLanguageProvider';
 import { SUPPORTED_LANGS, DEFAULT_LANG, LANG_HREFLANG } from '@/src/i18n/languages';
 import LocaleAwareSchema from '@/src/components/LocaleAwareSchema';
 
-const SITE_TITLE = 'Podgorica Airport Car Rental, UNESCO Bay & city centre Rentals';
-const SITE_DESC = 'Explore Podgorica\'s UNESCO walled city and the fjord-like bay by car. Collect at Podgorica Airport, just 8 km away, or right outside the medieval gates. From €13/day with full insurance.';
+const SITE_TITLE = 'Podgorica Airport Car Rental, Bay of Kotor & city centre Rentals';
+const SITE_DESC = 'Explore Podgorica\'s walled city and the fjord-like bay by car. Collect at Podgorica Airport, just 8 km away, or right outside the medieval gates. From €13/day with full insurance.';
 const SITE_URL = 'https://www.podgoricaairportcarrental.com';
 const SITE_NAME = 'Podgorica Airport Car Rental';
 

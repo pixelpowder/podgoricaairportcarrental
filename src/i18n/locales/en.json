@@ -349,7 +349,7 @@
     "kotor": {
       "name": "Kotor",
       "tag": "90 min from TGD",
-      "desc": "UNESCO walled Old Town at the head of the bay."
+      "desc": "walled Old Town at the head of the bay."
     },
     "budva": {
       "name": "Budva",
@@ -409,7 +409,7 @@
     "skadarText": "Thirty minutes south of Podgorica, the largest lake in the Balkans straddles the Albanian border. Pelicans, cormorants, and herons crowd the wetlands. Hire a small boat at Virpazar village, paddle among the water lilies, and return for grilled carp at one of the lakeside restaurants. In spring, the lake level rises by several metres and entire meadows vanish underwater.",
     "danilovgradTitle": "Danilovgrad and the Zeta Valley",
     "danilovgradText": "Half an hour west along the Zeta river, Danilovgrad is a small town known for riverside swimming spots, kayak rentals, and the 13th-century Zdrebaonik Monastery tucked into the hillside above. Combine it with a stop at one of the valley's family-run wineries.",
-    "zabljak": "The mountain town of Zabljak, at 1,456 metres in the Durmitor massif, is 170 km and roughly 2.5 hours north. In winter: skiing. In summer: the Tara River canyon (1,300 metres deep, second only to the Grand Canyon), Black Lake, and hiking trails across a UNESCO-protected alpine plateau.",
+    "zabljak": "The mountain town of Zabljak, at 1,456 metres in the Durmitor massif, is 170 km and roughly 2.5 hours north. In winter: skiing. In summer: the Tara River canyon (1,300 metres deep, second only to the Grand Canyon), Black Lake, and hiking trails across a historic alpine plateau.",
     "parkingTitle": "Parking in Podgorica",
     "parkingP1": "Podgorica presents none of the parking headaches that plague the coastal towns. Street parking in the city centre operates on a zone system: Zone 1 (around Republika Square and Sloboda) charges 0.50 euros per hour, Zone 2 further out is 0.30 euros. Payment is by SMS or at kiosk machines on the pavement. Most streets outside the centre are free and unrestricted.",
     "parkingP2": "Shopping centres like Delta City and Mall of Montenegro offer free underground parking for customers. If you are exploring the Stara Varos quarter, there is a small lot on Bulevar Svetog Petra Cetinjskog, a two-minute walk from the clock tower, that rarely fills even on market days.",
@@ -464,7 +464,7 @@
     "returnTitle": "Returning Your Car at Podgorica Airport",
     "returnP": "The return process mirrors the pickup. Drive to the terminal car park, call your representative, and complete a brief vehicle inspection. The car park is directly adjacent to the terminal, no shuttle needed. Refuel before arriving at the station 3 km from the airport on the main road. Allow 2 hours before your flight for the combined drop-off and check-in process. The terminal is small and efficient, so this is generous, but it accounts for any unexpected delays on the mountain road from Podgorica.",
     "rentalLink": "Drive to {{link}} in 90 minutes through mountain scenery.",
-    "kotorUnescoLinkText": "Podgorica's UNESCO city centre",
+    "kotorUnescoLinkText": "Podgorica's city centre",
     "winterLink": "Compare with {{link}} for summer arrivals.",
     "tivatAirportLinkText": "Podgorica Airport"
   },
@@ -1119,7 +1119,7 @@
     "oldTownText": "Budva's Stari Grad fills a compact peninsula that has been fortified since antiquity. Cobbled lanes barely two metres wide twist between Venetian townhouses, 7th-century churches and restaurants. At the southern end the Citadela, now a summer venue, gives views down the coast. A small library inside holds editions in a dozen languages, left by sailors over the centuries.",
     "dayTripsTitle": "Day Trips from Budva",
     "svetiStefanTrip": "Six kilometres south, the road above Sveti Stefan offers the camera angle that has sold a million postcards. The mainland beach is free. With a car you can arrive early, before tour buses from Budva claim every parking spot.",
-    "kotorTrip": "Forty minutes north through the Vrmac tunnel sits Kotor's UNESCO-listed Old Town. Most Budva visitors make this drive at least once, a strong argument for having your own car waiting at Podgorica Airport.",
+    "kotorTrip": "Forty minutes north through the Vrmac tunnel sits Kotor's historic Old Town. Most Budva visitors make this drive at least once, a strong argument for having your own car waiting at Podgorica Airport.",
     "lovcenTrip": "Inland the road climbs through Lovćen National Park to the Njegoš Mausoleum at 1,657 metres. On a clear afternoon the panorama takes in four countries. Allow three hours round trip.",
     "parkingDetailsTitle": "Where to Park in Budva",
     "parkingDetailsP1": "The main car park beside the Old Town walls costs around 2 euro per hour in high season and fills up by mid-morning on every sunny day between June and August. An overflow lot sits 300 metres south along the Slovenska Obala promenade, slightly cheaper at 1.50 euro per hour. For a full beach day the Jaz beach lots (2 euro day flat) or the Bečići car park (3 euro per day) are markedly less stressful.",
@@ -1142,7 +1142,7 @@
   },
   "kotorBody": {
     "h1": "Kotor: Twelve Centuries Inside the Walls, Ninety Minutes from TGD",
-    "p1": "First defensive walls rose above Kotor in the 6th century, but documented history reaches further back, Roman settlement, Byzantine rule and almost four hundred years under Venetian sovereignty. UNESCO inscribed the natural and cultural heritage region of Kotor in 1979, recognising not only the walled Old Town but the surrounding bay landscape as a single cultural unit. Step through the Sea Gate (Vrata od Mora), built in 1555, and you enter a medieval street network barely changed since.",
+    "p1": "First defensive walls rose above Kotor in the 6th century, but documented history reaches further back, Roman settlement, Byzantine rule and almost four hundred years under Venetian sovereignty. inscribed the natural and cultural heritage region of Kotor in 1979, recognising not only the walled Old Town but the surrounding bay landscape as a single cultural unit. Step through the Sea Gate (Vrata od Mora), built in 1555, and you enter a medieval street network barely changed since.",
     "p2": "From Podgorica Airport (TGD) the drive is about 90 minutes via the Sozina tunnel and the Vrmac tunnel. Car parks line the approach. The largest sits below the walls at the river gate; a less crowded option stretches along the Dobrota road heading north. On days when cruise ships are in port, sometimes three or four at once between May and October, arrive before 07:30 or prepare for a parking battle.",
     "landmarksTitle": "Inside and Above the Walls",
     "stJohnTitle": "St. John Fortress",
@@ -1315,7 +1315,7 @@
   },
   "kotor": {
     "title": "Car Rental for Kotor from Podgorica Airport",
-    "subtitle": "UNESCO bay town, 90 minutes from Podgorica Airport via the Sozina and Vrmac tunnels.",
+    "subtitle": "bay town, 90 minutes from Podgorica Airport via the Sozina and Vrmac tunnels.",
     "seoDesc": "Pick up a rental at Podgorica Airport (TGD) and reach the Kotor walls in 90 minutes. Insurance included, Green Card for onward travel, transparent weekly and monthly rates."
   }
 }

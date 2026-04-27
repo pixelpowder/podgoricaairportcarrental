@@ -83,7 +83,7 @@
   "destinations": {
     "label": "Top Destinacije",
     "title": "Istražite Crnu Goru",
-    "subtitle": "Od starog grada pod zaštitom UNESCO-a do Perasta, Budve i planina, sve je nadohvat ruke."
+    "subtitle": "Od starog grada pod zaštitom-a do Perasta, Budve i planina, sve je nadohvat ruke."
   },
   "features": {
     "label": "Zašto Mi",
@@ -102,7 +102,7 @@
   },
   "cta": {
     "title": "Spremni da Istražite Crnu Goru?",
-    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Podgorica ili u kotorskom Starom gradu. Vozite UNESCO zalivom, Perastom i Jadranom svojim tempom.",
+    "subtitle": "Rezervišite za nekoliko minuta. Preuzmite na aerodromu Podgorica ili u kotorskom Starom gradu. Vozite zalivom, Perastom i Jadranom svojim tempom.",
     "browseFleet": "Pregledaj Flotu"
   },
   "sidebar": {
@@ -370,7 +370,7 @@
     "kotor": {
       "name": "Kotor",
       "tag": "90 min od TGD-a",
-      "desc": "UNESCO Stari grad u dnu zaliva."
+      "desc": "Stari grad u dnu zaliva."
     }
   },
   "aboutBody": {
@@ -399,8 +399,8 @@
     "p8": "Ljeto donosi kruzere, do cetiri broda dnevno izmedu juna i septembra, a sa njima otprilike 8.000 putnika koji prelave Stari grad izmedu 09:00 i 14:00. Savjetujemo da stignete rano ili parkirate u Dobroti i pjesacite 800 metara do Morskih vrata. Zima pretvara zaliv u mirnije mjesto: manje posjetilaca, nize cijene i planinski putevi koji se povremeno zatvaraju iznad 1.200 metara zbog snijega. Proljece i jesen su idealno vrijeme. Aprila divlje cvijece oivicava put uz zaliv, septembar jos nudi toplo more bez guzvi, a lovcenski put je otvoren i nenapucen."
   },
   "kotorBody": {
-    "h1": "Podgorica -- Lokalitet pod Zastitom UNESCO-a",
-    "p1": "Podgorica je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom UNESCO-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
+    "h1": "Podgorica -- Lokalitet pod Zastitom-a",
+    "p1": "Podgorica je jedan od najljepših primorskih gradova Crne Gore, koji nudi prekrasne plaže, šarm istorijskog Starog grada i srednjovjekovne zidine unutar kojih se nalaze umjetničke galerije, kafići i odlični restorani. Kao lokalitet pod zaštitom-a, znamenitosti grada su koncentrisane u predivno očuvanom Starom gradu.",
     "p2": "Iznajmljivanje automobila u Podgorici daje vam slobodu da istražujete lokalne atrakcije i obližnje crnogorske gradove i prirodna područja sopstvenim tempom. Dostupnost parkinga varira sezonski, jer ljetnji turizam stvara nestašicu u centru, ali postoje veća parkirališta na prilaznim putevima.",
     "landmarksTitle": "Znamenitosti",
     "stJohnTitle": "Tvrđava Sv. Ivana",
@@ -444,7 +444,7 @@
     "oldTownText": "Budvanski Stari Grad je kompaktna utvrđena citadela na malom poluostrvu. Unutar zidina naći ćete uske popločane ulice, venecijansku arhitekturu, male crkve koje datiraju iz 7. vijeka, te živahnu mješavinu restorana, galerija i butika. Tvrđava Citadela na južnom vrhu nudi panoramske poglede na obalu i obližnja ostrva.",
     "dayTripsTitle": "Jednodnevni Izleti iz Budve",
     "svetiStefanTrip": "Samo 6 km južno, ovo fotogenično utvrđeno ostrvsko selo sada je luksuzni hotel, ali pogledi sa puta iznad su spektakularni i besplatni. Plaža na kopnenoj strani je otvorena za sve.",
-    "kotorTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokokotorskog zaliva i njegovog Starog grada pod zaštitom UNESCO-a.",
+    "kotorTrip": "Vožnja od 30 minuta na sjever kroz dramatičan planinski tunel dovodi vas do Bokokotorskog zaliva i njegovog Starog grada pod zaštitom-a.",
     "lovcenTrip": "Uputite se u unutrašnjost ka planinskim pejzažima i Njegoševom mauzoleju, smještenom na 1.657 metara nadmorske visine, sa pogledom na četiri zemlje po vedrom danu. Vijugavi put od obale je doživljaj sam po sebi.",
     "gettingAroundTitle": "Kretanje",
     "gettingAroundText": "Dok je Budvanski Stari Grad najbolje istraživati pješice, iznajmljeni automobil je neophodan za dolazak do najljepših plaža, obližnjih sela i atrakcija u unutrašnjosti. Parking je dostupan u blizini zidina Starog grada i na nekoliko javnih parkirališta duž glavnog puta. U vrhu ljeta, rani dolazak osigurava najbolja mjesta.",
@@ -638,7 +638,7 @@
     "returnTitle": "Vracanje Automobila na Aerodrom Podgorica",
     "returnP": "Proces vracanja je ogledalska slika preuzimanja. Dovezite se do aerodromskog parkinga, pozovite agenta, i on dolazi do vas. Brzi pregled, predaja kljuceva, i slobodni ste. Ostavite 15 minuta za proces plus vrijeme voznje od Podgorice (90 minuta standardnom rutom, 2 sata preko serpentine).",
     "rentalLink": "Dovezite se do {{link}} za 90 minuta kroz planinske pejzaže.",
-    "kotorUnescoLinkText": "UNESCO Starog grada Podgorice",
+    "kotorUnescoLinkText": "Starog grada Podgorice",
     "winterLink": "Uporedite s {{link}} za ljetnje dolaske.",
     "tivatAirportLinkText": "aerodromom Podgorica"
   },
@@ -1330,7 +1330,7 @@
   },
   "kotor": {
     "title": "Iznajmljivanje automobila za Kotor sa Aerodroma Podgorica",
-    "subtitle": "UNESCO grad u zalivu, 90 minuta od Aerodroma Podgorica preko tunela Sozina i Vrmac.",
+    "subtitle": "grad u zalivu, 90 minuta od Aerodroma Podgorica preko tunela Sozina i Vrmac.",
     "seoDesc": "Preuzmite automobil na Aerodromu Podgorica (TGD) i stignite do zidina Kotora za 90 minuta. Osiguranje uključeno, Zelena karta za putovanja preko granice, transparentne sedmične i mjesečne cijene."
   },
   "carSpecs": {

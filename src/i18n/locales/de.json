@@ -83,7 +83,7 @@
   "destinations": {
     "label": "Top-Reiseziele",
     "title": "Entdecken Sie die Region ab Podgorica",
-    "subtitle": "Von der UNESCO-Altstadt bis nach Virpazar, Budva und in die Berge, alles ist bequem erreichbar."
+    "subtitle": "Von der Altstadt bis nach Virpazar, Budva und in die Berge, alles ist bequem erreichbar."
   },
   "features": {
     "label": "Warum wir",
@@ -102,7 +102,7 @@
   },
   "cta": {
     "title": "Bereit, die Bucht von Podgorica zu erkunden?",
-    "subtitle": "In Minuten buchen. Abholung am Flughafen Podgorica oder in der Altstadt von Podgorica. Fahren Sie entlang der UNESCO-Bucht, nach Virpazar und an der Adriaküste in Ihrem eigenen Tempo.",
+    "subtitle": "In Minuten buchen. Abholung am Flughafen Podgorica oder in der Altstadt von Podgorica. Fahren Sie entlang der Bucht von Kotor, nach Virpazar und an der Adriaküste in Ihrem eigenen Tempo.",
     "browseFleet": "Flotte durchsuchen"
   },
   "sidebar": {
@@ -370,7 +370,7 @@
     "kotor": {
       "name": "Kotor",
       "tag": "90 Min ab TGD",
-      "desc": "UNESCO-Altstadt am Kopf der Bucht."
+      "desc": "Altstadt am Kopf der Bucht."
     }
   },
   "aboutBody": {
@@ -400,7 +400,7 @@
   },
   "kotorBody": {
     "h1": "Zwölf Jahrhunderte innerhalb der Mauern",
-    "p1": "Erste Verteidigungsmauern erhoben sich im 6. Jahrhundert über Podgorica, doch die dokumentierte Geschichte reicht noch weiter, römische Besiedlung, byzantinische Herrschaft, fast vierhundert Jahre unter venezianischer Oberhoheit. Die UNESCO schrieb die Natur- und Kulturerbe-Region Podgorica 1979 ein und würdigte nicht nur die ummauerte Altstadt, sondern die umgebende Buchtlandschaft als einheitliche kulturelle Einheit. Treten Sie durch das Seetor (Vrata od Mora), errichtet 1555, und Sie betreten ein mittelalterliches Straßennetz, das sich seither kaum verändert hat.",
+    "p1": "Erste Verteidigungsmauern erhoben sich im 6. Jahrhundert über Podgorica, doch die dokumentierte Geschichte reicht noch weiter, römische Besiedlung, byzantinische Herrschaft, fast vierhundert Jahre unter venezianischer Oberhoheit. Die schrieb die Natur- und Kulturerbe-Region Podgorica 1979 ein und würdigte nicht nur die ummauerte Altstadt, sondern die umgebende Buchtlandschaft als einheitliche kulturelle Einheit. Treten Sie durch das Seetor (Vrata od Mora), errichtet 1555, und Sie betreten ein mittelalterliches Straßennetz, das sich seither kaum verändert hat.",
     "p2": "Parkplätze flankieren die Zufahrt vom Flughafen Podgorica, 8 km und etwa fünfzehn Minuten entfernt. Der größte Parkplatz liegt unterhalb der Mauern am Flusstor; eine zweite, weniger überlaufene Option erstreckt sich entlang der Zabjelo-Straße Richtung Norden. An Tagen, wenn Kreuzfahrtschiffe im Hafen liegen, manchmal drei oder vier gleichzeitig zwischen Mai und Oktober, kommen Sie vor 07:30 oder bereiten Sie sich auf einen Kampf um Parkplätze vor.",
     "landmarksTitle": "Innerhalb und oberhalb der Mauern",
     "stJohnTitle": "Festung San Giovanni",
@@ -444,7 +444,7 @@
     "oldTownText": "Budvas Stari Grad nimmt eine kompakte Halbinsel ein, die seit der Antike befestigt ist. Kopfsteinpflastergassen, kaum zwei Meter breit, winden sich zwischen venezianischen Stadthäusern, Kirchen aus dem 7. Jahrhundert und Restaurants. Am Südende bietet die Zitadelle, heute Sommerveranstaltungsort, Ausblicke entlang der Küste. Eine kleine Bibliothek enthält Ausgaben in einem Dutzend Sprachen, hinterlassen von Seeleuten über die Jahrhunderte.",
     "dayTripsTitle": "Ausflüge von Budva",
     "svetiStefanTrip": "Sechs Kilometer südlich bietet die Straße über Sveti Stefan den Kamerawinkel, der eine Million Postkarten verkauft hat. Der Festlandstrand ist kostenlos. Mit dem Auto kommen Sie früh an, bevor Reisebusse aus Budva jeden Parkplatz beanspruchen.",
-    "kotorTrip": "Nördlich durch den Tunnel: Podgoricas UNESCO-geschützte Altstadt in dreißig Minuten. Die meisten Budva-Besucher unternehmen diese Fahrt mindestens einmal, ein starkes Argument für ein eigenes Auto.",
+    "kotorTrip": "Nördlich durch den Tunnel: Podgoricas historische Altstadt in dreißig Minuten. Die meisten Budva-Besucher unternehmen diese Fahrt mindestens einmal, ein starkes Argument für ein eigenes Auto.",
     "lovcenTrip": "Landeinwärts schraubt sich die Straße durch den Nationalpark Ostrog zum Njegos-Mausoleum auf 1.657 Metern. An einem klaren Nachmittag umfasst das Panorama vier Länder. Planen Sie drei Stunden für den Hin- und Rückweg ein.",
     "gettingAroundTitle": "Parken und Praktisches",
     "gettingAroundText": "Budvas Altstadt ist Fußgängerzone, aber die Parkplätze an den Zufahrtsstraßen füllen sich zwischen Juni und September schnell. Im Hochsommer vor 09:00 ankommen oder die weniger offensichtlichen Parkplätze südlich nahe Bečići versuchen. Ein Auto ist unerlässlich zum Strandhüpfen, der feinste Sand verteilt sich über fünfzehn Kilometer.",
@@ -583,7 +583,7 @@
     "skadarText": "Dreißig Minuten südlich von Podgorica, der größte See des Balkans an der albanischen Grenze. Pelikane, Kormorane und Reiher. Boot in Virpazar mieten, zwischen Seerosen paddeln und gegrillten Karpfen genießen. Im Frühling steigt der Seespiegel um mehrere Meter.",
     "danilovgradTitle": "Danilovgrad und das Zeta-Tal",
     "danilovgradText": "Eine halbe Stunde westlich. Bekannt für Flussbadestellen, Kajakverleih und das Kloster Zdrebaonik aus dem 13. Jahrhundert. Kombinieren mit einem Weingutstopp im Tal.",
-    "zabljak": "Žabljak auf 1.456 Metern im Durmitor-Massiv, 170 km nördlich. Winter: Skifahren. Sommer: Tara-Flussschlucht (1.300 m tief), Schwarzer See und Wanderwege über UNESCO-geschütztes Hochplateau.",
+    "zabljak": "Žabljak auf 1.456 Metern im Durmitor-Massiv, 170 km nördlich. Winter: Skifahren. Sommer: Tara-Flussschlucht (1.300 m tief), Schwarzer See und Wanderwege über-geschütztes Hochplateau.",
     "parkingTitle": "Parken in Podgorica",
     "parkingP1": "Podgorica hat keines der Parkprobleme, die die Küstenstädte plagen. Straßenparken im Stadtzentrum funktioniert nach einem Zonensystem: Zone 1 (rund um den Platz der Republik und Sloboda) kostet 0,50 Euro pro Stunde, Zone 2 weiter außen 0,30 Euro. Bezahlt wird per SMS oder an Kiosk-Automaten auf dem Gehweg. Die meisten Straßen außerhalb des Zentrums sind kostenlos und unbeschränkt.",
     "parkingP2": "Einkaufszentren wie Delta City und Mall of Montenegro bieten kostenlose Tiefgaragenplätze für Kunden. Wenn Sie das Stara-Varoš-Viertel erkunden, gibt es einen kleinen Parkplatz am Bulevar Svetog Petra Cetinjskog, zwei Gehminuten vom Uhrenturm entfernt, der selbst an Markttagen selten voll wird.",
@@ -638,7 +638,7 @@
     "returnTitle": "Rückgabe Ihres Wagens am Flughafen Podgorica",
     "returnP": "Der Rückgabeprozess entspricht der Abholung. Fahren Sie zum Terminalparkplatz, rufen Sie Ihren Vertreter an und führen Sie eine kurze Fahrzeuginspektion durch. Der Parkplatz liegt direkt neben dem Terminal, kein Shuttle nötig. Tanken Sie vor der Ankunft an der Station 3 km vom Flughafen an der Hauptstraße. Planen Sie 2 Stunden vor Ihrem Flug für den kombinierten Abgabe- und Check-in-Prozess. Das Terminal ist klein und effizient, diese Zeit ist also großzügig bemessen, aber sie berücksichtigt unerwartete Verzögerungen auf der Bergstraße von Podgorica.",
     "rentalLink": "Fahren Sie in 90 Minuten durch Berglandschaft nach {{link}}.",
-    "kotorUnescoLinkText": "Podgoricas UNESCO-Altstadt",
+    "kotorUnescoLinkText": "Podgoricas Altstadt",
     "winterLink": "Vergleichen Sie mit {{link}} für Sommeranreisen.",
     "tivatAirportLinkText": "Flughafen Podgorica"
   },

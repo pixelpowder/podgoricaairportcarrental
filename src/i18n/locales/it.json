@@ -83,7 +83,7 @@
   "destinations": {
     "label": "Destinazioni Principali",
     "title": "Esplora da Podgorica",
-    "subtitle": "Dal centro storico UNESCO a Virpazar, Budva e le montagne, tutto è a portata di mano."
+    "subtitle": "Dal centro storico a Virpazar, Budva e le montagne, tutto è a portata di mano."
   },
   "features": {
     "label": "Perché Sceglierci",
@@ -102,7 +102,7 @@
   },
   "cta": {
     "title": "Pronto a Esplorare le Bocche di Podgorica?",
-    "subtitle": "Prenota in pochi minuti. Ritira all’aeroporto di Podgorica o al centro storico di Podgorica. Percorri la baia UNESCO, Virpazar e la costa adriatica al tuo ritmo.",
+    "subtitle": "Prenota in pochi minuti. Ritira all’aeroporto di Podgorica o al centro storico di Podgorica. Percorri la baia, Virpazar e la costa adriatica al tuo ritmo.",
     "browseFleet": "Sfoglia la Flotta"
   },
   "sidebar": {
@@ -370,7 +370,7 @@
     "kotor": {
       "name": "Kotor",
       "tag": "90 min da TGD",
-      "desc": "Città vecchia UNESCO in fondo alla baia."
+      "desc": "Città vecchia in fondo alla baia."
     }
   },
   "aboutBody": {
@@ -400,7 +400,7 @@
   },
   "kotorBody": {
     "h1": "Dodici Secoli dentro i Bastioni",
-    "p1": "Le mura difensive sorsero per la prima volta sopra Podgorica nel VI secolo, ma la storia documentata della città risale ancora più indietro, insediamento romano, governo bizantino, quasi quattrocento anni sotto il dominio veneziano. L’UNESCO iscrisse la Regione Naturale e Storico-Culturale di Podgorica nel 1979, riconoscendo non solo il centro storico murato ma il paesaggio circostante della baia come entità culturale unitaria. Varcate la Porta del Mare (Vrata od Mora), eretta nel 1555, ed entrate in una griglia stradale medievale che è rimasta praticamente invariata da allora.",
+    "p1": "Le mura difensive sorsero per la prima volta sopra Podgorica nel VI secolo, ma la storia documentata della città risale ancora più indietro, insediamento romano, governo bizantino, quasi quattrocento anni sotto il dominio veneziano. L’iscrisse la Regione Naturale e Storico-Culturale di Podgorica nel 1979, riconoscendo non solo il centro storico murato ma il paesaggio circostante della baia come entità culturale unitaria. Varcate la Porta del Mare (Vrata od Mora), eretta nel 1555, ed entrate in una griglia stradale medievale che è rimasta praticamente invariata da allora.",
     "p2": "Le opzioni di parcheggio fiancheggiano l’avvicinamento dall’aeroporto di Podgorica, a 8 km e circa quindici minuti di distanza. Il parcheggio più grande si trova sotto i bastioni vicino alla Porta del Fiume; una seconda opzione, meno congestionata, si trova lungo la striscia di Zabjelo verso nord. Nei giorni in cui le navi da crociera sono in porto, a volte tre o quattro contemporaneamente tra maggio e ottobre, arrivate prima delle 07:30 o preparatevi alla lotta per i posti.",
     "landmarksTitle": "Dentro i Bastioni e Sopra di Essi",
     "stJohnTitle": "Fortezza di San Giovanni",
@@ -444,7 +444,7 @@
     "oldTownText": "Lo Stari Grad di Budva occupa una penisola compatta fortificata dall'antichità. Vicoli acciottolati larghi a malapena due metri si snodano tra case signorili dall'era veneziana, chiese del VII secolo, e una manciata di ristoranti che spargono sedie su ogni paving stone disponibile. Alla punta meridionale, la fortezza Citadela, ora luogo di eventi estivi, comanda le vedute lungo la costa in entrambe le direzioni. Una piccola biblioteca all'interno contiene edizioni in una dozzina di lingue, lasciate da navigatori visitatori nel corso dei secoli.",
     "dayTripsTitle": "Strade che Conducono Fuori",
     "svetiStefanTrip": "Sei chilometri a sud sulla strada principale, la strada sopra Sveti Stefan fornisce l'angolo fotografico che ha venduto un milione di cartoline. Sotto, la spiaggia sulla terraferma è gratuita e accessibile a tutti. Un'auto ti permette di arrivare presto, prima che i pullman turistici da Budva si impadroniscono di ogni parcheggio.",
-    "kotorTrip": "Nord attraverso il tunnel: lo Stari Grad UNESCO di Podgorica in trenta minuti. La maggior parte dei visitatori di Budva fanno questo viaggio almeno una volta, e molti decidono che avrebbero dovuto restare a Podgorica, un forte argomento per avere un'auto.",
+    "kotorTrip": "Nord attraverso il tunnel: lo Stari Grad di Podgorica in trenta minuti. La maggior parte dei visitatori di Budva fanno questo viaggio almeno una volta, e molti decidono che avrebbero dovuto restare a Podgorica, un forte argomento per avere un'auto.",
     "lovcenTrip": "Dall'interno della costa, la strada si arriccia verso l'alto attraverso il Parco Nazionale del Ostrog al Mausoleo di Njegos a 1.657 metri. In un pomeriggio sereno, il panorama dalla terrazza della vetta abbraccia quattro paesi. Prevedi tre ore per l'andata e ritorno, più a lungo se i tornanti ti rallentano.",
     "gettingAroundTitle": "Parcheggio e Pratiche",
     "gettingAroundText": "Lo Stari Grad di Budva è pedonalizzato, ma i parcheggi che costeggiano la strada di accesso si riempiono rapidamente tra giugno e settembre. Arriva prima delle 09:00 in piena estate o prova i lotti meno evidenti a sud della zona principale vicino a Becici. Un'auto è essenziale per saltare da una spiaggia all'altra, la sabbia più fine della riviera è sparsa su quindici chilometri e gli autobus locali sono infrequenti.",
@@ -638,7 +638,7 @@
     "returnTitle": "Restituzione dell'Auto all'Aeroporto di Podgorica",
     "returnP": "Il processo di restituzione rispecchia il ritiro. Guidate al parcheggio del terminal, chiamate il vostro rappresentante e completate una breve ispezione del veicolo. Il parcheggio è direttamente adiacente al terminal, nessuna navetta necessaria. Fate rifornimento prima di arrivare alla stazione 3 km dall'aeroporto sulla strada principale. Consentite 2 ore prima del vostro volo per il processo combinato di consegna e check-in. Il terminal è piccolo ed efficiente, quindi questo è generoso, ma tiene conto di eventuali ritardi inaspettati sulla strada di montagna da Podgorica.",
     "rentalLink": "Raggiungi {{link}} in 90 minuti attraverso paesaggi montani.",
-    "kotorUnescoLinkText": "Città Vecchia di Podgorica (UNESCO)",
+    "kotorUnescoLinkText": "Città Vecchia di Podgorica",
     "winterLink": "Confronta con {{link}} per gli arrivi estivi.",
     "tivatAirportLinkText": "Aeroporto di Podgorica"
   },
@@ -1330,7 +1330,7 @@
   },
   "kotor": {
     "title": "Noleggio auto per Kotor dall'aeroporto di Podgorica",
-    "subtitle": "Città-baia UNESCO, 90 minuti dall'aeroporto di Podgorica attraverso i tunnel Sozina e Vrmac.",
+    "subtitle": "Città-baia, 90 minuti dall'aeroporto di Podgorica attraverso i tunnel Sozina e Vrmac.",
     "seoDesc": "Ritira un'auto all'aeroporto di Podgorica (TGD) e raggiungi le mura di Kotor in 90 minuti. Assicurazione inclusa, Carta Verde per i viaggi all'estero, tariffe settimanali e mensili trasparenti."
   },
   "carSpecs": {

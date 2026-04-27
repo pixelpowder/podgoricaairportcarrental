@@ -295,7 +295,7 @@ const siteConfig = {
     {
       name: "Kotor",
       slug: "kotor",
-      tag: "UNESCO Heritage",
+      tag: "Heritage",
       desc: "Walled Old Town at the head of the bay, 90 min from TGD.",
       image: "/img/kotor-old-town.webp",
     },
