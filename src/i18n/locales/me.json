@@ -275,7 +275,7 @@
       "text": "Put uz zaliv između Podgorice i Perasta jedno je od najljepših vožnji koje smo ikada doživjeli. Zaustavljali smo se na svakom proširenju i uzeli čamac do Gospe od Škrpjela. Imati auto značilo je da smo sve radili po svom rasporedu. Lako preuzimanje u Tivatu i cijeli proces prošao je glatko od početka do kraja."
     },
     "1": {
-      "text": "Došao sam u Podgorica posebno da se popnem na tvrđavu San Giovanni i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi, strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
+      "text": "Došao sam u Podgorica posebno da se popnem na tvrđavu Doclea i odvezem do Lovćena. Auto je bio spreman na dolasku u Tivatu prije nego sam uopće našao izlaz. Serpentinska cesta do mauzoleja ne liči ni na šta što sam vozio u Sjevernoj Americi, strma, uska, spektakularna. Rezervisao bih ponovo bez oklijevanja."
     },
     "2": {
       "text": "Naš kruzer pristao je u Podgorici i preuzeli smo auto odmah pored luke. Tri dana izleta, Budva, Virpazar i manastir Kolašin. Djeca su obožavala plovidbu do crkvice na otočiću u Perastu. Tim je brzo sredio dokumentaciju, a dječije sjedište bilo je već postavljeno kada smo stigli."
@@ -503,7 +503,7 @@
     "p2": "Ovo primorsko odmaralište ima populaciju od oko 13.000 stanovnika. Posjetioci mogu uživati u šetnjama uz more, jesti u restoranima na obali i istraživati prodavnice skrivene u uskim uličicama. Tokom vrhunca sezone, grad balansira između mira i živahne turističke aktivnosti.",
     "beachesTitle": "Plaže",
     "beachesText": "Podgorica se može pohvaliti sa 17 plaža koje se prostiru na 3 kilometra obale, priznatih među najljepšima na Mediteranu. Među najboljim plažama su:",
-    "beach1": "Plavi Horizonti: Bijeli pijesak, kristalno čista voda, savršeno za plivanje i sunčanje",
+    "beach1": "Plaža Gorica: Bijeli pijesak, kristalno čista voda, savršeno za plivanje i sunčanje",
     "beach2": "Pržno na ostrvu Sveti Marko: Napušteno odmaralište koje nudi osamu i netaknutu vodu, idealno za vodene sportove",
     "portoTitle": "Porto Crna Gora",
     "portoText": "Dragulj Tivta je Porto Crna Gora, luksuzna marina za jahte i naselje na obali koje je transformisalo grad u jednu od najmodernijih destinacija na Jadranu. Kompleks marine sadrži butike, restorane, bazenski klub i redovne događaje tokom ljetnje sezone.",
@@ -521,12 +521,12 @@
     "whereToEatP2": "Za nesto pristupacnije i lokalnije, Konoba Bacchus na Ulici Nika Andelica, pet minuta hodanja od marine, nudi tradicionalnu crnogorsku kuhinju u kamenoj dvorani, lignje, mesani roštilj i domace vino u karafama po 10 do 15 eura za obrok.",
     "drivingTipsTitle": "Voznja oko Tivta",
     "drivingTipsP1": "Podgorica lezi na spoju dva glavna puta: put uz zaliv na sjever do Podgorice (20 min) i put na jug prema Budvi kroz Vrmacki tunel (25 min). Oba su dobro odrzavana i jasno oznacena. Saobracaj je rjedi nego u Podgorici ili Budvi, cak i ljeti.",
-    "drivingTipsP2": "Za poluostrvo Lustica i plazu Plavi Horizonti, uzmite put oznacen za Lusticu na juznom izlazu iz grada. Cesta je uzana ali ugodna, prolazi kroz maslinike i mala sela. Plavi Horizonti je 20 minuta voznje, jedina prava pjescana plaza u podrucju zaliva.",
+    "drivingTipsP2": "Za poluostrvo Skadar Lake i plazu Plaža Gorica, uzmite put oznacen za Lusticu na juznom izlazu iz grada. Cesta je uzana ali ugodna, prolazi kroz maslinike i mala sela. Plaža Gorica je 20 minuta voznje, jedina prava pjescana plaza u podrucju zaliva.",
     "seasonalTitle": "Podgorica Kroz Sezone",
     "seasonalP1": "Ljeto pretvara Podgorica u produzni dio mediteranskog jachtaškog kruga. Porto Montenegro buja od dogadaja, superjahte pune luku, a obalna setnica je prepuna do kasno u noc. Aerodrom radi na punom kapacitetu sa carterima iz cijele Evrope.",
     "seasonalP2": "Zimski Podgorica je mirniji ali nikad mrtav. Aerodrom odrzava cjelogodisnje letove za Beograd, Porto Montenegro ostaje otvoren, i grad ima prijatan lokalni ritam, kafici, pijace i setnje uz obalu bez turista. Cijene iznajmljivanja automobila i smjestaja su na najnizem nivou.",
-    "lustitcaTitle": "Izlet na Poluostrvo Lustica",
-    "lusticaP": "Poluostrvo Lustica se pruza zapadno od Tivta u Jadran, a voznja njegovim putem je odlican poludnevni izlet. Prođite maslinike i sela do Plaze Zanjice, odakle gliseri voze do Plave spilje, morske pecine u kojoj prelomljena sunčeva svjetlost pretvara vodu u električno plavu. Nastavite dalje do Rose, napustene austrougarske tvrdave na vrhu poluostrva sa pogledima na otvoreno more.",
+    "lustitcaTitle": "Izlet na Poluostrvo Skadar Lake",
+    "lusticaP": "Poluostrvo Skadar Lake se pruza zapadno od Tivta u Jadran, a voznja njegovim putem je odlican poludnevni izlet. Prođite maslinike i sela do Plaze Zanjice, odakle gliseri voze do Plave spilje, morske pecine u kojoj prelomljena sunčeva svjetlost pretvara vodu u električno plavu. Nastavite dalje do Rose, napustene austrougarske tvrdave na vrhu poluostrva sa pogledima na otvoreno more.",
     "fuelTitle": "Gorivo i Prakticne Informacije",
     "fuelP": "Najbliza benzinska pumpa centru Tivta je Jugopetrol na obilaznici, oko 2 km od marine. Radi 24 sata. Pumpa na aerodromu Podgorica je manja ali pogodna za dopunjavanje prije vracanja automobila. Cijene goriva su ujednacene sirom Crne Gore.",
     "parkingLink": "Preuzmite automobil na {{link}}, samo 4 km od centra grada.",
@@ -1291,7 +1291,7 @@
       "category": "Ekonomska",
       "tagline": "Najmekši mali hečbek za izlomljenu dionicu Podgorica-Risan i izlete sporednim putevima",
       "lede": "Advanced Comfort amortizeri ujednačavaju zakrpanim asfalt stare obalske ceste, najnježniji mali auto za prenoćište kod podgoričkih bastiona.",
-      "suitability": "Izbor komfora na prvom mjestu za sedmicu u Podgorici sa svakodnevnim sporim obilascima - rimskim mozaicima Risna, zaseokom Gornja Lastva iznad Tivta, krugom kroz okolna sela.",
+      "suitability": "Izbor komfora na prvom mjestu za sedmicu u Podgorici sa svakodnevnim sporim obilascima - rimskim mozaicima Risna, zaseokom Medun iznad Tivta, krugom kroz okolna sela.",
       "regional": "Progresivni hidraulični graničnici čine rupasti dio Risan-Perast tišim za klasu, opušteni motor od 83 KS odgovara ograničenjima od 50 km/h na obalnom putu, a dužina od 4 metra stane u svako mjesto Starog grada.",
       "bestFor": [
         "Parovi na sporom turi",
