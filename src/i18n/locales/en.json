@@ -287,7 +287,7 @@
     },
     "1": {
       "q": "Can I cross into Croatia or other countries?",
-      "a": "Yes. Hani i Hotit into Albania is the closest border (30 minutes from Podgorica Airport) and queues are light year-round. We also arrange Green Cards for Bosnia, Serbia, Kosovo and Croatia, just tick the countries you plan to visit at booking."
+      "a": "Yes, and the cross-border supplement is tiered so you pay for what you actually drive. Tier 1 covers neighbouring countries excluding Albania and Kosovo (Croatia, Bosnia, Serbia from a TGD pickup). Tier 2 covers neighbouring countries including Albania and Kosovo, the popular pairing for guests landing at Podgorica Airport with a Shkodër lunch or a Peja day trip in mind. Tier 3 covers neighbouring and distant countries for the multi-country tour that begins kerbside at TGD and runs on through Slovenia, Hungary, North Macedonia, or Greece. Tick the tier that matches your route at booking and the Green Card paperwork is in the glovebox when you take the keys."
     },
     "2": {
       "q": "What age do I need to be?",
@@ -328,6 +328,22 @@
     "11": {
       "q": "Can I rent without a credit card?",
       "a": "A handful of vehicles are available without a credit card requirement. Look for the no-deposit filter when searching by pickup location."
+    },
+    "12": {
+      "q": "What extras can I add to a TGD pickup?",
+      "a": "Add-ons are fitted before you reach kerbside, so a tired family is not unpacking in the short-stay lot. Three child-seat formats cover infant, toddler, and booster ages and are installed in the rental before the keys change hands. A wireless hotspot or a local SIM card is handed over with the contract, useful if you have switched off roaming on the descent into TGD. Roof, ski, and snowboard racks are fitted on request for January arrivals heading straight to Kolašin or Žabljak. An electric scooter with charger is available for guests basing themselves in the capital and using the rental car only for day-trip mornings."
+    },
+    "13": {
+      "q": "Should I take a SIM card or wireless hotspot at pickup?",
+      "a": "If you have switched off roaming before landing, yes. The SIM card is handed over with the keys at TGD arrivals and works the moment your phone is back online, no walking the terminal looking for a kiosk and no first-day surprise from your home network. The wireless hotspot suits a family with multiple devices, one connection covers everyone in the car all the way to Ostrog or Skadar."
+    },
+    "14": {
+      "q": "Are ski and snowboard racks available for winter arrivals?",
+      "a": "Yes. Podgorica Airport is the closest airport to Montenegro's mountain resorts, Kolašin 1450 is roughly 75 minutes north on the Smokovac-Mateševo motorway and Žabljak sits at the foot of Durmitor. A ski rack, a snowboard rack, or a general-purpose roof rack can be fitted to the vehicle before kerbside collection so a January arrival can drive direct from TGD to the slopes without a city detour."
+    },
+    "15": {
+      "q": "What protection is sensible for the Day-1 drive out of TGD?",
+      "a": "The first hour after collection often runs through the Morača canyon north toward Kolašin, a rewarding road but not the route you want to be uninsured on after a long-haul flight. Personal Accident Insurance covers driver and passengers for medical costs in the event of a road accident. Theft Protection caps your liability if the vehicle is broken into during the trip. The Winter Pack bundles four-season tyres, snow chains, and an ice scraper for arrivals between November and March, when mountain passes above 1,200 metres can pick up snow without warning."
     }
   },
   "destCards": {
@@ -378,7 +394,7 @@
     "h2": "Why a Car Changes Everything Here",
     "p2": "Scheduled buses follow the main highway and stop. That is the extent of public transport. They will not detour to the unmarked layby above Virpazar where the capital splits into two glistening arms. They cannot pause beside the Roman villa in Danilovgrad or navigate the single-track road to Gornji Rijeka Crnojevića, the ghost village clinging to the cliffs 400 metres above the waterline. Only your own wheels and a willingness to explore unlock the Zeta plain properly.",
     "h3": "Fleet and Collection Points",
-    "p3": "We offer collection across the capital: Podgorica Airport (8 km from Podgorica's ramparts), directly outside the River Gate lot, and at more than 28 towns from Kolašin to Ulcinj. Economy hatchbacks thread through city centre approach roads effortlessly. SUVs handle the Ostrog switchbacks without breaking stride. Every vehicle carries full insurance, and cross-border documentation for Croatia, Bosnia, Albania, Serbia, and Kosovo is arranged at the time of booking.",
+    "p3": "We offer collection across the capital: Podgorica Airport (8 km from Podgorica's ramparts), directly outside the River Gate lot, and at more than 28 towns from Kolašin to Ulcinj. Economy hatchbacks thread through city centre approach roads effortlessly. SUVs handle the Ostrog switchbacks without breaking stride. Every vehicle carries full insurance, and cross-border paperwork is tiered to the route, Tier 1 for neighbours excluding Albania and Kosovo, Tier 2 once Albania or Kosovo are added (the everyday pairing for a TGD arrival), and Tier 3 for the wider neighbouring-and-distant tour, all confirmed at the time of booking.",
     "promiseTitle": "What We Stand Behind",
     "promise1": "Full insurance with a zero-excess upgrade on every reservation",
     "promise2": "A named representative at Podgorica arrivals, sign in hand, vehicle parked outside",
@@ -395,7 +411,9 @@
     "h7": "A Typical Week Behind the Wheel",
     "p7": "Monday morning: collect at Podgorica Airport (TGD), drive the 12 km north to the city centre, and spend the afternoon exploring Stara Varoš and the Moraca riverbank. Tuesday: head west through Danilovgrad to Ostrog Monastery, climbing the serpentine to the upper sanctuary cut into the cliff. Wednesday: the old road to Cetinje for the former royal capital, then onward to the Njegoš Mausoleum at Lovćen. Thursday: Skadar Lake via Virpazar, a boat among the water lilies, lunch of grilled carp, wine tasting in the Crmnica valley on the way back. Friday: cross the border at Hani i Hotit into Albania, thirty minutes from Podgorica Airport, for lunch in Shkodër. Saturday: the Smokovac-Mateševo motorway north to Žabljak and Durmitor for the Tara canyon. Sunday: return the car at Podgorica Airport. That circuit covers roughly 500 km. Fuel cost: approximately 50 to 60 euros at current diesel prices. No bus, tour group, or taxi could replicate it at any price.",
     "h8": "Seasonal Advice from the Team",
-    "p8": "Summer brings the cruise ships, up to four vessels per day between June and September, and with them roughly 8,000 passengers flooding the city centre between 09:00 and 14:00. We advise arriving early or parking in Zabjelo and walking the 800 metres to the Sea Gate. Winter transforms the capital into a quieter place: fewer visitors, lower rates, and mountain roads that occasionally close above 1,200 metres due to snow. Spring and autumn are the sweet spot. April wildflowers line the capital road, September still offers warm seas without the crowds, and the Ostrog road is open and uncrowded."
+    "p8": "Summer brings the cruise ships, up to four vessels per day between June and September, and with them roughly 8,000 passengers flooding the city centre between 09:00 and 14:00. We advise arriving early or parking in Zabjelo and walking the 800 metres to the Sea Gate. Winter transforms the capital into a quieter place: fewer visitors, lower rates, and mountain roads that occasionally close above 1,200 metres due to snow. Spring and autumn are the sweet spot. April wildflowers line the capital road, September still offers warm seas without the crowds, and the Ostrog road is open and uncrowded.",
+    "h9": "Extras Set Up Before You Reach the Kerb",
+    "p9": "TGD is small enough that the walk from the jet bridge to the short-stay car park is measured in minutes, not signposts. Anything you add at booking is fitted to the vehicle before you cross that distance, the difference between a smooth onward drive and a tired family rummaging in a car-park lot. Infant, toddler, and booster child seats are installed and tested in advance so a sleeping toddler does not need to be unbuckled twice in fifteen minutes. A Montenegrin SIM card or a wireless hotspot is handed across with the keys, useful for guests who landed with roaming switched off and want maps working before the motorway slip road. Roof racks, ski racks, and snowboard racks are bolted on for January arrivals heading direct to Kolašin or Žabljak, no city detour required. An electric scooter with charger fits in the boot for guests basing themselves in the capital and using the rental for day-trip mornings only. Personal Accident Insurance, Theft Protection, and the Winter Pack of four-season tyres, snow chains, and ice scraper round out the protection menu for the Day-1 drive through the Morača canyon."
   },
   "podgoricaBody": {
     "h1": "A Capital Built on Riverbanks and Reinvention",
