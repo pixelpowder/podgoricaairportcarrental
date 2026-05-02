@@ -14,7 +14,7 @@
     "bookNow": "Réserver",
     "perDay": "par jour",
     "emailUs": "Nous contacter",
-    "whatsappAria": "Discuter sur WhatsApp",
+    "whatsappAria": "Email",
     "scrollTopAria": "Remonter en haut"
   },
   "stats": {
@@ -318,7 +318,7 @@
     "localLink3": "Virpazar",
     "localEnd": ", ou que vous empruntiez les lacets vers le sommet du Ostrog, nous pouvons vous aider à tracer l'itinéraire idéal.",
     "contactTitle": "Contactez-nous",
-    "contactText": "Des questions sur la location de voiture à Podgorica ? Nous sommes disponibles par téléphone, WhatsApp et Viber. Parcourez la flotte en ligne et réservez en quelques minutes, ou envoyez-nous un message et nous vous aiderons à trouver le véhicule idéal pour votre voyage."
+    "contactText": "Des questions sur la location de voiture à Podgorica ? Nous sommes disponibles par email. Parcourez la flotte en ligne et réservez en quelques minutes, ou envoyez-nous un message et nous vous aiderons à trouver le véhicule idéal pour votre voyage."
   },
   "podgorica": {
     "title": "Location de Voiture à Podgorica",
@@ -393,7 +393,7 @@
   "kotorBody": {
     "h1": "Douze Siècles à l'Intérieur des Remparts",
     "p1": "Les premiers murs défensifs se sont élevés au-dessus de Podgorica au VIe siècle, mais l'histoire de la ville remonte plus loin encore, colonisation romaine, gouvernance byzantine, près de quatre cents ans sous la domination vénitienne. L'a inscrit la Région Naturelle et Culturo-Historique de Podgorica en 1979. Franchissez la Porte de la Mer (Vrata od Mora), érigée en 1555, et vous entrez dans un réseau de rues médiéval qui n'a pratiquement pas changé.",
-    "p2": "Des options de stationnement bordent l'approche depuis l'aéroport de Podgorica, à 8 km. Le plus grand parking se trouve sous les remparts près de la Porte de la Rivière ; une seconde option longe la bande de Zabjelo. Les jours de paquebots, parfois trois ou quatre simultanément entre mai et octobre, arrivez avant 07h30 ou préparez-vous à vous battre pour les places.",
+    "p2": "Des options de stationnement bordent l'approche depuis l'aéroport de Podgorica, à 8 km. Le plus grand parking se trouve sous les remparts près de la Porte de la Rivière; une seconde option longe la bande de Zabjelo. Les jours de paquebots, parfois trois ou quatre simultanément entre mai et octobre, arrivez avant 07h30 ou préparez-vous à vous battre pour les places.",
     "landmarksTitle": "À l'Intérieur des Remparts et Au-dessus",
     "stJohnTitle": "Forteresse de Doclea",
     "stJohnText": "Exactement 1 355 marches montent depuis la marge nord de la vieille ville jusqu'au sommet à 280 mètres. Les ingénieurs vénitiens ont renforcé la courtine de 4,5 km entre les XVe et XVIIIe siècles. Prenez de l'eau, portez des chaussures adaptées et prévoyez quarante-cinq minutes pour l'ascension. Le panorama depuis le sommet, la baie intérieure se divisant en deux bras autour de la péninsule du Komovi, justifie chaque marche. Hors juillet et août, l'entrée est gratuite.",
@@ -430,7 +430,7 @@
     "beachesIntro": "La commune de Budva compte 21 kilomètres de littoral. Quatre plages se distinguent :",
     "mogren": "Deux criques de galets reliées par un tunnel creusé dans les falaises. À distance de marche de la vieille ville, pourtant isolé une fois le rocher franchi",
     "jaz": "La plus grande étendue de sable près de Budva, avec un lagon peu profond. Accueille le festival Sea Dance chaque été et se remplit de familles le reste de la saison",
-    "svetiStefan": "Visible depuis la route de l'Adriatique, un îlot fortifié photogénique. La plage Queen's Beach côté continent est ouverte à tous ; l'île fonctionne comme un resort privé",
+    "svetiStefan": "Visible depuis la route de l'Adriatique, un îlot fortifié photogénique. La plage Queen's Beach côté continent est ouverte à tous; l'île fonctionne comme un resort privé",
     "becici": "Un arc de sable fin de 2 km que les journalistes de voyage ont un jour élu plus belle plage d'Europe. Toujours populaire, moins frénétique que la bande principale de Budva",
     "oldTownTitle": "À l'Intérieur de la Citadelle",
     "oldTownText": "Le Stari Grad de Budva occupe une presqu'île compacte fortifiée depuis l'Antiquité. Des ruelles pavées de deux mètres de large serpentent entre des maisons vénitiennes, des églises du VIIe siècle et des restaurants qui débordent de chaises sur chaque pavé disponible. À la pointe sud, la forteresse Citadela, désormais lieu d'événements estivaux, offre des vues le long de la côte.",
@@ -467,7 +467,7 @@
     "stGeorgeTitle": "Sveti Djordje (Saint-Georges)",
     "stGeorgeText": "L'île naturelle la plus proche de la rive est couverte de cyprès sombres et fermée aux visiteurs. Une abbaye bénédictine occupe le site depuis le XIIe siècle. Les moines entretiennent les lieux. Les photographes préfèrent le petit matin, quand la silhouette de l'île se détache le plus nettement.",
     "ladyOfRocksTitle": "Gospa od Skrpjela (Notre-Dame du Rocher)",
-    "ladyOfRocksText": "Le 22 juillet 1452, deux pêcheurs ont remonté une icône de la Madone du fond de la mer. Les habitants ont commencé à couler des pierres autour du rocher, et la tradition se poursuit depuis plus de cinq siècles. Aujourd'hui, l'île abrite une petite église baroque avec 68 peintures de Tripo Kokolja. Les barques partent du port toutes les demi-heures ; la traversée dure cinq minutes et coûte quelques euros.",
+    "ladyOfRocksText": "Le 22 juillet 1452, deux pêcheurs ont remonté une icône de la Madone du fond de la mer. Les habitants ont commencé à couler des pierres autour du rocher, et la tradition se poursuit depuis plus de cinq siècles. Aujourd'hui, l'île abrite une petite église baroque avec 68 peintures de Tripo Kokolja. Les barques partent du port toutes les demi-heures; la traversée dure cinq minutes et coûte quelques euros.",
     "historicTitle": "Pierre et Mémoire",
     "historicText": "Comptez les palais le long du front de mer et vous en trouverez seize. Ajoutez dix-sept églises catholiques et plusieurs tours de guet, et vous commencez à apprécier la richesse de ce minuscule village. Le musée de Virpazar occupe le Palazzo Bujovic, un édifice souvent cité comme le plus beau bâtiment séculier de la côte monténégrine. Instruments maritimes, maquettes de navires et drapeaux de bataille remplissent ses salles.",
     "monasteryTitle": "Monastère de Banja (un court détour au nord)",
@@ -480,7 +480,7 @@
     "whereToEatP2": "Pour un café et une bouchée légère, Conte Virpazar occupe le rez-de-chaussée d'un des palazzi restaurés. L'espresso est corsé, les pâtisseries faites maison, et la vue depuis la table en front de mer embrasse les deux îles et la crête montagneuse. Ouverture à 08h00, c'est un arrêt naturel lors d'un trajet matinal depuis Podgorica.",
     "drivingTipsTitle": "La Route de la Baie vers Virpazar",
     "drivingTipsP1": "Les 12 km de route de Podgorica à Virpazar comptent parmi les plus beaux courts trajets d'Europe. Elle longe directement le bord de l'eau à travers Zabjelo, Ljuta et Orahovac. La route est bien entretenue mais étroite, par endroits tout juste assez large pour deux voitures. Murs de pierre d'un côté, baie qui lèche la route de l'autre.",
-    "drivingTipsP2": "Les limitations sont de 40 km/h dans les villages et 60 km/h entre eux. Un radar fixe se trouve près de Zabjelo, et la police installe parfois des contrôles mobiles près d'Orahovac. Roulez tranquillement plutôt que vite, le paysage est tout l'intérêt de cette route. Arrêtez-vous à n'importe quelle aire entre Podgorica et Virpazar pour photographier ; la vue change tous les quelques centaines de mètres.",
+    "drivingTipsP2": "Les limitations sont de 40 km/h dans les villages et 60 km/h entre eux. Un radar fixe se trouve près de Zabjelo, et la police installe parfois des contrôles mobiles près d'Orahovac. Roulez tranquillement plutôt que vite, le paysage est tout l'intérêt de cette route. Arrêtez-vous à n'importe quelle aire entre Podgorica et Virpazar pour photographier; la vue change tous les quelques centaines de mètres.",
     "seasonalTitle": "Virpazar au Fil de l'Année",
     "seasonalP1": "L'été transforme ce hameau tranquille en l'un des endroits les plus visités de la baie. Les bateaux touristiques de Podgorica accostent au port en continu, les groupes de kayak pagaient devant le front de mer, et chaque table de restaurant fait face aux îles. L'atmosphère est animée mais conserve une douceur que Budva n'a pas.",
     "seasonalP2": "En hiver, Virpazar retrouve ses résidents. Les façades baroques se dressent silencieuses sous les ciels gris, la pluie fait des ricochets sur la surface de la baie, et les opérateurs de bateaux restent chez eux. Le musée reste ouvert toute l'année. Si vous voulez voir ce village tel qu'il était avant le tourisme, venez en janvier.",
@@ -557,7 +557,7 @@
     "seasonalP1": "Mai à octobre est la haute saison à Podgorica. Les charters du Royaume-Uni, d'Allemagne, de Scandinavie et de Russie remplissent le terminal. Réservez votre véhicule au moins deux semaines à l'avance pour juillet et août.",
     "seasonalP2": "Novembre à avril est calme. Seul le service Belgrade fonctionne régulièrement. Si vous arrivez en hiver, vérifiez que votre vol est confirmé. L'aéroport de Podgorica, avec son réseau hivernal plus large, est l'option hivernale la plus fiable.",
     "returnTitle": "Restitution de Votre Voiture",
-    "returnP": "Le jour du départ, prévoyez 15 minutes pour le trajet de Podgorica à l'aéroport et arrivez 90 minutes avant votre vol. Ramenez la voiture au parking du terminal et appelez le représentant, il viendra pour une inspection rapide. Faites le plein avant ; la station la plus proche est sur la route de contournement de Podgorica, à 2 km du terminal.",
+    "returnP": "Le jour du départ, prévoyez 15 minutes pour le trajet de Podgorica à l'aéroport et arrivez 90 minutes avant votre vol. Ramenez la voiture au parking du terminal et appelez le représentant, il viendra pour une inspection rapide. Faites le plein avant; la station la plus proche est sur la route de contournement de Podgorica, à 2 km du terminal.",
     "whyLink": "{{link}} sont à 30 minutes au sud par le tunnel.",
     "budvaLinkText": "Les plages et la vieille ville de Budva",
     "flightsLink": "Consultez notre {{link}} pour les alternatives hivernales.",
@@ -642,7 +642,7 @@
     "borderTitle": "La File de Debeli Brijeg",
     "borderText": "En juillet et août, attendez une à deux heures à la frontière Croatie-Monténégro sur la E65 côtière. Les matinées en semaine avant 08h00 et les soirées après 20h00 sont les périodes les plus calmes. Si votre vol arrive en milieu d'après-midi en haute saison, intégrez le retard dans vos plans.",
     "facilitiesTitle": "À Propos de l'Aéroport",
-    "facilitiesText1": "Le terminal se trouve à Cilipi, à environ 25 minutes au sud-est de la vieille ville de Dubrovnik. Une seule piste gère tout, des turbo-props à bas coûts aux gros-porteurs charters. Le parking se remplit vite en haute saison ; la réservation anticipée fait gagner du temps.",
+    "facilitiesText1": "Le terminal se trouve à Cilipi, à environ 25 minutes au sud-est de la vieille ville de Dubrovnik. Une seule piste gère tout, des turbo-props à bas coûts aux gros-porteurs charters. Le parking se remplit vite en haute saison; la réservation anticipée fait gagner du temps.",
     "facilitiesText2": "À l'intérieur : un bureau de change, une banque, un bureau de poste, un duty-free, des cafés et un kiosque à journaux. Dehors : des stations de taxi, un bus Atlas vers la ville et des comptoirs de location.",
     "gettingTitle": "Le Trajet vers Podgorica",
     "gettingText1": "Prévoyez deux heures de l'aéroport à Podgorica, plus le temps de frontière. La E65 descend du plateau croate vers la côte à Kolašin, puis suit le bras nord de la baie vers l'est. À Kamenari, un court ferry traverse le détroit (économisant un long détour), ou vous pouvez continuer par la route via Virpazar.",
@@ -660,7 +660,7 @@
     "documentsP1": "Passeport ou carte d'identité de l'UE, original, pas de photocopie. Votre permis de conduire. Le contrat de location original avec tampon de la société. Une Carte Verte mentionnant le Monténégro. Et le certificat d'immatriculation du véhicule, qui devrait déjà être dans la voiture.",
     "documentsP2": "Rangez ces documents dans une enveloppe sur le tableau de bord avant de rejoindre la file. Quand c'est votre tour, remettez l'ensemble à l'agent. L'efficacité au guichet est appréciée, chercher ses papiers fait perdre du temps à tout le monde.",
     "seasonalTitle": "Considérations Saisonnières",
-    "seasonalP1": "La file à Debeli Brijeg est la variable qui détermine la durée du trajet. En hiver, le passage est quasi instantané. Au printemps et en automne, 10 à 20 minutes d'attente sont typiques. En juillet et août, préparez-vous à une à deux heures aux heures de pointe. Les samedis et dimanches après-midi sont les pires ; les mardis et mercredis matins sont les plus calmes.",
+    "seasonalP1": "La file à Debeli Brijeg est la variable qui détermine la durée du trajet. En hiver, le passage est quasi instantané. Au printemps et en automne, 10 à 20 minutes d'attente sont typiques. En juillet et août, préparez-vous à une à deux heures aux heures de pointe. Les samedis et dimanches après-midi sont les pires; les mardis et mercredis matins sont les plus calmes.",
     "seasonalP2": "Le réseau aérien de Dubrovnik culmine en été avec des dizaines de routes européennes directes. Les services hivernaux sont plus limités mais substantiels, des connexions toute l'année vers Londres, Francfort et quelques autres villes maintiennent l'aéroport actif.",
     "borderLink": "Consultez notre {{link}} pour la documentation et les temps d'attente.",
     "borderLinkText": "guide de passage de frontière en voiture de location"
@@ -741,7 +741,7 @@
     "tip1": "Ayez tous vos documents prêts avant d'arriver au poste de contrôle, ne les cherchez pas au guichet",
     "tip2": "Coupez votre moteur en attendant dans les files (les gardes-frontières l'apprécient)",
     "tip3": "Les week-ends d'été sont les pires, prévoyez de traverser en semaine si possible",
-    "tip4": "Le passage côtier croate (Debeli Brijeg) est le plus fréquenté ; les passages intérieurs sont plus calmes",
+    "tip4": "Le passage côtier croate (Debeli Brijeg) est le plus fréquenté; les passages intérieurs sont plus calmes",
     "tip5": "Gardez un peu d'argent liquide en euros, utile pour les péages et petits achats de l'autre côté",
     "tip6": "Itinérance des données mobiles : vérifiez que votre forfait couvre le pays dans lequel vous entrez",
     "lawsTitle": "Règles de conduite qui changent aux frontières",
@@ -818,7 +818,7 @@
     "heroTitle": "Contactez-nous",
     "heroSubtitle": "Question sur la location de voiture à Podgorica ? Nous répondons dans les 2 heures les jours ouvrables.",
     "email": "Email",
-    "whatsapp": "WhatsApp",
+    "whatsapp": "Email",
     "chatNow": "Discutez avec nous maintenant",
     "responseTime": "Temps de réponse",
     "under2Hours": "Moins de 2 heures",
@@ -1325,7 +1325,7 @@
     "subtitle": "Citadines compactes, berlines compactes, berlines, SUV et utilitaires choisis pour les prises en charge pluri-journées à TGD, avec excursions à Ostrog, au lac de Skadar, à Durmitor et au-delà de la frontière albanaise à Hani i Hotit.",
     "seoDesc": "Sept voitures de location pluri-journées pour Podgorica, break intermédiaires, diesels routiers et une Fiat citadine. Fiches, autonomie et quelle voiture pour quelle excursion.",
     "intro1": "Cette flotte est pensée pour le locataire qui reste plusieurs jours à Podgorica, les visiteurs qui s’installent dans un appartement de Zabjelo ou dans une pension de la vieille ville pour quinze jours ou plus, et qui prévoient du vrai temps sur la route entre les journées dans la baie. Ce besoin n’est pas celui d’une location d’une journée au départ d’un paquebot ou d’un simple retrait à l’aéroport de Podgorica : il réclame du coffre pour la grosse course hebdomadaire chez Voli, du couple diesel pour la montée de Sozina et une position de conduite qui tienne quatre adultes confortables sur les trois heures jusqu’à Žabljak. Les sept voitures ci-dessous sont choisies en conséquence. Chaque voiture ci-dessous provient d'un loueur local au Monténégro, avec annulation gratuite, assurance tous risques, et des options à caution réduite ou nulle.",
-    "intro2": "Le panel penche volontairement vers l’intermédiaire. Une Peugeot 308 1.5 BlueHDi EAT, une Renault Megane diesel avec le plus grand coffre du segment, une VW Golf DSG 2.0 TDI, ces voitures transforment la boucle Podgorica → Kolašin → lac de Skadar → Sozina d’une corvée de changements de rapport en une croisière posée. Pour les trajets plus courts nous gardons une VW Polo, une Citroën C3 à amortisseurs Advanced Comfort, un Kia Stonic crossover pour les accès défoncés à Kolašin et Medun, et une minuscule Toyota Yaris quand la seule contrainte est le stationnement sur le quai de Cijevna. Pas de mono-usage, pas de fourgon ; chaque voiture ici justifie une location pluri-journées.",
+    "intro2": "Le panel penche volontairement vers l’intermédiaire. Une Peugeot 308 1.5 BlueHDi EAT, une Renault Megane diesel avec le plus grand coffre du segment, une VW Golf DSG 2.0 TDI, ces voitures transforment la boucle Podgorica → Kolašin → lac de Skadar → Sozina d’une corvée de changements de rapport en une croisière posée. Pour les trajets plus courts nous gardons une VW Polo, une Citroën C3 à amortisseurs Advanced Comfort, un Kia Stonic crossover pour les accès défoncés à Kolašin et Medun, et une minuscule Toyota Yaris quand la seule contrainte est le stationnement sur le quai de Cijevna. Pas de mono-usage, pas de fourgon; chaque voiture ici justifie une location pluri-journées.",
     "intro3": "Une note pratique sur Podgorica avant de choisir. Le diesel reste plus malin dès qu’un passage frontière est prévu : Trebinje à 90 minutes, Dubrovnik via Debeli Brijeg aussi 90, Mostar une journée aller-retour. 308 et Megane couvrent les trois trajets sur un plein, la Golf est la voiture la plus silencieuse en autoroute, et la Clio essence fait quand même Podgorica–Dubrovnik aller-retour sur un demi-plein. Si votre semaine reste dans la baie, Virpazar, Tuzi, Cijevna, Danilovgrad, la Toyota Yaris ou la C3 économisent un tiers de carburant et se garent où les autres renoncent. Choisissez sur l’itinéraire, pas sur le tarif journalier."
   },
   "kotor": {

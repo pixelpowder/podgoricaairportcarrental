@@ -14,7 +14,7 @@
     "bookNow": "Prenota Ora",
     "perDay": "al giorno",
     "emailUs": "Invia email",
-    "whatsappAria": "Chatta su WhatsApp",
+    "whatsappAria": "Email",
     "scrollTopAria": "Torna su"
   },
   "hero": {
@@ -182,7 +182,7 @@
     "localLink3": "Virpazar",
     "localEnd": "o affrontando i tornanti verso la vetta del Ostrog, possiamo aiutarvi a tracciare il percorso ideale.",
     "contactTitle": "Contattaci",
-    "contactText": "Domande sul noleggio auto a Podgorica? Siamo disponibili per telefono, WhatsApp e Viber. Sfoglia la flotta online e prenota in pochi minuti, oppure scrivici e ti aiuteremo a trovare il veicolo giusto per il tuo viaggio."
+    "contactText": "Domande sul noleggio auto a Podgorica? Siamo disponibili via email. Sfoglia la flotta online e prenota in pochi minuti, oppure scrivici e ti aiuteremo a trovare il veicolo giusto per il tuo viaggio."
   },
   "podgorica": {
     "title": "Noleggio Auto a Podgorica",
@@ -818,7 +818,7 @@
     "heroTitle": "Contattaci",
     "heroSubtitle": "Domande sul noleggio auto a Podgorica? Rispondiamo entro 2 ore nei giorni lavorativi.",
     "email": "Email",
-    "whatsapp": "WhatsApp",
+    "whatsapp": "Email",
     "chatNow": "Chatta con noi ora",
     "responseTime": "Tempo di risposta",
     "under2Hours": "Meno di 2 ore",

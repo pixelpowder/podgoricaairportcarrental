@@ -14,7 +14,7 @@
     "bookNow": "Rezerviši Sad",
     "perDay": "po danu",
     "emailUs": "Pošaljite email",
-    "whatsappAria": "Pišite preko WhatsApp-a",
+    "whatsappAria": "Email",
     "scrollTopAria": "Vrh stranice"
   },
   "hero": {
@@ -182,7 +182,7 @@
     "localLink3": "Perasta",
     "localEnd": ", ili se penjete serpentinama ka vrhu Lovcena, mozemo vam pomoci da isplanirate idealnu rutu.",
     "contactTitle": "Kontaktirajte Nas",
-    "contactText": "Imate pitanje o iznajmljivanju automobila u Podgorici? Dostupni smo putem telefona, WhatsApp i Viber. Pregledajte flotu online i rezervisite za nekoliko minuta, ili nam posaljite poruku i pomoci cemo vam da pronadete pravo vozilo za vase putovanje."
+    "contactText": "Imate pitanje o iznajmljivanju automobila u Podgorici? Dostupni smo putem e-maila. Pregledajte flotu online i rezervisite za nekoliko minuta, ili nam posaljite poruku i pomoci cemo vam da pronadete pravo vozilo za vase putovanje."
   },
   "podgorica": {
     "title": "Rent a Car Podgorica",
@@ -818,7 +818,7 @@
     "heroTitle": "Kontaktirajte nas",
     "heroSubtitle": "Pitanje o najmu automobila u Podgorici? Odgovaramo u roku od 2 sata radnim danima.",
     "email": "Email",
-    "whatsapp": "WhatsApp",
+    "whatsapp": "Email",
     "chatNow": "Razgovarajte s nama sada",
     "responseTime": "Vrijeme odgovora",
     "under2Hours": "Manje od 2 sata",
@@ -887,7 +887,7 @@
     "how1": "Da vas povežemo s dostupnošću i cijenama najma automobila",
     "how2": "Za unapređenje naše web stranice i korisničkog iskustva",
     "how3": "Da razumijemo kako posjetioci koriste našu stranicu (analitika)",
-    "how4": "Za odgovaranje na upite putem WhatsApp-a, Viber-a ili emaila",
+    "how4": "Za odgovaranje na upite putem e-maila",
     "thirdTitle": "Usluge trećih strana",
     "thirdText": "Naša web stranica koristi sljedeće usluge trećih strana:",
     "third1Label": "Partner za rezervacije:",
