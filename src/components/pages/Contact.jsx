@@ -65,8 +65,8 @@ export default function Contact() {
       </div>
 
       {/* Contact cards */}
-      <div style={{ maxWidth: '900px', margin: '-32px auto 0', padding: '0 24px', position: 'relative', zIndex: 1 }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
+      <div style={{ maxWidth: '900px', margin: '-32px auto 0', padding: '0 16px', position: 'relative', zIndex: 1 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px' }}>
 
           <a href={`mailto:${config.email}`} style={{
             display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '12px',
@@ -100,7 +100,7 @@ export default function Contact() {
       </div>
 
       {/* Form section */}
-      <div style={{ maxWidth: '700px', margin: '0 auto', padding: '64px 24px 80px' }}>
+      <div style={{ maxWidth: '700px', margin: '0 auto', padding: '64px 16px 80px' }}>
         <h2 style={{ fontSize: '24px', fontWeight: 700, color: 'var(--black)', marginBottom: '8px' }}>{t('contact.sendMessage')}</h2>
         <p style={{ fontSize: '15px', color: 'var(--text-light)', marginBottom: '32px' }}>
           {t('contact.formSubtext')}
@@ -116,7 +116,7 @@ export default function Contact() {
           </div>
         ) : (
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px' }}>
               <input type="text" name="name" placeholder={t('contact.yourName')} required disabled={status === 'sending'} style={{
                 padding: '14px 16px', border: '1px solid var(--border)', borderRadius: '10px',
                 fontSize: '15px', fontFamily: 'inherit', background: 'var(--bg-alt)'
@@ -164,7 +164,8 @@ export default function Contact() {
         {/* FAQ link */}
         <div style={{
           marginTop: '48px', padding: '24px', background: 'var(--bg-alt)', borderRadius: '12px',
-          display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px'
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '16px',
+          flexWrap: 'wrap'
         }}>
           <div>
             <div style={{ fontSize: '16px', fontWeight: 700, color: 'var(--black)', marginBottom: '4px' }}>{t('contact.faqTitle')}</div>
