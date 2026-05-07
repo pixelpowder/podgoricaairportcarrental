@@ -73,7 +73,7 @@
     "seoDesc": "Voitures de location hebdomadaires et mensuelles à Podgorica et la plaine de la Zeta. Assurance incluse, remise à Podgorica Airport, un tarif unique pour tout votre séjour."
   },
   "footer": {
-    "brandDesc": "Location mensuelle à Podgorica avec remise à l'aéroport, assurance complète, et tarification transparente semaine après semaine pour vos séjours prolongés à la plaine de la Zeta.",
+    "brandDesc": "Location mensuelle à Podgorica avec remise à l'aéroport, options d'assurance flexibles, et tarification transparente semaine après semaine pour vos séjours prolongés à la plaine de la Zeta.",
     "quickLinks": "Liens Rapides",
     "guides": "Guides",
     "locations": "Nos Agences",
@@ -124,7 +124,7 @@
       "desc": "Nous vous accueillons aux arrivées de Podgorica, à seulement 8 km des remparts de la vieille ville. La route de la baie jusqu'à Podgorica se fait en 15 minutes, sans navette, sans attente."
     },
     "fullInsurance": {
-      "title": "Assurance tous risques",
+      "title": "Options d'assurance",
       "desc": "Option zéro franchise disponible. Que vous naviguiez dans les ruelles de la vieille ville ou sur les lacets du Ostrog, vous êtes entièrement couvert."
     },
     "support": {
@@ -305,12 +305,12 @@
     "p3Link3": "la vieille ville de Podgorica",
     "p3d": ", et dans d'autres points le long de la côte et à l'intérieur du pays.",
     "promiseTitle": "Notre engagement",
-    "promise1": "Assurance tous risques avec option zéro franchise disponible",
+    "promise1": "Options d'assurance avec option zéro franchise disponible",
     "promise2": "Accueil personnalisé à l'aéroport de Podgorica, votre voiture vous attend aux arrivées",
     "promise3": "Tarification transparente, le prix annoncé est le prix final",
     "promise4": "Voyages transfrontaliers vers la Croatie, la Bosnie, l'Albanie, la Serbie et le Kosovo",
     "promise5": "Annulation gratuite sur la plupart des réservations",
-    "promise6": "Loueurs locaux, assurance tous risques et options sans ou avec faible caution",
+    "promise6": "Loueurs locaux, options d'assurance flexibles et options sans ou avec faible caution",
     "localTitle": "Connaissance locale",
     "localText": "Basés à Podgorica, nous connaissons chaque tronçon de route autour de la baie, les meilleurs itinéraires, les détours méconnus et les astuces de stationnement que les guides ne mentionnent jamais. Que vous partiez de",
     "localLink1": "l'aéroport de Podgorica",
@@ -373,9 +373,9 @@
     "h2": "Pourquoi une Voiture Change Tout Ici",
     "p2": "Les bus suivent la route principale et s'arrêtent. C'est toute l'étendue des transports en commun. Ils ne feront pas de détour vers le belvédère au-dessus de Virpazar où la baie se divise en deux bras scintillants. Ils ne peuvent pas s'arrêter près de la villa romaine de Danilovgrad ni emprunter la route à voie unique vers Gornji Rijeka Crnojevića, le village fantôme accroché aux falaises à 400 mètres au-dessus de l'eau. Seul votre propre véhicule et une envie d'explorer vous révèlent vraiment la plaine de la Zeta.",
     "h3": "Flotte et Points de Prise en Charge",
-    "p3": "Nous proposons la prise en charge dans toute la baie : aéroport de Podgorica (8 km des remparts de Podgorica), devant le parking de la Porte de la Rivière, et dans plus de 28 villes de Kolašin à Ulcinj. Les citadines se faufilent dans les rues d'accès à la vieille ville. Les SUV gèrent les lacets du Ostrog sans broncher. Chaque véhicule est couvert par une assurance complète, et les documents transfrontaliers pour la Croatie, la Bosnie, l'Albanie, la Serbie et le Kosovo sont préparés à la réservation.",
+    "p3": "Nous proposons la prise en charge dans toute la baie : aéroport de Podgorica (8 km des remparts de Podgorica), devant le parking de la Porte de la Rivière, et dans plus de 28 villes de Kolašin à Ulcinj. Les citadines se faufilent dans les rues d'accès à la vieille ville. Les SUV gèrent les lacets du Ostrog sans broncher. Chaque véhicule est couvert par une options d'assurance flexibles, et les documents transfrontaliers pour la Croatie, la Bosnie, l'Albanie, la Serbie et le Kosovo sont préparés à la réservation.",
     "promiseTitle": "Ce que Nous Garantissons",
-    "promise1": "Assurance complète avec option zéro franchise sur chaque réservation",
+    "promise1": "Options d'assurance avec option zéro franchise sur chaque réservation",
     "promise2": "Un représentant nommé aux arrivées de Podgorica, pancarte en main, véhicule garé devant",
     "promise3": "Tarification transparente, pas de taxe aéroport, pas de surprise carburant",
     "promise4": "Documents Carte Verte préparés pour cinq pays voisins",
@@ -1086,7 +1086,7 @@
     "withItems": [
       "Prise en charge à l'aéroport, incluse",
       "Destinations illimitées, à votre rythme",
-      "Assurance complète, incluse",
+      "Options d'assurance, incluse",
       "Traversée transfrontalière en Croatie, permise",
       "Chaque plage, point de vue, village"
     ],
@@ -1326,7 +1326,7 @@
     "title": "Notre flotte de location à Podgorica",
     "subtitle": "Citadines compactes, berlines compactes, berlines, SUV et utilitaires choisis pour les prises en charge pluri-journées à TGD, avec excursions à Ostrog, au lac de Skadar, à Durmitor et au-delà de la frontière albanaise à Hani i Hotit.",
     "seoDesc": "Sept voitures de location pluri-journées pour Podgorica, break intermédiaires, diesels routiers et une Fiat citadine. Fiches, autonomie et quelle voiture pour quelle excursion.",
-    "intro1": "Cette flotte est pensée pour le locataire qui reste plusieurs jours à Podgorica, les visiteurs qui s’installent dans un appartement de Zabjelo ou dans une pension de la vieille ville pour quinze jours ou plus, et qui prévoient du vrai temps sur la route entre les journées dans la baie. Ce besoin n’est pas celui d’une location d’une journée au départ d’un paquebot ou d’un simple retrait à l’aéroport de Podgorica : il réclame du coffre pour la grosse course hebdomadaire chez Voli, du couple diesel pour la montée de Sozina et une position de conduite qui tienne quatre adultes confortables sur les trois heures jusqu’à Žabljak. Les sept voitures ci-dessous sont choisies en conséquence. Chaque voiture ci-dessous provient d'un loueur local au Monténégro, avec annulation gratuite, assurance tous risques, et des options à caution réduite ou nulle.",
+    "intro1": "Cette flotte est pensée pour le locataire qui reste plusieurs jours à Podgorica, les visiteurs qui s’installent dans un appartement de Zabjelo ou dans une pension de la vieille ville pour quinze jours ou plus, et qui prévoient du vrai temps sur la route entre les journées dans la baie. Ce besoin n’est pas celui d’une location d’une journée au départ d’un paquebot ou d’un simple retrait à l’aéroport de Podgorica : il réclame du coffre pour la grosse course hebdomadaire chez Voli, du couple diesel pour la montée de Sozina et une position de conduite qui tienne quatre adultes confortables sur les trois heures jusqu’à Žabljak. Les sept voitures ci-dessous sont choisies en conséquence. Chaque voiture ci-dessous provient d'un loueur local au Monténégro, avec annulation gratuite, options d'assurance flexibles, et des options à caution réduite ou nulle.",
     "intro2": "Le panel penche volontairement vers l’intermédiaire. Une Peugeot 308 1.5 BlueHDi EAT, une Renault Megane diesel avec le plus grand coffre du segment, une VW Golf DSG 2.0 TDI, ces voitures transforment la boucle Podgorica → Kolašin → lac de Skadar → Sozina d’une corvée de changements de rapport en une croisière posée. Pour les trajets plus courts nous gardons une VW Polo, une Citroën C3 à amortisseurs Advanced Comfort, un Kia Stonic crossover pour les accès défoncés à Kolašin et Medun, et une minuscule Toyota Yaris quand la seule contrainte est le stationnement sur le quai de Cijevna. Pas de mono-usage, pas de fourgon; chaque voiture ici justifie une location pluri-journées.",
     "intro3": "Une note pratique sur Podgorica avant de choisir. Le diesel reste plus malin dès qu’un passage frontière est prévu : Trebinje à 90 minutes, Dubrovnik via Debeli Brijeg aussi 90, Mostar une journée aller-retour. 308 et Megane couvrent les trois trajets sur un plein, la Golf est la voiture la plus silencieuse en autoroute, et la Clio essence fait quand même Podgorica–Dubrovnik aller-retour sur un demi-plein. Si votre semaine reste dans la baie, Virpazar, Tuzi, Cijevna, Danilovgrad, la Toyota Yaris ou la C3 économisent un tiers de carburant et se garent où les autres renoncent. Choisissez sur l’itinéraire, pas sur le tarif journalier."
   },

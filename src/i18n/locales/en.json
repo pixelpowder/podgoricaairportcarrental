@@ -23,7 +23,7 @@
     "headline": "Podgorica Airport Car Rental. Keys at Podgorica Airport, Zeta Plain at Your Feet.",
     "badges": {
       "freeCancellation": "Free Cancellation",
-      "fullInsurance": "Full Insurance Included",
+      "fullInsurance": "Insurance Options",
       "airportPickup": "At Podgorica Airport",
       "trustpilot": "4.8/5 on Trustpilot"
     },
@@ -41,7 +41,7 @@
   "trust": {
     "noHiddenFees": "No Hidden Fees",
     "noHiddenFeesDesc": "The price on your confirmation is the price you pay at collection, zero surprise charges, zero add-ons",
-    "fullInsurance": "Full Insurance",
+    "fullInsurance": "Insurance Options",
     "fullInsuranceDesc": "CDW and liability on every vehicle, plus a zero-excess upgrade for the Morača canyon and tight Stara Varoš lanes",
     "fastPickup": "Podgorica Airport (TGD)",
     "fastPickupDesc": "Collect your car 12 km south of Podgorica's centre, on the motorway north in under fifteen minutes"
@@ -173,7 +173,7 @@
     "promise3": "Transparent pricing, the quoted figure is the final figure",
     "promise4": "Cross-border travel to Croatia, Bosnia, Albania, Serbia, and Kosovo",
     "promise5": "Free cancellation on most reservations",
-    "promise6": "Local rental providers, full insurance and low or no-deposit options",
+    "promise6": "Local rental providers, flexible insurance tiers and low or no-deposit options",
     "localTitle": "Local Knowledge",
     "localText": "Based in Podgorica, we know every stretch of road around the capital, the best routes, the overlooked detours, and the parking tricks that guidebooks never mention. Whether you are heading from",
     "localLink1": "Podgorica Airport",

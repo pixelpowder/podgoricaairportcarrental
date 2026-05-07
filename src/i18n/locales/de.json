@@ -23,7 +23,7 @@
     "headline": "Podgorica Airport Car Rental. Lokal mieten, weniger zahlen.",
     "badges": {
       "freeCancellation": "Kostenlose Stornierung",
-      "fullInsurance": "Vollkasko inklusive",
+      "fullInsurance": "Versicherungsoptionen",
       "airportPickup": "Flughafen Podgorica 8 km",
       "trustpilot": "4,8/5 auf Trustpilot"
     },
@@ -41,8 +41,8 @@
   "trust": {
     "noHiddenFees": "Keine versteckten Kosten",
     "noHiddenFeesDesc": "Der Preis auf Ihrer Bestätigung ist der Preis bei der Abholung, keine Überraschungen, keine Zusatzgebühren",
-    "fullInsurance": "Vollkasko",
-    "fullInsuranceDesc": "Vollkasko und Haftpflicht bei jedem Fahrzeug, plus Selbstbeteiligungsfreistellung für Bergstraßen und enge Altstadtgassen",
+    "fullInsurance": "Versicherungsoptionen",
+    "fullInsuranceDesc": "Versicherungsoptionen und Haftpflicht bei jedem Fahrzeug, plus Selbstbeteiligungsfreistellung für Bergstraßen und enge Altstadtgassen",
     "fastPickup": "Flughafen Podgorica",
     "fastPickupDesc": "Holen Sie Ihr Auto 8 km von Podgoricas mittelalterlichen Mauern ab, auf der Küstenstraße in unter fünfzehn Minuten"
   },
@@ -122,7 +122,7 @@
     "seoDesc": "Wochen- und Monatsmietwagen für Podgorica und die Bucht von Podgorica."
   },
   "footer": {
-    "brandDesc": "Monatliche Autovermietung in Podgorica mit Flughafenabholung, Vollkaskoversicherung und planbare Wochenpreise für längere Aufenthalte in der Bucht von Podgorica.",
+    "brandDesc": "Monatliche Autovermietung in Podgorica mit Flughafenabholung, Versicherungsoptionenversicherung und planbare Wochenpreise für längere Aufenthalte in der Bucht von Podgorica.",
     "quickLinks": "Schnelllinks",
     "guides": "Reiseführer",
     "locations": "Standorte",
@@ -174,7 +174,7 @@
     "promise3": "Transparente Preise, der angegebene Preis ist der Endpreis",
     "promise4": "Grenzüberschreitende Fahrten nach Kroatien, Bosnien, Albanien, Serbien und Kosovo",
     "promise5": "Kostenlose Stornierung bei den meisten Reservierungen",
-    "promise6": "Lokale Mietanbieter, Vollkasko und Optionen mit niedriger oder keiner Kaution",
+    "promise6": "Lokale Mietanbieter, Versicherungsoptionen und Optionen mit niedriger oder keiner Kaution",
     "localTitle": "Lokales Wissen",
     "localText": "Mit Sitz in Podgorica kennen wir jede Straße rund um die Bucht, die besten Routen, die übersehenen Abstecher und die Parktipps, die in keinem Reiseführer stehen. Ob Sie vom",
     "localLink1": "Flughafen Podgorica",
@@ -194,12 +194,12 @@
   "tivat-airport": {
     "title": "Autovermietung Flughafen Podgorica",
     "subtitle": "Landen Sie zwischen Bergen und Bucht. Holen Sie Ihre Schlüssel, bevor das Gepäckband stehen bleibt.",
-    "seoDesc": "Langzeitmiete am Flughafen Podgorica abholen, Basis in Podgorica 8 km entfernt. Wochen- oder Monatstarif, volle Versicherung, Dubrovnik inklusive."
+    "seoDesc": "Langzeitmiete am Flughafen Podgorica abholen, Basis in Podgorica 8 km entfernt. Wochen- oder Monatstarif, Versicherungsoptionen, Dubrovnik inklusive."
   },
   "budva": {
     "title": "Autovermietung in Budva",
     "subtitle": "Fünfundzwanzig Jahrhunderte Besiedlung, 21 km Rivieraküste und eine Tunnelfahrt von Podgorica entfernt.",
-    "seoDesc": "Monats- oder Wochenmiete ab Podgorica mit Abgabe in Budva: Schlüssel in Sveti Stefan oder Petrovac zurück. Volle Versicherung, km frei."
+    "seoDesc": "Monats- oder Wochenmiete ab Podgorica mit Abgabe in Budva: Schlüssel in Sveti Stefan oder Petrovac zurück. Versicherungsoptionen, km frei."
   },
   "perast": {
     "title": "Autovermietung in Virpazar",
@@ -253,7 +253,7 @@
     },
     "fullInsurance": {
       "title": "Umfassender Versicherungsschutz",
-      "desc": "Jede Anmietung beinhaltet Vollkasko und Haftpflicht. Upgraden Sie zur Selbstbeteiligungsfreistellung, wenn die Ostrog-Serpentinen oder engen Altstadtgassen Sie nervös machen."
+      "desc": "Jede Anmietung beinhaltet Versicherungsoptionen und Haftpflicht. Upgraden Sie zur Selbstbeteiligungsfreistellung, wenn die Ostrog-Serpentinen oder engen Altstadtgassen Sie nervös machen."
     },
     "support": {
       "title": "Rund-um-die-Uhr-Hilfe",
@@ -298,7 +298,7 @@
     },
     "3": {
       "q": "Was ist im Mietpreis enthalten?",
-      "a": "Jede Buchung beinhaltet Vollkaskoversicherung, Haftpflicht, MwSt. und ein Pannenhilfe-Set. Die meisten Fahrzeuge bieten unbegrenzte Kilometer, Details finden Sie in der jeweiligen Anzeige."
+      "a": "Jede Buchung beinhaltet Versicherungsoptionenversicherung, Haftpflicht, MwSt. und ein Pannenhilfe-Set. Die meisten Fahrzeuge bieten unbegrenzte Kilometer, Details finden Sie in der jeweiligen Anzeige."
     },
     "4": {
       "q": "Wie hole ich das Auto am Flughafen Podgorica ab?",
@@ -1326,7 +1326,7 @@
     "title": "Unsere Podgorica-Mietwagenflotte",
     "subtitle": "Kompakte Stadtwagen, Kombis, Limousinen, SUVs und Vans, ausgewählt für mehrtägige TGD-Abholungen, mit Tagesausflügen nach Ostrog, zum Skutarisee, ins Durmitor-Gebirge und über die albanische Grenze bei Hani i Hotit.",
     "seoDesc": "Sieben Mehrtages-Mietwagen für Podgorica, Mittelklasse-Kombis, Diesel-Reisewagen und ein Stadt-Fiat. Daten, Reichweite und welches Auto sich für Tagesausflüge aus der Bucht eignet.",
-    "intro1": "Diese Flotte ist auf den mehrtägigen Podgorica-Mieter zugeschnitten, Gäste, die sich für zwei Wochen oder länger in einer Zabjelo-Wohnung oder einer Altstadt-Pension einrichten und mit echten Fahrstrecken zwischen den buchtbasierten Tagen rechnen. Das ist etwas anderes als eine Kreuzfahrt-Tagesmiete oder ein reiner Podgorica-Flughafen-Pickup: Es zählen Kofferraum für den Wocheneinkauf bei Voli, Dieseldrehmoment für die Sozina-Autobahn und eine Sitzposition, die vier Erwachsene auf der dreistündigen Fahrt nach Žabljak bequem hält. Die sieben Autos unten sind entsprechend ausgewählt. Jedes Auto unten stammt von einem lokalen Vermieter in Montenegro, mit kostenloser Stornierung, Vollkasko und Optionen mit geringer oder gar keiner Kaution.",
+    "intro1": "Diese Flotte ist auf den mehrtägigen Podgorica-Mieter zugeschnitten, Gäste, die sich für zwei Wochen oder länger in einer Zabjelo-Wohnung oder einer Altstadt-Pension einrichten und mit echten Fahrstrecken zwischen den buchtbasierten Tagen rechnen. Das ist etwas anderes als eine Kreuzfahrt-Tagesmiete oder ein reiner Podgorica-Flughafen-Pickup: Es zählen Kofferraum für den Wocheneinkauf bei Voli, Dieseldrehmoment für die Sozina-Autobahn und eine Sitzposition, die vier Erwachsene auf der dreistündigen Fahrt nach Žabljak bequem hält. Die sieben Autos unten sind entsprechend ausgewählt. Jedes Auto unten stammt von einem lokalen Vermieter in Montenegro, mit kostenloser Stornierung, Versicherungsoptionen und Optionen mit geringer oder gar keiner Kaution.",
     "intro2": "Der Mix betont bewusst die Mittelklasse. Ein Peugeot 308 mit 1.5 BlueHDi und EAT-Automatik, ein Renault Megane Diesel mit dem größten Kofferraum der Klasse, ein VW Golf mit DSG 2.0 TDI, diese Autos machen aus der Schleife Podgorica → Kolašin → Skutarisee → Sozina aus einer Schalt-Pflichtübung eine entspannte Reise. Für kürzere Strecken halten wir einen VW Polo, einen Citroën C3 mit Advanced-Comfort-Fahrwerk, einen Kia Stonic-Crossover für die ausgewaschenen Stichstraßen nach Kolašin und Medun, und einen winzigen Toyota Yaris für Cijevna-Uferparkplätze. Keine Einzelkämpfer, keine Vans, jedes Auto hier rechtfertigt eine Mehrtagesmiete.",
     "intro3": "Ein praktischer Podgorica-Hinweis vorab. Diesel bleibt die klügere Wahl für jeden, der auch nur einmal grenzüberschreitend fährt, Trebinje sind 90 Minuten, Dubrovnik über Debeli Brijeg ebenfalls 90, Mostar ein voller Tag hin und zurück. 308 und Megane schaffen alle drei auf einer Tankfüllung, der Golf ist der komfortabelste Autobahnwagen in unserer Flotte, und der Benzin-Clio macht die Hin- und Rückfahrt Podgorica–Dubrovnik mit einem halben Tank. Wenn Ihre Woche auf die Bucht beschränkt ist, Virpazar, Tuzi, Cijevna, Danilovgrad, sparen Toyota Yaris oder C3 ein Drittel Treibstoff und parken, wo die anderen nicht hinkommen. Wählen Sie nach Ihrer Route, nicht nach dem Tagespreis."
   },

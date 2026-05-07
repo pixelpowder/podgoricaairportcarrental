@@ -241,7 +241,7 @@ const siteConfig = {
 
   features: [
     { icon: "map-pin", title: "TGD Airport Collection", description: "Your vehicle waits outside Podgorica Airport arrivals, direct access to the E80 and the Bar–Boljare motorway within minutes of landing." },
-    { icon: "shield-check", title: "Comprehensive Cover", description: "Every rental includes CDW and third-party liability. Upgrade to zero excess if the Ostrog cliff road or Durmitor mountain passes make you nervous." },
+    { icon: "shield-check", title: "Insurance Options", description: "Insurance tiers from basic third-party (free) up to no-deposit zero-excess. Pick the right cover at checkout for the Ostrog cliff road or Durmitor mountain passes." },
     { icon: "clock", title: "Round-the-Clock Assistance", description: "Flat tyre near Virpazar? Lost a key in Kolašin? Our local team answers day and night, they know every road out of the capital." },
     { icon: "ban", title: "Transparent Pricing", description: "The figure on your confirmation is the figure at the desk. No fuel surprises, no airport levies, no extras sneaked in at pickup." },
     { icon: "refresh-cw", title: "Flexible Cancellation", description: "Plans shift, flights reschedule, weather closes mountain roads. Cancel most bookings free up to a week before your collection date." },
@@ -259,7 +259,7 @@ const siteConfig = {
     { q: "What do I need to bring for pickup?", a: "A valid driving licence, your passport or national ID, and a physical credit card in the lead driver's name. Licences without Latin characters also require an International Driving Permit." },
     { q: "Can I cross into Albania, Serbia or other countries?", a: "Absolutely. Albania is about 40 minutes via the Božaj or Tuzi checkpoints, we include the Green Card at booking. Serbia, Kosovo, Bosnia and Croatia are also available with advance notice." },
     { q: "What age do I need to be?", a: "The minimum is 21 years old with at least two years of driving experience. Drivers under 25 pay a young-driver supplement, the exact amount depends on the vehicle category." },
-    { q: "What does the rental price cover?", a: "Every booking includes CDW insurance, third-party liability, VAT, and a roadside safety kit. Most vehicles offer unlimited mileage, check the individual listing for details." },
+    { q: "What does the rental price cover?", a: "Every booking includes third-party liability, VAT, and a roadside safety kit. CDW and theft protection are available as paid upgrades from €8/day. Most vehicles offer unlimited mileage, check the individual listing for details." },
     { q: "How do I collect the car at Podgorica Airport?", a: "A representative meets you inside the TGD arrivals area with a name board. Your car is in the terminal car park, steps away. The drive to central Podgorica is around fifteen minutes." },
     { q: "What if I need to cancel?", a: "Most vehicles offer free cancellation up to seven days before pickup. Premium and convertible classes require thirty days. A small processing fee applies to all cancellations." },
     { q: "Do I need a deposit?", a: "Most cars require between €100 and €350 held on a credit card. Some economy vehicles are deposit-free, these are clearly marked in your search results." },

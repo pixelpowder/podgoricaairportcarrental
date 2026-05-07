@@ -169,12 +169,12 @@
     "p3Link3": "Starom gradu Podgorica",
     "p3d": "i lokacijama duz obale i u unutrasnjosti.",
     "promiseTitle": "Nase Obecanje",
-    "promise1": "Potpuno osiguranje sa opcijom nulte fransize",
+    "promise1": "Opcije osiguranja sa opcijom nulte fransize",
     "promise2": "Docek na aerodromu Podgorica, vas auto ceka na dolascima",
     "promise3": "Transparentne cijene, navedena cifra je konacna cifra",
     "promise4": "Prekogranicna putovanja u Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo",
     "promise5": "Besplatno otkazivanje za vecinu rezervacija",
-    "promise6": "Lokalni najmodavci, puno osiguranje i opcije sa niskim ili bez depozita",
+    "promise6": "Lokalni najmodavci, fleksibilne opcije osiguranja i opcije sa niskim ili bez depozita",
     "localTitle": "Lokalno Znanje",
     "localText": "Sa sjedistem u Podgorici, poznajemo svaki dio puta oko zaliva, najbolje rute, previdena skretanja i trikove za parkiranje koje vodici nikad ne pominju. Bilo da idete od",
     "localLink1": "aerodroma Podgorica",
@@ -194,12 +194,12 @@
   "tivat-airport": {
     "title": "Rent a Car Aerodrom Podgorica",
     "subtitle": "Preuzmite vaš auto na izlazu iz zone dolaska.",
-    "seoDesc": "Preuzmite dugoročni najam na Aerodromu Podgorica, baza u Podgorici 8 km dalje. Sedmična ili mjesečna tarifa, puno osiguranje, prelaz u Dubrovnik."
+    "seoDesc": "Preuzmite dugoročni najam na Aerodromu Podgorica, baza u Podgorici 8 km dalje. Sedmična ili mjesečna tarifa, fleksibilne opcije osiguranja, prelaz u Dubrovnik."
   },
   "budva": {
     "title": "Rent a Car Budva",
     "subtitle": "Rivijera Crne Gore, plaže, noćni život i šarm starog grada.",
-    "seoDesc": "Mjesečni ili sedmični najam iz Podgorice sa vraćanjem u Budvi: ključevi u Sveti Stefanu ili Petrovcu. Puno osiguranje, bez ograničenja km."
+    "seoDesc": "Mjesečni ili sedmični najam iz Podgorice sa vraćanjem u Budvi: ključevi u Sveti Stefanu ili Petrovcu. Opcije osiguranja, bez ograničenja km."
   },
   "perast": {
     "title": "Rent a Car Virpazar",
@@ -252,7 +252,7 @@
       "desc": "Dočekujemo vas na dolasku u Tivatu, svega 8 km od zidina Starog grada. Putem uz zaliv do Podgorice stižete za 15 minuta, bez prevoza, bez čekanja."
     },
     "fullInsurance": {
-      "title": "Potpuno osiguranje",
+      "title": "Opcije osiguranja",
       "desc": "Dostupna opcija nulte franšize. Bilo da vozite uskim ulicama Starog grada ili serpentinom Lovćena, u potpunosti ste osigurani."
     },
     "support": {
@@ -381,9 +381,9 @@
     "h2": "Zašto smo počeli",
     "p2": "Redovni autobusi prate glavnu magistralu i tu se zaustavljaju. To je cjelokupan obim javnog prevoza. Neće skrenuti do neoznačenog vidikovca iznad Perasta gdje se zaliv dijeli na dva svjetlucava kraka. Ne mogu zastati pored rimske vile u Risnu niti savladati jednotračni put do Gornjeg Stoliva, napuštenog sela koje se drži litica 400 metara iznad vodene linije. Samo sopstveni točkovi i spremnost na istraživanje zaista otključavaju Bokokotorski zaliv.",
     "h3": "Šta nudimo",
-    "p3": "Nudimo preuzimanje širom zaliva: aerodrom Podgorica (8 km od bedema Podgorice), direktno ispred parkinga kod Riječnih vrata, kao i u više od 28 gradova od Herceg Novog do Ulcinja. Ekonomična hečbek vozila s lakoćom prolaze prilaznim putevima starom gradu. SUV modeli bez napora savladavaju Lovćenske serpentine. Svako vozilo ima puno osiguranje, a prekogranična dokumentacija za Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo organizuje se u trenutku rezervacije.",
+    "p3": "Nudimo preuzimanje širom zaliva: aerodrom Podgorica (8 km od bedema Podgorice), direktno ispred parkinga kod Riječnih vrata, kao i u više od 28 gradova od Herceg Novog do Ulcinja. Ekonomična hečbek vozila s lakoćom prolaze prilaznim putevima starom gradu. SUV modeli bez napora savladavaju Lovćenske serpentine. Svako vozilo ima fleksibilne opcije osiguranja, a prekogranična dokumentacija za Hrvatsku, Bosnu, Albaniju, Srbiju i Kosovo organizuje se u trenutku rezervacije.",
     "promiseTitle": "Naše obećanje",
-    "promise1": "Potpuno osiguranje sa opcijom nulte franšize",
+    "promise1": "Opcije osiguranja sa opcijom nulte franšize",
     "promise2": "Imenovani predstavnik na dolascima u Tivtu, sa natpisom u ruci, vozilo parkirano ispred",
     "promise3": "Transparentne cijene, bez aerodromskih nameta, bez iznenađenja u politici goriva",
     "promise4": "Zelena karta organizovana za pet susjednih zemalja",
